@@ -2,7 +2,7 @@
 
 namespace MvxMovies.Services.Contracts
 {
-    public interface IHttpService
+    public interface IApiService
     {
     }
 }
