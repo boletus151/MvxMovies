@@ -13,9 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxMovies.UI.Model", "MvxMo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{35BCF628-946D-41D1-8C5F-293855122F53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxMovies.Services.Contracts", "MvxMovies.Services.Contracts\MvxMovies.Services.Contracts.csproj", "{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxMovies.Services.Implementations", "MvxMovies.Services.Implementations\MvxMovies.Services.Implementations.csproj", "{C8256454-B642-474B-8F96-8972AF60A106}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxMovies.Services", "MvxMovies.Services.Implementations\MvxMovies.Services.csproj", "{C8256454-B642-474B-8F96-8972AF60A106}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxMovies.Entites", "MvxMovies.Model.Backend\MvxMovies.Entites.csproj", "{388837C6-C04C-4993-9D9C-036AA548B141}"
 EndProject
@@ -91,18 +89,6 @@ Global
 		{CADED6DF-D7D9-48A0-9B62-EC77CA5D2E41}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{CADED6DF-D7D9-48A0-9B62-EC77CA5D2E41}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{CADED6DF-D7D9-48A0-9B62-EC77CA5D2E41}.Release|iPhone.Build.0 = Release|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{38E52D70-A2B2-4871-A8F2-00D09C26B7DD}.Release|iPhone.Build.0 = Release|Any CPU
 		{C8256454-B642-474B-8F96-8972AF60A106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8256454-B642-474B-8F96-8972AF60A106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8256454-B642-474B-8F96-8972AF60A106}.Release|Any CPU.ActiveCfg = Release|Any CPU

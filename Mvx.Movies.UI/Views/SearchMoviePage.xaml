@@ -3,6 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    xmlns:b="clr-namespace:MvxMovies.UI.Behaviors"
     x:Class="MvxMovies.UI.Views.SearchMoviePage"
     Title="Search Movies">
     <mvx:MvxContentPage.Resources>
@@ -14,8 +15,7 @@
                     Text="{Binding Title}"
                     TextColor="Black"
                     Detail="{Binding Plot}"
-                    DetailColor="Gray">
-                </ImageCell>
+                    DetailColor="Gray" />
             </DataTemplate>
         </ResourceDictionary>
     </mvx:MvxContentPage.Resources>
@@ -33,7 +33,12 @@
                 ItemTemplate="{StaticResource moviesDataTemplate}"
                 IsPullToRefreshEnabled="True"
                 SeparatorColor="AntiqueWhite">
-
+                <ListView.Behaviors>
+                    <b:EventToCommandBehavior
+                        EventName="ItemSelected"
+                        Command="{Binding OutputAgeCommand}"
+                        Converter="{StaticResource SelectedItemConverter}" />
+                </ListView.Behaviors>
                 <ListView.Header>
                     <Label
                         Text="List of Items"
