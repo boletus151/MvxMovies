@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
@@ -14,13 +15,22 @@ namespace MvxMovies.Core.ViewModels
     {
         private readonly IMoviesService moviesService;
         private string text;
-        
+        private MvxNotifyTask<bool> navigationTask;
+
         public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService) : base(navigationService)
         {
             this.moviesService = moviesService;
+
             this.SearchCommand = new MvxAsyncCommand(async()=>await this.SearchCommandExecute());
+            this.NavigateToMovieDetailCommand = new MvxCommand<Movie>((m) => this.navigationTask = MvxNotifyTask.Create(this.NavigateToMovieDetailCommandExecute(m)));
+
             this.Movies = new MvxObservableCollection<Movie>();
             this.Text = "Blade Runner";
+        }
+
+        private Task<bool> NavigateToMovieDetailCommandExecute(Movie m)
+        {
+            return NavigationService.MvxNavigationService.Navigate<MovieDetailViewModel,Movie>(m);
         }
 
         public MvxObservableCollection<Movie> Movies { get; set; }
@@ -44,5 +54,7 @@ namespace MvxMovies.Core.ViewModels
         public string Text { get => text; set => SetProperty(ref text, value); }
 
         public IMvxCommand SearchCommand { get; }
+
+        public IMvxCommand NavigateToMovieDetailCommand { get; }
     }
 }

@@ -5,12 +5,12 @@ namespace MvxMovies.Common.Mapper
 {
     public static class Converters
     {
-        public static Movie MovieToMovieUi(MovieDto movie) => new Movie
+        public static Movie MovieToMovieUi(MovieDto source) => new Movie
         {
-            Title = movie.Title,
-            Image = movie.Image,
-            Plot = movie.Plot,
-            Rating = movie.Rating
+            Title = source.Title ,
+            Image = source.Image,
+            Plot = source.Plot,
+            Rating = source.Rating
         };
     }
 }

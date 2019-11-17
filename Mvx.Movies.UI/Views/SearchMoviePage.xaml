@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
     xmlns:b="clr-namespace:MvxMovies.UI.Behaviors"
+    xmlns:c="clr-namespace:MvxMovies.UI.Converters"
     x:Class="MvxMovies.UI.Views.SearchMoviePage"
     Title="Search Movies">
     <mvx:MvxContentPage.Resources>
@@ -17,6 +18,8 @@
                     Detail="{Binding Plot}"
                     DetailColor="Gray" />
             </DataTemplate>
+            <c:SelectedItemEventArgsToSelectedItemConverter
+                x:Key="SelectedItemConverter" />
         </ResourceDictionary>
     </mvx:MvxContentPage.Resources>
     <mvx:MvxContentPage.Content>
@@ -36,7 +39,7 @@
                 <ListView.Behaviors>
                     <b:EventToCommandBehavior
                         EventName="ItemSelected"
-                        Command="{Binding OutputAgeCommand}"
+                        Command="{Binding NavigateToMovieDetailCommand}"
                         Converter="{StaticResource SelectedItemConverter}" />
                 </ListView.Behaviors>
                 <ListView.Header>

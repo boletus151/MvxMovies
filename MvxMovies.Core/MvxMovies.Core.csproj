@@ -20,8 +20,8 @@
     <Folder Include="ViewModels\Base\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvxMovies.Services.Implementations\MvxMovies.Services.Implementations.csproj" />
     <ProjectReference Include="..\MvxMovies.Common\MvxMovies.Common.csproj" />
     <ProjectReference Include="..\MvxMovies.Model\MvxMovies.UI.Model.csproj" />
+    <ProjectReference Include="..\MvxMovies.Services.Implementations\MvxMovies.Services.csproj" />
   </ItemGroup>
 </Project>

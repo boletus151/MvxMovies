@@ -2,6 +2,8 @@
 {
     public class MovieDto
     {
+        public int Id { get; set; }
+
         public string Plot { get; set; }
 
         public decimal Rating { get; set; }

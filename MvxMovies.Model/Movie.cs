@@ -5,7 +5,7 @@ namespace MvxMovies.UI.Model
 {
     public class Movie : MvxNotifyPropertyChanged
     {
-        private string title;
+        public int Id { get; set; }
 
         public string Plot { get; set; }
 
@@ -13,13 +13,6 @@ namespace MvxMovies.UI.Model
 
         public string Image { get; set; }
 
-        public string Title
-        {
-            get => title;
-            set
-            {
-                SetProperty(ref title, value);
-            }
-        }
+        public string Title { get; set; }
     }
 }
