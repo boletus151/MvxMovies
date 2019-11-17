@@ -7,8 +7,12 @@
   <ItemGroup>
     <ProjectReference Include="..\MvxMovies.Services.Contracts\MvxMovies.Services.Contracts.csproj" />
     <ProjectReference Include="..\MvxMovies.Model.Backend\MvxMovies.Entites.csproj" />
+    <ProjectReference Include="..\MvxMovies.Common\MvxMovies.Common.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mocks\" />
   </ItemGroup>
 </Project>

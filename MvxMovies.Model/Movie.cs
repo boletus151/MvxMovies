@@ -1,7 +1,7 @@
 ﻿using System;
 using MvvmCross.ViewModels;
 
-namespace MvxMovies.Model
+namespace MvxMovies.UI.Model
 {
     public class Movie : MvxNotifyPropertyChanged
     {

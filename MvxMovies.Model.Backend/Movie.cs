@@ -1,9 +1,7 @@
 ﻿namespace MvxMovies.Entities
 {
-    public class Movie
+    public class MovieDto
     {
-        private string title;
-
         public string Plot { get; set; }
 
         public decimal Rating { get; set; }

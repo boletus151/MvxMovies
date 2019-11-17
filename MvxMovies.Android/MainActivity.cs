@@ -7,6 +7,7 @@ namespace MvxMovies.Android
 {
     [Activity(
     Label = "MvxMovies.Forms",
+    MainLauncher = true,
     Icon = "@mipmap/icon",
     Theme = "@style/MainTheme",
     ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,

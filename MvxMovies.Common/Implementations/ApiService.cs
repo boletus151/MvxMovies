@@ -1,16 +1,16 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
-using MvxMovies.Services.Contracts;
+using MvxMovies.Common.Contracts;
 using System;
 using Newtonsoft.Json;
 
-namespace MvxMovies.Services.Implementations
+namespace MvxMovies.Common.Implementations
 {
-    public class ApiService<TResult> : IApiService where TResult : class
+    public class ApiService : IApiService
     {
         private const string BASE_URL = @"http://omdbapi.com/?apikey=73124429&type=movie";
 
-        public async Task<TResult> GetData(string parameters)
+        public async Task<TResult> GetData<TResult>(string parameters) where TResult: class
         {
             using (var httpClient = new HttpClient())
             {
