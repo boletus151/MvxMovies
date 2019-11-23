@@ -17,7 +17,6 @@ namespace MvxMovies.Core.ViewModels
     {
         private readonly IMoviesService moviesService;
         private string text;
-        private MvxNotifyTask<bool> navigationTask;
 
         public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService) : base(navigationService)
         {
@@ -46,6 +45,11 @@ namespace MvxMovies.Core.ViewModels
         private async Task NavigateToMovieDetailCommandExecute(Movie m)
         {
             var result = await NavigationService.MvxNavigationService.Navigate<MovieDetailViewModel, Movie, CheckedMovie>(m);
+            ReturningToViewModel(result);
+        }
+
+        protected override void ReturningToViewModel(ReturnTypeBase result)
+        {
             var checkedMovie = result as CheckedMovie;
             if (checkedMovie != null)
             {
@@ -56,7 +60,7 @@ namespace MvxMovies.Core.ViewModels
                 }
             }
         }
-        
+
         private async Task SearchCommandExecute()
         {
             var list = await this.moviesService.SearchMovies(this.Text);

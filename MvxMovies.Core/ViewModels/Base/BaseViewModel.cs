@@ -1,6 +1,7 @@
 ﻿using System;
 using MvvmCross.ViewModels;
 using MvxMovies.Common.Contracts;
+using MvxMovies.UI.Model.ReturnPageTypes;
 
 namespace MvxMovies.Core.ViewModels.Base
 {
@@ -16,6 +17,11 @@ namespace MvxMovies.Core.ViewModels.Base
         protected void OnException(Exception ex)
         {
             Console.WriteLine($"EXCEPTION: {ex.Message}");
+        }
+
+        protected virtual void ReturningToViewModel(ReturnTypeBase result)
+        {
+
         }
     }
 }

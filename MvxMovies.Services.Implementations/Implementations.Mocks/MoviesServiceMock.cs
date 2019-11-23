@@ -9,7 +9,7 @@ namespace MvxMovies.Services.Implementations.Mocks
 {
     public class MoviesServiceMock : IMoviesService
     {
-        private List<MovieDto> movies;
+        private IEnumerable<MovieDto> movies;
 
         public MoviesServiceMock()
         {
@@ -23,9 +23,7 @@ namespace MvxMovies.Services.Implementations.Mocks
 
         public Task<IEnumerable<MovieDto>> SearchMovies(string name)
         {
-            var list = GetMovies();
-
-            return Task.Run(() => list);
+            return Task.Run(() => this.movies);
         }
 
         private static IEnumerable<MovieDto> GetMovies()
@@ -45,6 +43,7 @@ namespace MvxMovies.Services.Implementations.Mocks
             }
             return new MovieDto
             {
+                Id = i,
                 Image = "https://atasouthport.com/wp-content/uploads/2017/04/default-image.jpg",
                 Title = $"Title {i}",
                 Plot = $"Plot {i}",
