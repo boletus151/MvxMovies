@@ -11,12 +11,33 @@
         <ResourceDictionary>
             <DataTemplate
                 x:Key="moviesDataTemplate">
-                <ImageCell
-                    ImageSource="shield.jpeg"
-                    Text="{Binding Title}"
-                    TextColor="Black"
-                    Detail="{Binding Plot}"
-                    DetailColor="Gray" />
+                <ViewCell>
+                    <Grid>
+                        <Grid.Triggers>
+                            <DataTrigger
+                                TargetType="Grid"
+                                Binding="{Binding Checked}"
+                                Value="True">
+                                <Setter
+                                    Property="BackgroundColor"
+                                    Value="LawnGreen" />
+                            </DataTrigger>
+                        </Grid.Triggers>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition
+                                Width="Auto" />
+                            <ColumnDefinition
+                                Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image
+                            Grid.Column="0"
+                            Source="{Binding Image}" />
+                        <Label
+                            Grid.Column="1"
+                            Text="{Binding Title}" />
+                    </Grid>
+                </ViewCell>
             </DataTemplate>
             <c:SelectedItemEventArgsToSelectedItemConverter
                 x:Key="SelectedItemConverter" />

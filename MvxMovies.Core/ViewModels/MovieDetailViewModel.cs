@@ -5,10 +5,11 @@ using MvxMovies.Core.ViewModels.Base;
 using MvxMovies.Services.Contracts;
 using MvxMovies.UI.Model;
 using MvxMovies.Common.Mapper;
+using MvxMovies.UI.Model.ReturnPageTypes;
 
 namespace MvxMovies.Core.ViewModels
 {
-    public class MovieDetailViewModel : BaseViewModel<Movie>
+    public class MovieDetailViewModel : BaseViewModel<Movie,CheckedMovie>
     {
         private readonly IMoviesService moviesService;
         private Movie movie;
@@ -33,5 +34,6 @@ namespace MvxMovies.Core.ViewModels
             var movieDto = await this.moviesService.GetMovieById(this.Movie.Id);
             this.Movie = EntitiesToUi.ConvertMovie(movieDto);
         }
+
     }
 }

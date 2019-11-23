@@ -14,5 +14,7 @@ namespace MvxMovies.UI.Model
         public string Image { get; set; }
 
         public string Title { get; set; }
+
+        public bool Checked { get; set; }
     }
 }

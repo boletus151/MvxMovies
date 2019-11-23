@@ -4,7 +4,7 @@ using MvxMovies.Common.Contracts;
 
 namespace MvxMovies.Core.ViewModels.Base
 {
-    public class BaseViewModel<TParameter> : MvxViewModel<TParameter>
+    public class BaseViewModel<TParameter,TResult> : MvxViewModel<TParameter,TResult>
     {
         protected INavigationService NavigationService { get; private set; }
 
@@ -20,7 +20,6 @@ namespace MvxMovies.Core.ViewModels.Base
 
         public override void Prepare(TParameter parameter)
         {
-            
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
@@ -8,6 +9,7 @@ using MvxMovies.Common.Mapper;
 using MvxMovies.Core.ViewModels.Base;
 using MvxMovies.Services.Contracts;
 using MvxMovies.UI.Model;
+using MvxMovies.UI.Model.ReturnPageTypes;
 
 namespace MvxMovies.Core.ViewModels
 {
@@ -22,19 +24,40 @@ namespace MvxMovies.Core.ViewModels
             this.moviesService = moviesService;
 
             this.SearchCommand = new MvxAsyncCommand(async()=>await this.SearchCommandExecute());
-            this.NavigateToMovieDetailCommand = new MvxCommand<Movie>((m) => this.navigationTask = MvxNotifyTask.Create(this.NavigateToMovieDetailCommandExecute(m)));
+            this.NavigateToMovieDetailCommand = new MvxAsyncCommand<Movie>((m) => this.NavigateToMovieDetailCommandExecute(m));
 
             this.Movies = new MvxObservableCollection<Movie>();
             this.Text = "Blade Runner";
         }
-
-        private Task<bool> NavigateToMovieDetailCommandExecute(Movie m)
-        {
-            return NavigationService.MvxNavigationService.Navigate<MovieDetailViewModel,Movie>(m);
-        }
+        
+        public string Text { get => text; set => SetProperty(ref text, value); }
 
         public MvxObservableCollection<Movie> Movies { get; set; }
 
+        public IMvxCommand SearchCommand { get; }
+
+        public IMvxCommand NavigateToMovieDetailCommand { get; }
+
+        public override async Task Initialize()
+        {
+            await this.SearchCommandExecute();
+        }
+
+        private async Task NavigateToMovieDetailCommandExecute(Movie m)
+        {
+            var result = await NavigationService.MvxNavigationService.Navigate<MovieDetailViewModel, Movie, CheckedMovie>(m);
+            var checkedMovie = result as CheckedMovie;
+            if (checkedMovie != null)
+            {
+                /**/
+                var movie = this.Movies.FirstOrDefault(e => e.Id == checkedMovie.CheckedMovieId);
+                if (movie != null)
+                {
+                    movie.Checked = true;
+                }
+            }
+        }
+        
         private async Task SearchCommandExecute()
         {
             var list = await this.moviesService.SearchMovies(this.Text);
@@ -50,11 +73,5 @@ namespace MvxMovies.Core.ViewModels
                 this.Movies.Add(item);
             }
         }
-
-        public string Text { get => text; set => SetProperty(ref text, value); }
-
-        public IMvxCommand SearchCommand { get; }
-
-        public IMvxCommand NavigateToMovieDetailCommand { get; }
     }
 }
