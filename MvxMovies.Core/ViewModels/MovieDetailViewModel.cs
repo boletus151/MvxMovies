@@ -35,5 +35,11 @@ namespace MvxMovies.Core.ViewModels
             this.Movie = EntitiesToUi.ConvertMovie(movieDto);
         }
 
+        public override async void ViewDestroy(bool viewFinishing = true)
+        {
+            await this.NavigationService.MvxNavigationService.Close(this, new CheckedMovie(true, this.Movie.Id));
+
+            base.ViewDestroy(viewFinishing);
+        }
     }
 }

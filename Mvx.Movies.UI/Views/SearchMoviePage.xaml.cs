@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using MvvmCross.Forms.Views;
-using Xamarin.Forms;
+﻿using MvvmCross.Forms.Views;
 
 namespace MvxMovies.UI.Views
 {
