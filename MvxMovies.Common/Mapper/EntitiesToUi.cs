@@ -10,5 +10,7 @@ namespace MvxMovies.Common.Mapper
     {
         public static List<Movie> ConvertMovies(IEnumerable<MovieDto> list) =>
             list.ToList().ConvertAll(new Converter<MovieDto, Movie>(Converters.MovieToMovieUi));
+
+        public static Movie ConvertMovie(MovieDto movieDto) => Converters.MovieToMovieUi(movieDto);
     }
 }

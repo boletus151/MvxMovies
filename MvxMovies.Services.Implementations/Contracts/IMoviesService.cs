@@ -7,5 +7,7 @@ namespace MvxMovies.Services.Contracts
     public interface IMoviesService
     {
         Task<IEnumerable<MovieDto>> SearchMovies(string name);
+
+        Task<MovieDto> GetMovieById(int id);
     }
 }

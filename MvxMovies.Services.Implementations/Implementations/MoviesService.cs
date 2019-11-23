@@ -15,6 +15,11 @@ namespace MvxMovies.Services.Implementations
             this.apiService = apiService;
         }
 
+        public Task<MovieDto> GetMovieById(int id)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public Task<IEnumerable<MovieDto>> SearchMovies(string name)
         {
             throw new System.NotImplementedException();
