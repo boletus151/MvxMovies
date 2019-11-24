@@ -7,11 +7,30 @@
     mc:Ignorable="d"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
     x:Class="MvxMovies.UI.Views.FirstPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label
-            Text="Welcome to Xamarin.Forms!"
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand" />
+    <StackLayout
+        Margin="30"
+        VerticalOptions="Center">
+
+        <Entry
+            Placeholder="Username"
+            Text="{Binding Username, Mode=TwoWay}"
+            Margin="0,15">
+            <Entry.Keyboard>
+                <Keyboard
+                    x:FactoryMethod="Create">
+                    <x:Arguments>
+                        <KeyboardFlags>CapitalizeNone</KeyboardFlags>
+                    </x:Arguments>
+                </Keyboard>
+            </Entry.Keyboard>
+        </Entry>
+        <Entry
+            Placeholder="Password"
+            Text="{Binding Password, Mode=TwoWay}"
+            IsPassword="True" />
+
+        <Button
+            Text="Login"
+            Command="{Binding LoginCommand}"></Button>
     </StackLayout>
 </mvx:MvxContentPage>

@@ -1,11 +1,10 @@
 ﻿using System;
 using MvvmCross.ViewModels;
 using MvxMovies.Common.Contracts;
-using MvxMovies.UI.Model.ReturnPageTypes;
 
 namespace MvxMovies.Core.ViewModels.Base
 {
-    public class BaseViewModel : MvxViewModel
+    public class BaseViewModel<TParameter> : MvxViewModel<TParameter>
     {
         protected INavigationService NavigationService { get; private set; }
 
@@ -19,9 +18,9 @@ namespace MvxMovies.Core.ViewModels.Base
             Console.WriteLine($"EXCEPTION: {ex.Message}");
         }
 
-        protected virtual void ReturningToViewModel(ReturnTypeBase result)
+        public override void Prepare(TParameter parameter)
         {
-
+            
         }
     }
 }

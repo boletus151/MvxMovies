@@ -14,5 +14,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Behaviors\Base\" />
   </ItemGroup>
 </Project>

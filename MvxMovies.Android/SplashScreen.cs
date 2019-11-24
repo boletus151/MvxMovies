@@ -7,25 +7,25 @@ using MvvmCross.Forms.Platforms.Android.Views;
 
 namespace MvxMovies.Android
 {
-    [Activity(
-        Label = "MvxMovies.Forms",
-        MainLauncher = true,
-        Icon = "@mipmap/icon",
-        Theme = "@style/MainTheme.Splash",
-        NoHistory = true,
-        ScreenOrientation = ScreenOrientation.Portrait,
-        ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class SplashScreen : MvxFormsSplashScreenActivity<Setup, Core.MvxApp, App>
-    {
-        public SplashScreen()
-            : base(Resource.Layout.SplashScreen)
-        {
-        }
+    //[Activity(
+    //    Label = "MvxMovies.Forms",
+    //    MainLauncher = true,
+    //    Icon = "@mipmap/icon",
+    //    Theme = "@style/MainTheme.Splash",
+    //    NoHistory = true,
+    //    ScreenOrientation = ScreenOrientation.Portrait,
+    //    ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    //public class SplashScreen : MvxFormsSplashScreenActivity<Setup, Core.MvxApp, App>
+    //{
+    //    public SplashScreen()
+    //        : base(Resource.Layout.SplashScreen)
+    //    {
+    //    }
 
-        protected override Task RunAppStartAsync(Bundle bundle)
-        {
-            StartActivity(typeof(MainActivity));
-            return Task.CompletedTask;
-        }
-    }
+    //    protected override Task RunAppStartAsync(Bundle bundle)
+    //    {
+    //        StartActivity(typeof(MainActivity));
+    //        return Task.CompletedTask;
+    //    }
+    //}
 }

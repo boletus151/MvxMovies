@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MvxMovies.Model.Backend\MvxMovies.Entites.csproj" />
+    <ProjectReference Include="..\MvxMovies.Common\MvxMovies.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Implementations.Mocks\" />
+    <Folder Include="Implementations\" />
+    <Folder Include="Contracts\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mvx:MvxContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    x:Class="MvxMovies.UI.Views.MovieDetailPage">
+    <mvx:MvxContentPage.Content>
+        <StackLayout>
+            <ActivityIndicator
+                IsRunning="{Binding IsBusy}"
+                IsVisible="{Binding IsBusy}" />
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="15"
+                HeightRequest="150">
+                <Image
+                    Source="{Binding Movie.Image}" />
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="10, 0">
+                    <Label
+                        Text="{Binding Movie.Title}"
+                        HorizontalOptions="Start"
+                        FontSize="16"
+                        TextColor="Black" />
+                    <Label
+                        Text="{Binding Movie.Plot}"
+                        HorizontalOptions="Start" />
+                </StackLayout>  
+                <Label
+                    Text="{Binding Movie.Rating}"
+                    HorizontalOptions="EndAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    FontSize="36"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    MinimumWidthRequest="300" />
+            </StackLayout>
+        </StackLayout>
+    </mvx:MvxContentPage.Content>
+</mvx:MvxContentPage>
