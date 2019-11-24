@@ -1,21 +1,22 @@
 ﻿using System;
+using System.Threading.Tasks;
 using MonkeyCache.FileStore;
 using MvxMovies.Common.Contracts;
 using MvxMovies.Common.Constants;
 
 namespace MvxMovies.Common.Implementations
 {
-    public class StorageServiceMonkeyCache : IStorageService
+    public class StorageServiceMonkeyCacheAsync : IStorageServiceAsync
     {
         public int ExpirationDate => AppConstants.MaxExpirationDate;
 
         public bool ForceRefresh => AppConstants.ForceRefresh;
-        
-        public void ClearStorage()
+
+        public Task ClearStorage()
         {
             try
             {
-               Barrel.Current.EmptyAll();
+                return Task.Run(() => Barrel.Current.EmptyAll());
             }
             catch (Exception ex)
             {
@@ -24,11 +25,11 @@ namespace MvxMovies.Common.Implementations
             }
         }
 
-        public T Get<T>(string key)
+        public Task<T> Get<T>(string key)
         {
             try
             {
-                return Barrel.Current.Get<T>(key);
+                return Task.Run(() => Barrel.Current.Get<T>(key));
             }
             catch (Exception ex)
             {
@@ -37,11 +38,11 @@ namespace MvxMovies.Common.Implementations
             }
         }
 
-        public void Remove(string key)
+        public Task Remove(string key)
         {
             try
             {
-                Barrel.Current.Empty(key);
+                return Task.Run(() => Barrel.Current.Empty(key));
             }
             catch (Exception ex)
             {
@@ -50,11 +51,11 @@ namespace MvxMovies.Common.Implementations
             }
         }
 
-        public void Set<T>(string key, T value)
+        public Task Set<T>(string key, T value)
         {
             try
             {
-                Barrel.Current.Add(key, value, TimeSpan.FromDays(ExpirationDate));
+                return Task.Run(() => Barrel.Current.Add(key, value, TimeSpan.FromDays(ExpirationDate)));
             }
             catch (Exception ex)
             {
