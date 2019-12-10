@@ -47,7 +47,7 @@ namespace MvxMovies.Core
             }
             else
             {
-                RegisterAppStart<SearchMovieViewModel>();
+                RegisterAppStart<TabbedViewModel>();
             }
         }
     }

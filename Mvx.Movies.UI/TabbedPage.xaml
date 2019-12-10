@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mvx:MvxTabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MvxMovies.UI.TabbedPage"
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    xmlns:views="clr-namespace:MvxMovies.UI.Views">
+
+
+    <views:SearchMoviePage
+        Title="Search" />
+
+    <views:ProfilePage
+        Title="Profile" />
+</mvx:MvxTabbedPage>
