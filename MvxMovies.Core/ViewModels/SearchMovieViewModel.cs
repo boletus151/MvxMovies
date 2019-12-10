@@ -39,7 +39,7 @@ namespace MvxMovies.Core.ViewModels
 
         public override async Task Initialize()
         {
-             this.SearchCommandExecute();
+            await this.SearchCommandExecute();
         }
 
         private async Task NavigateToMovieDetailCommandExecute(Movie m)

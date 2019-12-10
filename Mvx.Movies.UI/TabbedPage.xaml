@@ -7,9 +7,4 @@
     xmlns:views="clr-namespace:MvxMovies.UI.Views">
 
 
-    <views:SearchMoviePage
-        Title="Search" />
-
-    <views:ProfilePage
-        Title="Profile" />
 </mvx:MvxTabbedPage>
