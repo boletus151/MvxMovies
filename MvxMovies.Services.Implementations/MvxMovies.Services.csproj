@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MvxMovies.Model.Backend\MvxMovies.Entites.csproj" />
+    <ProjectReference Include="..\MvxMovies.Entities\MvxMovies.Entities.csproj" />
     <ProjectReference Include="..\MvxMovies.Common\MvxMovies.Common.csproj" />
   </ItemGroup>
   <ItemGroup>

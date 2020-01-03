@@ -137,7 +137,7 @@
       <Project>{4D0ED5A4-365C-4520-AF0F-5AEE481349CB}</Project>
       <Name>MvxMovies.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Mvx.Movies.UI\MvxMovies.UI.csproj">
+    <ProjectReference Include="..\MvxMovies.UI\MvxMovies.UI.csproj">
       <Project>{14A76DF6-F3AC-4A15-B607-7C6B9FD796B2}</Project>
       <Name>MvxMovies.UI</Name>
     </ProjectReference>

@@ -10,9 +10,6 @@
     <PackageReference Include="MvvmCross.Forms" Version="6.4.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvxMovies\MvxMovies.Core.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="Behaviors\" />
     <Folder Include="Behaviors\Base\" />
