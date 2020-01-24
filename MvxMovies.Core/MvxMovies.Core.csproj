@@ -27,11 +27,11 @@
     <ProjectReference Include="..\MvxMovies.Common\MvxMovies.Common.csproj" />
     <ProjectReference Include="..\MvxMovies.UI.Model\MvxMovies.UI.Model.csproj" />
     <ProjectReference Include="..\MvxMovies.Services.Implementations\MvxMovies.Services.csproj" />
-    <ProjectReference Include="..\MvxMovies.UI\MvxMovies.UI.Components.csproj" />
+    <ProjectReference Include="..\MvxMovies.UI.Components\MvxMovies.UI.Components.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Base\TabbedPage.xaml.cs">
-      <DependentUpon>..\..\..\..\MvxMovies.UI\Views\SearchMoviePage.xaml</DependentUpon>
+      <DependentUpon>..\..\..\..\MvxMovies.UI.Components\Views\SearchMoviePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>
