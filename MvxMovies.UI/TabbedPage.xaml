@@ -4,7 +4,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="MvxMovies.UI.TabbedPage"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-    xmlns:views="clr-namespace:MvxMovies.UI.Views">
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    xmlns:views="clr-namespace:MvxMovies.UI.Views"
+    BackgroundColor="AliceBlue"
+    BarBackgroundColor="Blue">
     <!--<mvx:MvxTabbedPage.Children>
         <views:SearchMoviePage/>
         <views:ProfilePage/>

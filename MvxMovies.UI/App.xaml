@@ -7,5 +7,23 @@
     mc:Ignorable="d"
     x:Class="MvxMovies.UI.App">
     <Application.Resources>
+        <OnPlatform
+            x:TypeArguments="Thickness"
+            x:Key="MainContainerMargin">
+            <On
+                Platform="iOS"
+                Value="0,40,0,0" />
+            <On
+                Platform="Android"
+                Value="0" />
+        </OnPlatform>
+
+        <Style
+            TargetType="StackLayout"
+            x:Key="MainStackLayoutStyle">
+            <Setter
+                Property="Margin"
+                Value="{StaticResource MainContainerMargin}" />
+        </Style>
     </Application.Resources>
 </Application>

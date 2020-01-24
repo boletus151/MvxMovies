@@ -6,7 +6,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-    x:Class="MvxMovies.UI.Views.FirstPage">
+    x:Class="MvxMovies.UI.Views.LoginPage">
     <StackLayout
         Margin="30"
         VerticalOptions="Center">
