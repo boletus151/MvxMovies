@@ -2,7 +2,7 @@
 
 namespace MvxMovies.Android
 {
-    public class Setup : MvxFormsAndroidSetup<Core.MvxApp, UI.App>
+    public class Setup : MvxFormsAndroidSetup<Core.MvxApp, Core.App>
     {
     }
 }

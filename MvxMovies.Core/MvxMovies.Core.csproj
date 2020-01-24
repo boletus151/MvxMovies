@@ -11,18 +11,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.3.0.947036" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991537" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
-    <PackageReference Include="MvvmCross" Version="6.4.1" />
+    <PackageReference Include="MvvmCross" Version="6.4.2" />
     <PackageReference Include="ReactiveUI" Version="10.5.31" />
+    <PackageReference Include="MvvmCross.Forms" Version="6.4.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
     <Folder Include="ViewModels\Base\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MvxMovies.Common\MvxMovies.Common.csproj" />
     <ProjectReference Include="..\MvxMovies.UI.Model\MvxMovies.UI.Model.csproj" />
     <ProjectReference Include="..\MvxMovies.Services.Implementations\MvxMovies.Services.csproj" />
+    <ProjectReference Include="..\MvxMovies.UI.Components\MvxMovies.UI.Components.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Base\TabbedPage.xaml.cs">
+      <DependentUpon>..\..\..\..\MvxMovies.UI.Components\Views\SearchMoviePage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

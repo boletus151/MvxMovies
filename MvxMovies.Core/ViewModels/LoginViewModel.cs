@@ -8,14 +8,14 @@ using MvxMovies.Core.ViewModels.Base;
 
 namespace MvxMovies.Core.ViewModels
 {
-    public class FirstViewModel : BaseViewModel
+    public class LoginViewModel : BaseViewModel
     {
         private readonly IStorageService storageService;
 
         private string username;
         private string password;
 
-        public FirstViewModel(INavigationService navigationService, IStorageService storageService) : base(navigationService)
+        public LoginViewModel(INavigationService navigationService, IStorageService storageService) : base(navigationService, storageService)
         {
             this.storageService = storageService;
             this.LoginCommand = new MvxAsyncCommand(() => this.LoginCommandExecute());
@@ -53,7 +53,7 @@ namespace MvxMovies.Core.ViewModels
             if (this.LoginCommandCanExecute())
             {
                 this.storageService.Set(StorageConstants.Username, this.Username);
-                await this.NavigationService.MvxNavigationService.Navigate<SearchMovieViewModel>();
+                await this.NavigationService.MvxNavigationService.Navigate<TabbedViewModel>();
             }
         }
     }

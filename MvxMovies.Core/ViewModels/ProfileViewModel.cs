@@ -7,7 +7,7 @@ namespace MvxMovies.Core.ViewModels
 {
     public class ProfileViewModel : BaseViewModel
     {
-        public ProfileViewModel(INavigationService navigationService): base(navigationService)
+        public ProfileViewModel(INavigationService navigationService, IStorageService storageService): base(navigationService,storageService)
         {
         }
 

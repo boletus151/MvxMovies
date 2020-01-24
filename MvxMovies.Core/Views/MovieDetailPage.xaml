@@ -3,7 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-    x:Class="MvxMovies.UI.Views.MovieDetailPage">
+    x:Class="MvxMovies.Core.Views.MovieDetailPage">
     <mvx:MvxContentPage.Content>
         <StackLayout>
             <ActivityIndicator
