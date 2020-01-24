@@ -16,16 +16,12 @@ namespace MvxMovies.Core.ViewModels
 {
     public class SearchMovieViewModel : BaseViewModel
     {
-        private readonly IStorageService storageService;
         private readonly IMoviesService moviesService;
         private string text;
 
-        private int count = 1;
-
-        public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService, IStorageService storageService) : base(navigationService)
+        public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService, IStorageService storageService) : base(navigationService, storageService)
         {
             this.moviesService = moviesService;
-            this.storageService = storageService;
 
             this.SearchCommand = new MvxAsyncCommand(async () => await this.SearchCommandExecute());
             this.NavigateToMovieDetailCommand = new MvxAsyncCommand<Movie>((m) => this.NavigateToMovieDetailCommandExecute(m));
@@ -44,14 +40,11 @@ namespace MvxMovies.Core.ViewModels
 
         public override async Task Initialize()
         {
-            //if (!this.AccessAllowed(false))
-            //{
-            //    await this.NavigationService.MvxNavigationService.Navigate<LoginViewModel>();
-            //}
-            //else
-            {
-                await this.SearchCommandExecute();
-            }
+            // mock this passing desired value
+            // After this method InitializeTask_PropertyChanged will raise
+            if (!this.AccessAllowed(true)) return;
+
+            await this.SearchCommandExecute();
         }
 
         private async Task NavigateToMovieDetailCommandExecute(Movie m)
@@ -74,17 +67,9 @@ namespace MvxMovies.Core.ViewModels
 
         private async Task SearchCommandExecute()
         {
-            if (count > 1)
-            {
-                await this.NavigationService.MvxNavigationService.Navigate<LoginViewModel>();
-            }
-            else
-            {
-                var list = await this.moviesService.SearchMovies(this.Text);
-                var movies = EntitiesToUi.ConvertMovies(list);
-                this.FillMovies(movies);
-                count++;
-            }
+            var list = await this.moviesService.SearchMovies(this.Text);
+            var movies = EntitiesToUi.ConvertMovies(list);
+            this.FillMovies(movies);
         }
 
         private void FillMovies(IEnumerable<Movie> movies)
@@ -94,13 +79,6 @@ namespace MvxMovies.Core.ViewModels
             {
                 this.Movies.Add(item);
             }
-        }
-
-        private bool AccessAllowed(bool allowed)
-        {
-            //this.storageService.Remove(StorageConstants.Username);
-
-            return false;
         }
     }
 }

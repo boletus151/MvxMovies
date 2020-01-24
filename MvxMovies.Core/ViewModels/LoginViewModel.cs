@@ -15,7 +15,7 @@ namespace MvxMovies.Core.ViewModels
         private string username;
         private string password;
 
-        public LoginViewModel(INavigationService navigationService, IStorageService storageService) : base(navigationService)
+        public LoginViewModel(INavigationService navigationService, IStorageService storageService) : base(navigationService, storageService)
         {
             this.storageService = storageService;
             this.LoginCommand = new MvxAsyncCommand(() => this.LoginCommandExecute());

@@ -10,7 +10,7 @@ namespace MvxMovies.Core.ViewModels
     {
         private bool loaded;
 
-        public TabbedViewModel(INavigationService navigationService) : base(navigationService)
+        public TabbedViewModel(INavigationService navigationService, IStorageService storageService) : base(navigationService, storageService)
         {
             this.loaded = false;
         }
@@ -23,6 +23,7 @@ namespace MvxMovies.Core.ViewModels
 
         private async Task ShowInitialViewModels()
         {
+            // avoid reload tabs if they are already loaded
             if (this.loaded)
             {
                 return;
