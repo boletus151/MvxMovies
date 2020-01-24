@@ -2,7 +2,7 @@
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace MvxMovies.UI
+namespace MvxMovies.Core
 {
     public partial class App : Application
     {

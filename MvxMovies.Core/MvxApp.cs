@@ -30,25 +30,7 @@ namespace MvxMovies.Core
             Mvx.IoCProvider.RegisterType<IMoviesService, MoviesServiceMock>();
             Mvx.IoCProvider.RegisterType<IStorageService, StorageServiceMonkeyCache>();
 
-            this.SetAppStart();
-        }
-
-        private void SetAppStart()
-        {
-            var storageService = Mvx.IoCProvider.Resolve<IStorageService>();
-            if (storageService is null)
-            {
-                throw new Exception($"{AppConstants.MvxMovieException}: StorageService is Null");
-            }
-            var username = storageService.Get<string>(StorageConstants.Username);
-            if (string.IsNullOrEmpty(username))
-            {
-                RegisterAppStart<FirstViewModel>();
-            }
-            else
-            {
-                RegisterAppStart<SearchMovieViewModel>();
-            }
+            RegisterCustomAppStart<AppStart>();
         }
     }
 }

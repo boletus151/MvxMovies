@@ -3,9 +3,9 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-    xmlns:b="clr-namespace:MvxMovies.UI.Behaviors"
-    xmlns:c="clr-namespace:MvxMovies.UI.Converters"
-    x:Class="MvxMovies.UI.Views.SearchMoviePage"
+    xmlns:b="clr-namespace:MvxMovies.UI.Behaviors;assembly=MvxMovies.UI.Components"
+    xmlns:c="clr-namespace:MvxMovies.UI.Converters;assembly=MvxMovies.UI.Components"
+    x:Class="MvxMovies.Core.Views.SearchMoviePage"
     Title="Search Movies">
     <mvx:MvxContentPage.Resources>
         <ResourceDictionary>
@@ -63,7 +63,7 @@
         </ResourceDictionary>
     </mvx:MvxContentPage.Resources>
     <mvx:MvxContentPage.Content>
-        <StackLayout>
+        <StackLayout Style="{StaticResource MainStackLayoutStyle}">
             <SearchBar
                 x:Name="searchBar"
                 Placeholder="Search movie"

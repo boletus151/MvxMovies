@@ -3,13 +3,14 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-    x:Class="MvxMovies.UI.ProfilePage">
+    x:Class="MvxMovies.Core.Views.ProfilePage"
+    Title="Profile">
     <mvx:MvxContentPage.Content>
         <StackLayout
             VerticalOptions="Center"
             HorizontalOptions="Center">
             <Label
-                Text="Hello Xamarin" />
+                Text="Profile Page" />
         </StackLayout>
     </mvx:MvxContentPage.Content>
 </mvx:MvxContentPage>
