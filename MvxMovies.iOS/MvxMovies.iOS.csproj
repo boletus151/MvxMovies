@@ -139,7 +139,7 @@
     </ProjectReference>
     <ProjectReference Include="..\MvxMovies.UI\MvxMovies.UI.csproj">
       <Project>{14A76DF6-F3AC-4A15-B607-7C6B9FD796B2}</Project>
-      <Name>MvxMovies.UI</Name>
+      <Name>MvxMovies.UI.Components</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

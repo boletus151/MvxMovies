@@ -2,11 +2,11 @@
 <mvx:MvxTabbedPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="MvxMovies.UI.TabbedPage"
+    x:Class="MvxMovies.Core.Views.Base.TabbedPage"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
     xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
     android:TabbedPage.ToolbarPlacement="Bottom"
-    xmlns:views="clr-namespace:MvxMovies.UI.Views"
+    xmlns:views="clr-namespace:MvxMovies.Core.Views"
     BackgroundColor="AliceBlue"
     BarBackgroundColor="Blue">
     <!--<mvx:MvxTabbedPage.Children>
