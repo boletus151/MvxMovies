@@ -9,6 +9,7 @@ namespace MvxMovies.UI.Views
         public SearchMoviePage()
         {
             InitializeComponent();
+            Xamarin.Forms.NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

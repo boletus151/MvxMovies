@@ -1,4 +1,5 @@
-﻿using MvvmCross.Forms.Views;
+﻿using MvvmCross.Forms.Presenters.Attributes;
+using MvvmCross.Forms.Views;
 
 namespace MvxMovies.UI.Views
 {

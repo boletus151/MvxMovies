@@ -63,7 +63,7 @@
         </ResourceDictionary>
     </mvx:MvxContentPage.Resources>
     <mvx:MvxContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="0,40,0,0">
             <SearchBar
                 x:Name="searchBar"
                 Placeholder="Search movie"

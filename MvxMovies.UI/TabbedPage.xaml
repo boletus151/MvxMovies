@@ -5,6 +5,9 @@
     x:Class="MvxMovies.UI.TabbedPage"
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
     xmlns:views="clr-namespace:MvxMovies.UI.Views">
-
+    <!--<mvx:MvxTabbedPage.Children>
+        <views:SearchMoviePage/>
+        <views:ProfilePage/>
+    </mvx:MvxTabbedPage.Children>-->
 
 </mvx:MvxTabbedPage>

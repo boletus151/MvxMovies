@@ -50,8 +50,7 @@ namespace MvxMovies.Core.ViewModels
 
         protected override void ReturningToViewModel(ReturnTypeBase result)
         {
-            var checkedMovie = result as CheckedMovie;
-            if (checkedMovie != null)
+            if (result is CheckedMovie checkedMovie)
             {
                 var movie = this.Movies.FirstOrDefault(e => e.Id == checkedMovie.CheckedMovieId);
                 if (movie != null)
