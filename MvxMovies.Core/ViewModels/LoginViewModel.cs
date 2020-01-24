@@ -53,7 +53,7 @@ namespace MvxMovies.Core.ViewModels
             if (this.LoginCommandCanExecute())
             {
                 this.storageService.Set(StorageConstants.Username, this.Username);
-                await this.NavigationService.MvxNavigationService.Navigate<SearchMovieViewModel>();
+                await this.NavigationService.MvxNavigationService.Navigate<TabbedViewModel>();
             }
         }
     }

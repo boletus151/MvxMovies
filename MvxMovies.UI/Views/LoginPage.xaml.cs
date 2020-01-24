@@ -3,7 +3,7 @@ using MvvmCross.Forms.Views;
 
 namespace MvxMovies.UI.Views
 {
-    [MvxContentPagePresentation()]
+    [MvxContentPagePresentation(Title = "Login", NoHistory = true, WrapInNavigationPage =false)]
     public partial class LoginPage : MvxContentPage
     {
         public LoginPage()

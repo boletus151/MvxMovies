@@ -11,11 +11,5 @@ namespace MvxMovies.UI
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
         }
-
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            this.CurrentPage = null;
-        }
     }
 }

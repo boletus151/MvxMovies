@@ -3,7 +3,7 @@ using MvvmCross.Forms.Views;
 
 namespace MvxMovies.UI.Views
 {
-    [MvxTabbedPagePresentationAttribute(Position = TabbedPosition.Tab)]
+    [MvxTabbedPagePresentationAttribute(Position = TabbedPosition.Tab, WrapInNavigationPage = true, NoHistory = true)]
     public partial class SearchMoviePage : MvxContentPage
     {
         public SearchMoviePage()

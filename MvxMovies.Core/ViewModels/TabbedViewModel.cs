@@ -17,8 +17,8 @@ namespace MvxMovies.Core.ViewModels
 
         public override async void ViewAppearing()
         {
+            base.ViewAppearing();
             await ShowInitialViewModels();
-            //base.ViewAppearing();
         }
 
         private async Task ShowInitialViewModels()
@@ -34,7 +34,7 @@ namespace MvxMovies.Core.ViewModels
             };
             await Task.WhenAll(tasks);
 
-            if (tasks.Any(e=>e.IsFaulted))
+            if (tasks.Any(e => e.IsFaulted))
             {
                 this.loaded = false;
             }

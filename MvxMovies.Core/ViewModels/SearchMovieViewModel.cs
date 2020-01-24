@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
+using MvxMovies.Common.Constants;
 using MvxMovies.Common.Contracts;
 using MvxMovies.Common.Mapper;
 using MvxMovies.Core.ViewModels.Base;
@@ -15,20 +16,24 @@ namespace MvxMovies.Core.ViewModels
 {
     public class SearchMovieViewModel : BaseViewModel
     {
+        private readonly IStorageService storageService;
         private readonly IMoviesService moviesService;
         private string text;
 
-        public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService) : base(navigationService)
+        private int count = 1;
+
+        public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService, IStorageService storageService) : base(navigationService)
         {
             this.moviesService = moviesService;
+            this.storageService = storageService;
 
-            this.SearchCommand = new MvxAsyncCommand(async()=>await this.SearchCommandExecute());
+            this.SearchCommand = new MvxAsyncCommand(async () => await this.SearchCommandExecute());
             this.NavigateToMovieDetailCommand = new MvxAsyncCommand<Movie>((m) => this.NavigateToMovieDetailCommandExecute(m));
 
             this.Movies = new MvxObservableCollection<Movie>();
             this.Text = "Blade Runner";
         }
-        
+
         public string Text { get => text; set => SetProperty(ref text, value); }
 
         public MvxObservableCollection<Movie> Movies { get; set; }
@@ -39,7 +44,14 @@ namespace MvxMovies.Core.ViewModels
 
         public override async Task Initialize()
         {
-            await this.SearchCommandExecute();
+            //if (!this.AccessAllowed(false))
+            //{
+            //    await this.NavigationService.MvxNavigationService.Navigate<LoginViewModel>();
+            //}
+            //else
+            {
+                await this.SearchCommandExecute();
+            }
         }
 
         private async Task NavigateToMovieDetailCommandExecute(Movie m)
@@ -62,9 +74,17 @@ namespace MvxMovies.Core.ViewModels
 
         private async Task SearchCommandExecute()
         {
-            var list = await this.moviesService.SearchMovies(this.Text);
-            var movies = EntitiesToUi.ConvertMovies(list);
-            this.FillMovies(movies);
+            if (count > 1)
+            {
+                await this.NavigationService.MvxNavigationService.Navigate<LoginViewModel>();
+            }
+            else
+            {
+                var list = await this.moviesService.SearchMovies(this.Text);
+                var movies = EntitiesToUi.ConvertMovies(list);
+                this.FillMovies(movies);
+                count++;
+            }
         }
 
         private void FillMovies(IEnumerable<Movie> movies)
@@ -74,6 +94,13 @@ namespace MvxMovies.Core.ViewModels
             {
                 this.Movies.Add(item);
             }
+        }
+
+        private bool AccessAllowed(bool allowed)
+        {
+            //this.storageService.Remove(StorageConstants.Username);
+
+            return false;
         }
     }
 }
