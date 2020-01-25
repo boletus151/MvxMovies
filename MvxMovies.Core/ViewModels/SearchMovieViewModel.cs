@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
-using MvxMovies.Common.Constants;
 using MvxMovies.Common.Contracts;
 using MvxMovies.Common.Mapper;
 using MvxMovies.Core.ViewModels.Base;
 using MvxMovies.Services.Contracts;
 using MvxMovies.UI.Model;
 using MvxMovies.UI.Model.ReturnPageTypes;
+using Xamarin.Forms;
 
 namespace MvxMovies.Core.ViewModels
 {
@@ -18,23 +19,31 @@ namespace MvxMovies.Core.ViewModels
     {
         private readonly IMoviesService moviesService;
         private string text;
+        private bool searchCancelled;
+
+        private CancellationTokenSource cancellationTokenSource;
+        private CancellationToken cancellationToken;
 
         public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService, IStorageService storageService) : base(navigationService, storageService)
         {
             this.moviesService = moviesService;
 
             this.SearchCommand = new MvxAsyncCommand(async () => await this.SearchCommandExecute());
+            this.CancelAllTasksCommand = new MvxAsyncCommand(async () => await this.CancelAllTasksCommandExecute());
             this.NavigateToMovieDetailCommand = new MvxAsyncCommand<Movie>((m) => this.NavigateToMovieDetailCommandExecute(m));
-
+            this.SearchCancelled = false;
             this.Movies = new MvxObservableCollection<Movie>();
             this.Text = "Blade Runner";
         }
         
         public string Text { get => text; set => SetProperty(ref text, value); }
+        public bool SearchCancelled { get => searchCancelled; set => SetProperty(ref searchCancelled, value); }
 
         public MvxObservableCollection<Movie> Movies { get; set; }
 
         public IMvxCommand SearchCommand { get; }
+
+        public IMvxCommand CancelAllTasksCommand { get; }
 
         public IMvxCommand NavigateToMovieDetailCommand { get; }
 
@@ -67,9 +76,36 @@ namespace MvxMovies.Core.ViewModels
 
         private async Task SearchCommandExecute()
         {
-            var list = await this.moviesService.SearchMovies(this.Text);
-            var movies = EntitiesToUi.ConvertMovies(list);
-            this.FillMovies(movies);
+            try
+            {
+                this.SearchCancelled = false;
+                this.cancellationTokenSource = new CancellationTokenSource();
+                this.cancellationToken = cancellationTokenSource.Token;
+
+                var list = await this.moviesService.SearchMovies(this.Text, cancellationToken);
+                var movies = EntitiesToUi.ConvertMovies(list);
+                this.FillMovies(movies);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                this.cancellationTokenSource.Dispose();
+            }
+        }
+
+        private Task CancelAllTasksCommandExecute()
+        {
+            if (this.cancellationTokenSource is null)
+            {
+                return Task.CompletedTask;
+            }
+            this.cancellationTokenSource.Cancel();
+            this.SearchCancelled = true;
+
+            return Task.CompletedTask;
         }
 
         private void FillMovies(IEnumerable<Movie> movies)

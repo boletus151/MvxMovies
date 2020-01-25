@@ -5,8 +5,12 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+    xmlns:converters="clr-namespace:MvxMovies.UI.Components.Converters;assembly=MvxMovies.UI.Components"
     x:Class="MvxMovies.Core.App">
     <Application.Resources>
+
+        <converters:InverseBoolConverter x:Key="InverseBoolConverter"/>
+
         <OnPlatform
             x:TypeArguments="Thickness"
             x:Key="MainContainerMargin">

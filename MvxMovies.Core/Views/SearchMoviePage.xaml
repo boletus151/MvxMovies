@@ -63,13 +63,35 @@
         </ResourceDictionary>
     </mvx:MvxContentPage.Resources>
     <mvx:MvxContentPage.Content>
-        <StackLayout Style="{StaticResource MainStackLayoutStyle}">
+        <StackLayout
+            Style="{StaticResource MainStackLayoutStyle}">
+            <StackLayout
+                HeightRequest="70"
+                BackgroundColor="#fabada"
+                VerticalOptions="Center">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer
+                        NumberOfTapsRequired="1"
+                        Command="{Binding CancelAllTasksCommand}" />
+                </StackLayout.GestureRecognizers>
+
+                <Label
+                    Text="Touch here to Cancel any Search"
+                    TextColor="Red"
+                    HorizontalOptions="Center" />
+            </StackLayout>
+
             <SearchBar
                 x:Name="searchBar"
                 Placeholder="Search movie"
                 Text="{Binding Text, Mode=TwoWay}"
                 SearchCommand="{Binding SearchCommand}">
             </SearchBar>
+
+            <Label
+                Text="Search cancelled by the user"
+                IsVisible="{Binding SearchCancelled}"
+                HorizontalOptions="Center"/>
 
             <ListView
                 ItemsSource="{Binding Movies, Mode=TwoWay}"

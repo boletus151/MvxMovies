@@ -22,7 +22,9 @@ namespace MvxMovies.Core
             var username = storageService.Get<string>(StorageConstants.Username);
             if (string.IsNullOrEmpty(username))
             {
-                NavigationService.Navigate<LoginViewModel>().GetAwaiter().GetResult();
+                NavigationService.Navigate<TabbedViewModel>().GetAwaiter().GetResult();
+
+                //NavigationService.Navigate<LoginViewModel>().GetAwaiter().GetResult();
                 return Task.CompletedTask;
             }
             else

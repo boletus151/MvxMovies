@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using MvxMovies.Entities;
 using MvxMovies.Services.Contracts;
@@ -9,21 +11,49 @@ namespace MvxMovies.Services.Implementations.Mocks
 {
     public class MoviesServiceMock : IMoviesService
     {
-        private IEnumerable<MovieDto> movies;
+        private readonly IEnumerable<MovieDto> movies;
 
         public MoviesServiceMock()
         {
             this.movies = new List<MovieDto>(GetMovies());
         }
 
-        public Task<MovieDto> GetMovieById(int id)
+        public Task<MovieDto> GetMovieById(int id, CancellationToken? cancellationToken = null)
         {
             return Task.FromResult(this.movies.FirstOrDefault(e=>e.Id == id));
         }
 
-        public Task<IEnumerable<MovieDto>> SearchMovies(string name)
+        public Task<IEnumerable<MovieDto>> SearchMovies(string name, CancellationToken? cancellationToken = null)
         {
-            return Task.Run(() => this.movies);
+            if (cancellationToken is null)
+            {
+                return Task.FromResult(this.movies);
+            }
+            var cancelToken = (CancellationToken)cancellationToken;
+            return Task.Run(async() => await this.GetMoviesWithCancellation(cancelToken),cancelToken);
+        }
+
+        private Task<IEnumerable<MovieDto>> GetMoviesWithCancellation(CancellationToken cancellationToken)
+        {
+            var continueMethod = true;
+            var list = this.movies;
+            var watch = new Stopwatch();
+            watch.Start();
+
+            while (continueMethod)
+            {
+                if (cancellationToken.IsCancellationRequested)
+                {
+                    list = new List<MovieDto>();
+                    break;
+                }
+                if (watch.ElapsedMilliseconds > 5000)
+                {
+                    continueMethod = false;
+                }
+            }
+            watch.Stop();
+            return Task.FromResult(list);
         }
 
         private static IEnumerable<MovieDto> GetMovies()
