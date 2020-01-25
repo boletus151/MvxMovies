@@ -10,8 +10,6 @@ namespace MvxMovies.Core.ViewModels.Base
 {
     public class BaseViewModel : MvxViewModel
     {
-        protected string InitTaskIsCompleatedProperty;
-
         public IStorageService StorageService { get; private set; }
         public INavigationService NavigationService { get; private set; }
 
@@ -19,6 +17,12 @@ namespace MvxMovies.Core.ViewModels.Base
         {
             this.StorageService = storageService;
             this.NavigationService = navigationService;
+        }
+        
+        public override void ViewDestroy(bool viewFinishing = true)
+        {
+            base.ViewDestroy(viewFinishing);
+            this.InitializeTask.PropertyChanged -= this.InitializeTask_PropertyChanged;
         }
 
         public bool ShouldNavigateToLogin { get; set; }
@@ -39,7 +43,6 @@ namespace MvxMovies.Core.ViewModels.Base
         /// </summary>
         public void OnViewModelSet()
         {
-            this.InitTaskIsCompleatedProperty = nameof(this.InitializeTask.IsCompleted);
             if (this.InitializeTask is null)
             {
                 return;
@@ -60,7 +63,7 @@ namespace MvxMovies.Core.ViewModels.Base
 
         private void InitializeTask_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == this.InitTaskIsCompleatedProperty)
+            if (e.PropertyName == nameof(this.InitializeTask.IsCompleted))
             {
                 if (this.ShouldNavigateToLogin)
                 {

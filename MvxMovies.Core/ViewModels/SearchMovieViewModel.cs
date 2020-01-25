@@ -29,7 +29,7 @@ namespace MvxMovies.Core.ViewModels
             this.Movies = new MvxObservableCollection<Movie>();
             this.Text = "Blade Runner";
         }
-
+        
         public string Text { get => text; set => SetProperty(ref text, value); }
 
         public MvxObservableCollection<Movie> Movies { get; set; }

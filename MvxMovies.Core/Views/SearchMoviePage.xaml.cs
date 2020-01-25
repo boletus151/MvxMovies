@@ -26,21 +26,6 @@ namespace MvxMovies.Core.Views
             }
 
             vm.OnViewModelSet();
-
-            //this.initializizeTaskProperty = nameof(vm.InitializeTask.IsCompleted);
-
-            //vm.InitializeTask.PropertyChanged += this.InitializeTask_PropertyChanged;
-        }
-        private void InitializeTask_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-        {
-            if (e.PropertyName == this.initializizeTaskProperty)
-            {
-                var vm = this.DataContext as SearchMovieViewModel;
-                if (vm.ShouldNavigateToLogin)
-                {
-                    vm.NavigationService.MvxNavigationService.Navigate<LoginViewModel>();
-                }
-            }
         }
     }
 }
