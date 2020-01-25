@@ -23,6 +23,7 @@ namespace MvxMovies.Core.ViewModels
 
         private CancellationTokenSource cancellationTokenSource;
         private CancellationToken cancellationToken;
+        private string errorMessageString;
 
         public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService, IStorageService storageService) : base(navigationService, storageService)
         {
@@ -31,13 +32,14 @@ namespace MvxMovies.Core.ViewModels
             this.SearchCommand = new MvxAsyncCommand(async () => await this.SearchCommandExecute());
             this.CancelAllTasksCommand = new MvxAsyncCommand(async () => await this.CancelAllTasksCommandExecute());
             this.NavigateToMovieDetailCommand = new MvxAsyncCommand<Movie>((m) => this.NavigateToMovieDetailCommandExecute(m));
-            this.SearchCancelled = false;
+            this.ErrorMessageIsVisible = false;
             this.Movies = new MvxObservableCollection<Movie>();
             this.Text = "Blade Runner";
         }
-        
+
         public string Text { get => text; set => SetProperty(ref text, value); }
-        public bool SearchCancelled { get => searchCancelled; set => SetProperty(ref searchCancelled, value); }
+        public string ErrorMessageString { get => errorMessageString; set => SetProperty(ref errorMessageString, value); }
+        public bool ErrorMessageIsVisible { get => searchCancelled; set => SetProperty(ref searchCancelled, value); }
 
         public MvxObservableCollection<Movie> Movies { get; set; }
 
@@ -78,7 +80,7 @@ namespace MvxMovies.Core.ViewModels
         {
             try
             {
-                this.SearchCancelled = false;
+                this.ErrorMessageIsVisible = false;
                 this.cancellationTokenSource = new CancellationTokenSource();
                 this.cancellationToken = cancellationTokenSource.Token;
 
@@ -89,10 +91,13 @@ namespace MvxMovies.Core.ViewModels
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                this.ErrorMessageString = ex.Message;
+                this.ErrorMessageIsVisible = true;
             }
             finally
             {
                 this.cancellationTokenSource.Dispose();
+                this.cancellationTokenSource = null;
             }
         }
 
@@ -103,7 +108,8 @@ namespace MvxMovies.Core.ViewModels
                 return Task.CompletedTask;
             }
             this.cancellationTokenSource.Cancel();
-            this.SearchCancelled = true;
+            this.ErrorMessageIsVisible = true;
+            this.ErrorMessageString = "Search cancelled by the user";
 
             return Task.CompletedTask;
         }

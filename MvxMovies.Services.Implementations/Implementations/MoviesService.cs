@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using MvxMovies.Common.Constants;
 using MvxMovies.Common.Contracts;
 using MvxMovies.Entities;
 using MvxMovies.Services.Contracts;
+using Newtonsoft.Json;
 
 namespace MvxMovies.Services.Implementations
 {
@@ -16,14 +19,25 @@ namespace MvxMovies.Services.Implementations
             this.apiService = apiService;
         }
 
-        public Task<MovieDto> GetMovieById(int id, CancellationToken? cancellationToken = null)
+        public async Task<MovieDto> GetMovieById(int id, CancellationToken? cancellationToken = null)
         {
-            throw new System.NotImplementedException();
+            var parameters = string.Format(DataServiceConstants.MOVIE, id);
+            var finalParameters = Uri.EscapeUriString(parameters);
+            var response = await this.apiService.GetData<MovieDto>(finalParameters, cancellationToken);
+
+            return response;
         }
 
-        public Task<IEnumerable<MovieDto>> SearchMovies(string name, CancellationToken? cancellationToken = null)
+        public async Task<IEnumerable<MovieDto>> SearchMovies(string name, CancellationToken? cancellationToken = null)
         {
-            throw new System.NotImplementedException();
+            var parameters = string.Format(DataServiceConstants.SEARCH, name);
+            var finalParameters = Uri.EscapeUriString(parameters);
+
+            var response = await this.apiService.GetData<SearchMovies>(finalParameters, cancellationToken);
+            var str = JsonConvert.SerializeObject(response);
+            var list = JsonConvert.DeserializeObject<IEnumerable<MovieDto>>(str);
+
+            return list ?? new List<MovieDto>();
         }
     }
 }

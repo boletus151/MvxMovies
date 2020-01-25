@@ -3,20 +3,32 @@ using System.Threading.Tasks;
 using MvxMovies.Common.Contracts;
 using System;
 using Newtonsoft.Json;
+using System.Threading;
+using MvxMovies.Common.Constants;
 
 namespace MvxMovies.Common.Implementations
 {
     public class ApiService : IApiService
     {
-        private const string BASE_URL = @"http://omdbapi.com/?apikey=73124429&type=movie";
 
-        public async Task<TResult> GetData<TResult>(string parameters) where TResult: class
+        public async Task<TResult> GetData<TResult>(string parameters, CancellationToken? cancellationToken) where TResult: class
         {
             using (var httpClient = new HttpClient())
             {
-                string url = BASE_URL + @"&t=" + Uri.EscapeDataString(parameters);
+                string url = DataServiceConstants.BASE_URL + parameters;
 
-                var response = await httpClient.GetAsync(url);
+                var cancelToken = (CancellationToken)cancellationToken;
+
+                HttpResponseMessage response;
+
+                if (cancellationToken is null)
+                {
+                    response = await httpClient.GetAsync(url);
+                }
+                else
+                {
+                    response = await httpClient.GetAsync(url, (CancellationToken)cancellationToken);
+                } 
 
                 string jsonMovie = await response.Content.ReadAsStringAsync();
 

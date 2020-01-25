@@ -27,7 +27,7 @@ namespace MvxMovies.Core
             Mvx.IoCProvider.RegisterSingleton(typeof(INavigationService), new NavigationService(mvxNavigationService));
 
             Mvx.IoCProvider.RegisterType<IApiService, ApiService>();
-            Mvx.IoCProvider.RegisterType<IMoviesService, MoviesServiceMock>();
+            Mvx.IoCProvider.RegisterType<IMoviesService, MoviesService>();
             Mvx.IoCProvider.RegisterType<IStorageService, StorageServiceMonkeyCache>();
 
             RegisterCustomAppStart<AppStart>();

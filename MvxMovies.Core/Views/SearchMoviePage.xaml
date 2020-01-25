@@ -89,8 +89,8 @@
             </SearchBar>
 
             <Label
-                Text="Search cancelled by the user"
-                IsVisible="{Binding SearchCancelled}"
+                Text="{Binding ErrorMessageString}"
+                IsVisible="{Binding ErrorMessageIsVisible}"
                 HorizontalOptions="Center"/>
 
             <ListView
