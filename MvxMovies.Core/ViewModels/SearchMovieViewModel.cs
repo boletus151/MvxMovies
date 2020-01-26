@@ -13,7 +13,7 @@ using MvxMovies.UI.Model.ReturnPageTypes;
 
 namespace MvxMovies.Core.ViewModels
 {
-    public class SearchMovieViewModel<TParameter, TResult> : MvxBaseViewModel<TParameter, TResult>
+    public class SearchMovieViewModel : MvxBaseViewModel<object, ReturnTypeBase>
     {
         private readonly IMoviesService moviesService;
         private string text;

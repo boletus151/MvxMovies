@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using MvxMovies.AppServices.Contracts;
 
-namespace MvxMovies.Core.ViewModels
+namespace MvxMovies.Core.ViewModels.Base
 {
     public class TabbedViewModel : MvxBaseViewModel
     {
@@ -31,7 +31,7 @@ namespace MvxMovies.Core.ViewModels
             }
             var tasks = new List<Task>
             {
-                this.BaseViewModel.NavigationService.MvxNavigationService.Navigate<SearchMovieViewModel<object,object>, object, object>(null),
+                this.BaseViewModel.NavigationService.MvxNavigationService.Navigate<SearchMovieViewModel>(),
                 this.BaseViewModel.NavigationService.MvxNavigationService.Navigate<ProfileViewModel>()
             };
             await Task.WhenAll(tasks);

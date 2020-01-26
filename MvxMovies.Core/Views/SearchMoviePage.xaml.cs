@@ -8,8 +8,6 @@ namespace MvxMovies.Core.Views
     [MvxTabbedPagePresentationAttribute(Position = TabbedPosition.Tab, WrapInNavigationPage = true, NoHistory = true)]
     public partial class SearchMoviePage : MvxContentPage
     {
-        private string initializizeTaskProperty;
-
         public SearchMoviePage()
         {
             InitializeComponent();
@@ -19,8 +17,7 @@ namespace MvxMovies.Core.Views
         protected override void OnViewModelSet()
         {
             base.OnViewModelSet();
-            var vm = this.DataContext as SearchMovieViewModel<object,object>;
-            if (vm is null)
+            if (!(this.DataContext is SearchMovieViewModel vm))
             {
                 return;
             }
