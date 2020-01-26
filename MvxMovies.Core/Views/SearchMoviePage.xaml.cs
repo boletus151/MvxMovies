@@ -19,7 +19,7 @@ namespace MvxMovies.Core.Views
         protected override void OnViewModelSet()
         {
             base.OnViewModelSet();
-            var vm = this.DataContext as SearchMovieViewModel;
+            var vm = this.DataContext as SearchMovieViewModel<object,object>;
             if (vm is null)
             {
                 return;

@@ -26,6 +26,2249 @@ namespace MvxMovies.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::AiForms.Dialogs.Resource.Animation.abc_fade_in = global::MvxMovies.Android.Resource.Animation.abc_fade_in;
+			global::AiForms.Dialogs.Resource.Animation.abc_fade_out = global::MvxMovies.Android.Resource.Animation.abc_fade_out;
+			global::AiForms.Dialogs.Resource.Animation.abc_grow_fade_in_from_bottom = global::MvxMovies.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::AiForms.Dialogs.Resource.Animation.abc_popup_enter = global::MvxMovies.Android.Resource.Animation.abc_popup_enter;
+			global::AiForms.Dialogs.Resource.Animation.abc_popup_exit = global::MvxMovies.Android.Resource.Animation.abc_popup_exit;
+			global::AiForms.Dialogs.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MvxMovies.Android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::AiForms.Dialogs.Resource.Animation.abc_slide_in_bottom = global::MvxMovies.Android.Resource.Animation.abc_slide_in_bottom;
+			global::AiForms.Dialogs.Resource.Animation.abc_slide_in_top = global::MvxMovies.Android.Resource.Animation.abc_slide_in_top;
+			global::AiForms.Dialogs.Resource.Animation.abc_slide_out_bottom = global::MvxMovies.Android.Resource.Animation.abc_slide_out_bottom;
+			global::AiForms.Dialogs.Resource.Animation.abc_slide_out_top = global::MvxMovies.Android.Resource.Animation.abc_slide_out_top;
+			global::AiForms.Dialogs.Resource.Animation.design_bottom_sheet_slide_in = global::MvxMovies.Android.Resource.Animation.design_bottom_sheet_slide_in;
+			global::AiForms.Dialogs.Resource.Animation.design_bottom_sheet_slide_out = global::MvxMovies.Android.Resource.Animation.design_bottom_sheet_slide_out;
+			global::AiForms.Dialogs.Resource.Animation.design_snackbar_in = global::MvxMovies.Android.Resource.Animation.design_snackbar_in;
+			global::AiForms.Dialogs.Resource.Animation.design_snackbar_out = global::MvxMovies.Android.Resource.Animation.design_snackbar_out;
+			global::AiForms.Dialogs.Resource.Animation.extra_dialog_enter = global::MvxMovies.Android.Resource.Animation.extra_dialog_enter;
+			global::AiForms.Dialogs.Resource.Animation.extra_dialog_exit = global::MvxMovies.Android.Resource.Animation.extra_dialog_exit;
+			global::AiForms.Dialogs.Resource.Animator.design_appbar_state_list_animator = global::MvxMovies.Android.Resource.Animator.design_appbar_state_list_animator;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarDivider = global::MvxMovies.Android.Resource.Attribute.actionBarDivider;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarItemBackground = global::MvxMovies.Android.Resource.Attribute.actionBarItemBackground;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarPopupTheme = global::MvxMovies.Android.Resource.Attribute.actionBarPopupTheme;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarSize = global::MvxMovies.Android.Resource.Attribute.actionBarSize;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarSplitStyle = global::MvxMovies.Android.Resource.Attribute.actionBarSplitStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarStyle = global::MvxMovies.Android.Resource.Attribute.actionBarStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarTabBarStyle = global::MvxMovies.Android.Resource.Attribute.actionBarTabBarStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarTabStyle = global::MvxMovies.Android.Resource.Attribute.actionBarTabStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarTabTextStyle = global::MvxMovies.Android.Resource.Attribute.actionBarTabTextStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarTheme = global::MvxMovies.Android.Resource.Attribute.actionBarTheme;
+			global::AiForms.Dialogs.Resource.Attribute.actionBarWidgetTheme = global::MvxMovies.Android.Resource.Attribute.actionBarWidgetTheme;
+			global::AiForms.Dialogs.Resource.Attribute.actionButtonStyle = global::MvxMovies.Android.Resource.Attribute.actionButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionDropDownStyle = global::MvxMovies.Android.Resource.Attribute.actionDropDownStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionLayout = global::MvxMovies.Android.Resource.Attribute.actionLayout;
+			global::AiForms.Dialogs.Resource.Attribute.actionMenuTextAppearance = global::MvxMovies.Android.Resource.Attribute.actionMenuTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.actionMenuTextColor = global::MvxMovies.Android.Resource.Attribute.actionMenuTextColor;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeBackground = global::MvxMovies.Android.Resource.Attribute.actionModeBackground;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeCloseButtonStyle = global::MvxMovies.Android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeCloseDrawable = global::MvxMovies.Android.Resource.Attribute.actionModeCloseDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeCopyDrawable = global::MvxMovies.Android.Resource.Attribute.actionModeCopyDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeCutDrawable = global::MvxMovies.Android.Resource.Attribute.actionModeCutDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeFindDrawable = global::MvxMovies.Android.Resource.Attribute.actionModeFindDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.actionModePasteDrawable = global::MvxMovies.Android.Resource.Attribute.actionModePasteDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.actionModePopupWindowStyle = global::MvxMovies.Android.Resource.Attribute.actionModePopupWindowStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeSelectAllDrawable = global::MvxMovies.Android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeShareDrawable = global::MvxMovies.Android.Resource.Attribute.actionModeShareDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeSplitBackground = global::MvxMovies.Android.Resource.Attribute.actionModeSplitBackground;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeStyle = global::MvxMovies.Android.Resource.Attribute.actionModeStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionModeWebSearchDrawable = global::MvxMovies.Android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.actionOverflowButtonStyle = global::MvxMovies.Android.Resource.Attribute.actionOverflowButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionOverflowMenuStyle = global::MvxMovies.Android.Resource.Attribute.actionOverflowMenuStyle;
+			global::AiForms.Dialogs.Resource.Attribute.actionProviderClass = global::MvxMovies.Android.Resource.Attribute.actionProviderClass;
+			global::AiForms.Dialogs.Resource.Attribute.actionViewClass = global::MvxMovies.Android.Resource.Attribute.actionViewClass;
+			global::AiForms.Dialogs.Resource.Attribute.activityChooserViewStyle = global::MvxMovies.Android.Resource.Attribute.activityChooserViewStyle;
+			global::AiForms.Dialogs.Resource.Attribute.alertDialogButtonGroupStyle = global::MvxMovies.Android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::AiForms.Dialogs.Resource.Attribute.alertDialogCenterButtons = global::MvxMovies.Android.Resource.Attribute.alertDialogCenterButtons;
+			global::AiForms.Dialogs.Resource.Attribute.alertDialogStyle = global::MvxMovies.Android.Resource.Attribute.alertDialogStyle;
+			global::AiForms.Dialogs.Resource.Attribute.alertDialogTheme = global::MvxMovies.Android.Resource.Attribute.alertDialogTheme;
+			global::AiForms.Dialogs.Resource.Attribute.allowStacking = global::MvxMovies.Android.Resource.Attribute.allowStacking;
+			global::AiForms.Dialogs.Resource.Attribute.alpha = global::MvxMovies.Android.Resource.Attribute.alpha;
+			global::AiForms.Dialogs.Resource.Attribute.alphabeticModifiers = global::MvxMovies.Android.Resource.Attribute.alphabeticModifiers;
+			global::AiForms.Dialogs.Resource.Attribute.arrowHeadLength = global::MvxMovies.Android.Resource.Attribute.arrowHeadLength;
+			global::AiForms.Dialogs.Resource.Attribute.arrowShaftLength = global::MvxMovies.Android.Resource.Attribute.arrowShaftLength;
+			global::AiForms.Dialogs.Resource.Attribute.autoCompleteTextViewStyle = global::MvxMovies.Android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::AiForms.Dialogs.Resource.Attribute.autoSizeMaxTextSize = global::MvxMovies.Android.Resource.Attribute.autoSizeMaxTextSize;
+			global::AiForms.Dialogs.Resource.Attribute.autoSizeMinTextSize = global::MvxMovies.Android.Resource.Attribute.autoSizeMinTextSize;
+			global::AiForms.Dialogs.Resource.Attribute.autoSizePresetSizes = global::MvxMovies.Android.Resource.Attribute.autoSizePresetSizes;
+			global::AiForms.Dialogs.Resource.Attribute.autoSizeStepGranularity = global::MvxMovies.Android.Resource.Attribute.autoSizeStepGranularity;
+			global::AiForms.Dialogs.Resource.Attribute.autoSizeTextType = global::MvxMovies.Android.Resource.Attribute.autoSizeTextType;
+			global::AiForms.Dialogs.Resource.Attribute.background = global::MvxMovies.Android.Resource.Attribute.background;
+			global::AiForms.Dialogs.Resource.Attribute.backgroundSplit = global::MvxMovies.Android.Resource.Attribute.backgroundSplit;
+			global::AiForms.Dialogs.Resource.Attribute.backgroundStacked = global::MvxMovies.Android.Resource.Attribute.backgroundStacked;
+			global::AiForms.Dialogs.Resource.Attribute.backgroundTint = global::MvxMovies.Android.Resource.Attribute.backgroundTint;
+			global::AiForms.Dialogs.Resource.Attribute.backgroundTintMode = global::MvxMovies.Android.Resource.Attribute.backgroundTintMode;
+			global::AiForms.Dialogs.Resource.Attribute.barLength = global::MvxMovies.Android.Resource.Attribute.barLength;
+			global::AiForms.Dialogs.Resource.Attribute.behavior_autoHide = global::MvxMovies.Android.Resource.Attribute.behavior_autoHide;
+			global::AiForms.Dialogs.Resource.Attribute.behavior_hideable = global::MvxMovies.Android.Resource.Attribute.behavior_hideable;
+			global::AiForms.Dialogs.Resource.Attribute.behavior_overlapTop = global::MvxMovies.Android.Resource.Attribute.behavior_overlapTop;
+			global::AiForms.Dialogs.Resource.Attribute.behavior_peekHeight = global::MvxMovies.Android.Resource.Attribute.behavior_peekHeight;
+			global::AiForms.Dialogs.Resource.Attribute.behavior_skipCollapsed = global::MvxMovies.Android.Resource.Attribute.behavior_skipCollapsed;
+			global::AiForms.Dialogs.Resource.Attribute.borderWidth = global::MvxMovies.Android.Resource.Attribute.borderWidth;
+			global::AiForms.Dialogs.Resource.Attribute.borderlessButtonStyle = global::MvxMovies.Android.Resource.Attribute.borderlessButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.bottomSheetDialogTheme = global::MvxMovies.Android.Resource.Attribute.bottomSheetDialogTheme;
+			global::AiForms.Dialogs.Resource.Attribute.bottomSheetStyle = global::MvxMovies.Android.Resource.Attribute.bottomSheetStyle;
+			global::AiForms.Dialogs.Resource.Attribute.buttonBarButtonStyle = global::MvxMovies.Android.Resource.Attribute.buttonBarButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.buttonBarNegativeButtonStyle = global::MvxMovies.Android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.buttonBarNeutralButtonStyle = global::MvxMovies.Android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.buttonBarPositiveButtonStyle = global::MvxMovies.Android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.buttonBarStyle = global::MvxMovies.Android.Resource.Attribute.buttonBarStyle;
+			global::AiForms.Dialogs.Resource.Attribute.buttonGravity = global::MvxMovies.Android.Resource.Attribute.buttonGravity;
+			global::AiForms.Dialogs.Resource.Attribute.buttonPanelSideLayout = global::MvxMovies.Android.Resource.Attribute.buttonPanelSideLayout;
+			global::AiForms.Dialogs.Resource.Attribute.buttonStyle = global::MvxMovies.Android.Resource.Attribute.buttonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.buttonStyleSmall = global::MvxMovies.Android.Resource.Attribute.buttonStyleSmall;
+			global::AiForms.Dialogs.Resource.Attribute.buttonTint = global::MvxMovies.Android.Resource.Attribute.buttonTint;
+			global::AiForms.Dialogs.Resource.Attribute.buttonTintMode = global::MvxMovies.Android.Resource.Attribute.buttonTintMode;
+			global::AiForms.Dialogs.Resource.Attribute.cardBackgroundColor = global::MvxMovies.Android.Resource.Attribute.cardBackgroundColor;
+			global::AiForms.Dialogs.Resource.Attribute.cardCornerRadius = global::MvxMovies.Android.Resource.Attribute.cardCornerRadius;
+			global::AiForms.Dialogs.Resource.Attribute.cardElevation = global::MvxMovies.Android.Resource.Attribute.cardElevation;
+			global::AiForms.Dialogs.Resource.Attribute.cardMaxElevation = global::MvxMovies.Android.Resource.Attribute.cardMaxElevation;
+			global::AiForms.Dialogs.Resource.Attribute.cardPreventCornerOverlap = global::MvxMovies.Android.Resource.Attribute.cardPreventCornerOverlap;
+			global::AiForms.Dialogs.Resource.Attribute.cardUseCompatPadding = global::MvxMovies.Android.Resource.Attribute.cardUseCompatPadding;
+			global::AiForms.Dialogs.Resource.Attribute.checkboxStyle = global::MvxMovies.Android.Resource.Attribute.checkboxStyle;
+			global::AiForms.Dialogs.Resource.Attribute.checkedTextViewStyle = global::MvxMovies.Android.Resource.Attribute.checkedTextViewStyle;
+			global::AiForms.Dialogs.Resource.Attribute.closeIcon = global::MvxMovies.Android.Resource.Attribute.closeIcon;
+			global::AiForms.Dialogs.Resource.Attribute.closeItemLayout = global::MvxMovies.Android.Resource.Attribute.closeItemLayout;
+			global::AiForms.Dialogs.Resource.Attribute.collapseContentDescription = global::MvxMovies.Android.Resource.Attribute.collapseContentDescription;
+			global::AiForms.Dialogs.Resource.Attribute.collapseIcon = global::MvxMovies.Android.Resource.Attribute.collapseIcon;
+			global::AiForms.Dialogs.Resource.Attribute.collapsedTitleGravity = global::MvxMovies.Android.Resource.Attribute.collapsedTitleGravity;
+			global::AiForms.Dialogs.Resource.Attribute.collapsedTitleTextAppearance = global::MvxMovies.Android.Resource.Attribute.collapsedTitleTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.color = global::MvxMovies.Android.Resource.Attribute.color;
+			global::AiForms.Dialogs.Resource.Attribute.colorAccent = global::MvxMovies.Android.Resource.Attribute.colorAccent;
+			global::AiForms.Dialogs.Resource.Attribute.colorBackgroundFloating = global::MvxMovies.Android.Resource.Attribute.colorBackgroundFloating;
+			global::AiForms.Dialogs.Resource.Attribute.colorButtonNormal = global::MvxMovies.Android.Resource.Attribute.colorButtonNormal;
+			global::AiForms.Dialogs.Resource.Attribute.colorControlActivated = global::MvxMovies.Android.Resource.Attribute.colorControlActivated;
+			global::AiForms.Dialogs.Resource.Attribute.colorControlHighlight = global::MvxMovies.Android.Resource.Attribute.colorControlHighlight;
+			global::AiForms.Dialogs.Resource.Attribute.colorControlNormal = global::MvxMovies.Android.Resource.Attribute.colorControlNormal;
+			global::AiForms.Dialogs.Resource.Attribute.colorError = global::MvxMovies.Android.Resource.Attribute.colorError;
+			global::AiForms.Dialogs.Resource.Attribute.colorPrimary = global::MvxMovies.Android.Resource.Attribute.colorPrimary;
+			global::AiForms.Dialogs.Resource.Attribute.colorPrimaryDark = global::MvxMovies.Android.Resource.Attribute.colorPrimaryDark;
+			global::AiForms.Dialogs.Resource.Attribute.colorSwitchThumbNormal = global::MvxMovies.Android.Resource.Attribute.colorSwitchThumbNormal;
+			global::AiForms.Dialogs.Resource.Attribute.commitIcon = global::MvxMovies.Android.Resource.Attribute.commitIcon;
+			global::AiForms.Dialogs.Resource.Attribute.contentDescription = global::MvxMovies.Android.Resource.Attribute.contentDescription;
+			global::AiForms.Dialogs.Resource.Attribute.contentInsetEnd = global::MvxMovies.Android.Resource.Attribute.contentInsetEnd;
+			global::AiForms.Dialogs.Resource.Attribute.contentInsetEndWithActions = global::MvxMovies.Android.Resource.Attribute.contentInsetEndWithActions;
+			global::AiForms.Dialogs.Resource.Attribute.contentInsetLeft = global::MvxMovies.Android.Resource.Attribute.contentInsetLeft;
+			global::AiForms.Dialogs.Resource.Attribute.contentInsetRight = global::MvxMovies.Android.Resource.Attribute.contentInsetRight;
+			global::AiForms.Dialogs.Resource.Attribute.contentInsetStart = global::MvxMovies.Android.Resource.Attribute.contentInsetStart;
+			global::AiForms.Dialogs.Resource.Attribute.contentInsetStartWithNavigation = global::MvxMovies.Android.Resource.Attribute.contentInsetStartWithNavigation;
+			global::AiForms.Dialogs.Resource.Attribute.contentPadding = global::MvxMovies.Android.Resource.Attribute.contentPadding;
+			global::AiForms.Dialogs.Resource.Attribute.contentPaddingBottom = global::MvxMovies.Android.Resource.Attribute.contentPaddingBottom;
+			global::AiForms.Dialogs.Resource.Attribute.contentPaddingLeft = global::MvxMovies.Android.Resource.Attribute.contentPaddingLeft;
+			global::AiForms.Dialogs.Resource.Attribute.contentPaddingRight = global::MvxMovies.Android.Resource.Attribute.contentPaddingRight;
+			global::AiForms.Dialogs.Resource.Attribute.contentPaddingTop = global::MvxMovies.Android.Resource.Attribute.contentPaddingTop;
+			global::AiForms.Dialogs.Resource.Attribute.contentScrim = global::MvxMovies.Android.Resource.Attribute.contentScrim;
+			global::AiForms.Dialogs.Resource.Attribute.controlBackground = global::MvxMovies.Android.Resource.Attribute.controlBackground;
+			global::AiForms.Dialogs.Resource.Attribute.counterEnabled = global::MvxMovies.Android.Resource.Attribute.counterEnabled;
+			global::AiForms.Dialogs.Resource.Attribute.counterMaxLength = global::MvxMovies.Android.Resource.Attribute.counterMaxLength;
+			global::AiForms.Dialogs.Resource.Attribute.counterOverflowTextAppearance = global::MvxMovies.Android.Resource.Attribute.counterOverflowTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.counterTextAppearance = global::MvxMovies.Android.Resource.Attribute.counterTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.customNavigationLayout = global::MvxMovies.Android.Resource.Attribute.customNavigationLayout;
+			global::AiForms.Dialogs.Resource.Attribute.defaultQueryHint = global::MvxMovies.Android.Resource.Attribute.defaultQueryHint;
+			global::AiForms.Dialogs.Resource.Attribute.dialogPreferredPadding = global::MvxMovies.Android.Resource.Attribute.dialogPreferredPadding;
+			global::AiForms.Dialogs.Resource.Attribute.dialogTheme = global::MvxMovies.Android.Resource.Attribute.dialogTheme;
+			global::AiForms.Dialogs.Resource.Attribute.displayOptions = global::MvxMovies.Android.Resource.Attribute.displayOptions;
+			global::AiForms.Dialogs.Resource.Attribute.divider = global::MvxMovies.Android.Resource.Attribute.divider;
+			global::AiForms.Dialogs.Resource.Attribute.dividerHorizontal = global::MvxMovies.Android.Resource.Attribute.dividerHorizontal;
+			global::AiForms.Dialogs.Resource.Attribute.dividerPadding = global::MvxMovies.Android.Resource.Attribute.dividerPadding;
+			global::AiForms.Dialogs.Resource.Attribute.dividerVertical = global::MvxMovies.Android.Resource.Attribute.dividerVertical;
+			global::AiForms.Dialogs.Resource.Attribute.drawableSize = global::MvxMovies.Android.Resource.Attribute.drawableSize;
+			global::AiForms.Dialogs.Resource.Attribute.drawerArrowStyle = global::MvxMovies.Android.Resource.Attribute.drawerArrowStyle;
+			global::AiForms.Dialogs.Resource.Attribute.dropDownListViewStyle = global::MvxMovies.Android.Resource.Attribute.dropDownListViewStyle;
+			global::AiForms.Dialogs.Resource.Attribute.dropdownListPreferredItemHeight = global::MvxMovies.Android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::AiForms.Dialogs.Resource.Attribute.editTextBackground = global::MvxMovies.Android.Resource.Attribute.editTextBackground;
+			global::AiForms.Dialogs.Resource.Attribute.editTextColor = global::MvxMovies.Android.Resource.Attribute.editTextColor;
+			global::AiForms.Dialogs.Resource.Attribute.editTextStyle = global::MvxMovies.Android.Resource.Attribute.editTextStyle;
+			global::AiForms.Dialogs.Resource.Attribute.elevation = global::MvxMovies.Android.Resource.Attribute.elevation;
+			global::AiForms.Dialogs.Resource.Attribute.errorEnabled = global::MvxMovies.Android.Resource.Attribute.errorEnabled;
+			global::AiForms.Dialogs.Resource.Attribute.errorTextAppearance = global::MvxMovies.Android.Resource.Attribute.errorTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MvxMovies.Android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.expanded = global::MvxMovies.Android.Resource.Attribute.expanded;
+			global::AiForms.Dialogs.Resource.Attribute.expandedTitleGravity = global::MvxMovies.Android.Resource.Attribute.expandedTitleGravity;
+			global::AiForms.Dialogs.Resource.Attribute.expandedTitleMargin = global::MvxMovies.Android.Resource.Attribute.expandedTitleMargin;
+			global::AiForms.Dialogs.Resource.Attribute.expandedTitleMarginBottom = global::MvxMovies.Android.Resource.Attribute.expandedTitleMarginBottom;
+			global::AiForms.Dialogs.Resource.Attribute.expandedTitleMarginEnd = global::MvxMovies.Android.Resource.Attribute.expandedTitleMarginEnd;
+			global::AiForms.Dialogs.Resource.Attribute.expandedTitleMarginStart = global::MvxMovies.Android.Resource.Attribute.expandedTitleMarginStart;
+			global::AiForms.Dialogs.Resource.Attribute.expandedTitleMarginTop = global::MvxMovies.Android.Resource.Attribute.expandedTitleMarginTop;
+			global::AiForms.Dialogs.Resource.Attribute.expandedTitleTextAppearance = global::MvxMovies.Android.Resource.Attribute.expandedTitleTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.externalRouteEnabledDrawable = global::MvxMovies.Android.Resource.Attribute.externalRouteEnabledDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.fabSize = global::MvxMovies.Android.Resource.Attribute.fabSize;
+			global::AiForms.Dialogs.Resource.Attribute.fastScrollEnabled = global::MvxMovies.Android.Resource.Attribute.fastScrollEnabled;
+			global::AiForms.Dialogs.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::MvxMovies.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::MvxMovies.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.fastScrollVerticalThumbDrawable = global::MvxMovies.Android.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.fastScrollVerticalTrackDrawable = global::MvxMovies.Android.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.font = global::MvxMovies.Android.Resource.Attribute.font;
+			global::AiForms.Dialogs.Resource.Attribute.fontFamily = global::MvxMovies.Android.Resource.Attribute.fontFamily;
+			global::AiForms.Dialogs.Resource.Attribute.fontProviderAuthority = global::MvxMovies.Android.Resource.Attribute.fontProviderAuthority;
+			global::AiForms.Dialogs.Resource.Attribute.fontProviderCerts = global::MvxMovies.Android.Resource.Attribute.fontProviderCerts;
+			global::AiForms.Dialogs.Resource.Attribute.fontProviderFetchStrategy = global::MvxMovies.Android.Resource.Attribute.fontProviderFetchStrategy;
+			global::AiForms.Dialogs.Resource.Attribute.fontProviderFetchTimeout = global::MvxMovies.Android.Resource.Attribute.fontProviderFetchTimeout;
+			global::AiForms.Dialogs.Resource.Attribute.fontProviderPackage = global::MvxMovies.Android.Resource.Attribute.fontProviderPackage;
+			global::AiForms.Dialogs.Resource.Attribute.fontProviderQuery = global::MvxMovies.Android.Resource.Attribute.fontProviderQuery;
+			global::AiForms.Dialogs.Resource.Attribute.fontStyle = global::MvxMovies.Android.Resource.Attribute.fontStyle;
+			global::AiForms.Dialogs.Resource.Attribute.fontWeight = global::MvxMovies.Android.Resource.Attribute.fontWeight;
+			global::AiForms.Dialogs.Resource.Attribute.foregroundInsidePadding = global::MvxMovies.Android.Resource.Attribute.foregroundInsidePadding;
+			global::AiForms.Dialogs.Resource.Attribute.gapBetweenBars = global::MvxMovies.Android.Resource.Attribute.gapBetweenBars;
+			global::AiForms.Dialogs.Resource.Attribute.goIcon = global::MvxMovies.Android.Resource.Attribute.goIcon;
+			global::AiForms.Dialogs.Resource.Attribute.headerLayout = global::MvxMovies.Android.Resource.Attribute.headerLayout;
+			global::AiForms.Dialogs.Resource.Attribute.height = global::MvxMovies.Android.Resource.Attribute.height;
+			global::AiForms.Dialogs.Resource.Attribute.hideOnContentScroll = global::MvxMovies.Android.Resource.Attribute.hideOnContentScroll;
+			global::AiForms.Dialogs.Resource.Attribute.hintAnimationEnabled = global::MvxMovies.Android.Resource.Attribute.hintAnimationEnabled;
+			global::AiForms.Dialogs.Resource.Attribute.hintEnabled = global::MvxMovies.Android.Resource.Attribute.hintEnabled;
+			global::AiForms.Dialogs.Resource.Attribute.hintTextAppearance = global::MvxMovies.Android.Resource.Attribute.hintTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.homeAsUpIndicator = global::MvxMovies.Android.Resource.Attribute.homeAsUpIndicator;
+			global::AiForms.Dialogs.Resource.Attribute.homeLayout = global::MvxMovies.Android.Resource.Attribute.homeLayout;
+			global::AiForms.Dialogs.Resource.Attribute.icon = global::MvxMovies.Android.Resource.Attribute.icon;
+			global::AiForms.Dialogs.Resource.Attribute.iconTint = global::MvxMovies.Android.Resource.Attribute.iconTint;
+			global::AiForms.Dialogs.Resource.Attribute.iconTintMode = global::MvxMovies.Android.Resource.Attribute.iconTintMode;
+			global::AiForms.Dialogs.Resource.Attribute.iconifiedByDefault = global::MvxMovies.Android.Resource.Attribute.iconifiedByDefault;
+			global::AiForms.Dialogs.Resource.Attribute.imageButtonStyle = global::MvxMovies.Android.Resource.Attribute.imageButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.indeterminateProgressStyle = global::MvxMovies.Android.Resource.Attribute.indeterminateProgressStyle;
+			global::AiForms.Dialogs.Resource.Attribute.initialActivityCount = global::MvxMovies.Android.Resource.Attribute.initialActivityCount;
+			global::AiForms.Dialogs.Resource.Attribute.insetForeground = global::MvxMovies.Android.Resource.Attribute.insetForeground;
+			global::AiForms.Dialogs.Resource.Attribute.isLightTheme = global::MvxMovies.Android.Resource.Attribute.isLightTheme;
+			global::AiForms.Dialogs.Resource.Attribute.itemBackground = global::MvxMovies.Android.Resource.Attribute.itemBackground;
+			global::AiForms.Dialogs.Resource.Attribute.itemIconTint = global::MvxMovies.Android.Resource.Attribute.itemIconTint;
+			global::AiForms.Dialogs.Resource.Attribute.itemPadding = global::MvxMovies.Android.Resource.Attribute.itemPadding;
+			global::AiForms.Dialogs.Resource.Attribute.itemTextAppearance = global::MvxMovies.Android.Resource.Attribute.itemTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.itemTextColor = global::MvxMovies.Android.Resource.Attribute.itemTextColor;
+			global::AiForms.Dialogs.Resource.Attribute.keylines = global::MvxMovies.Android.Resource.Attribute.keylines;
+			global::AiForms.Dialogs.Resource.Attribute.layout = global::MvxMovies.Android.Resource.Attribute.layout;
+			global::AiForms.Dialogs.Resource.Attribute.layoutManager = global::MvxMovies.Android.Resource.Attribute.layoutManager;
+			global::AiForms.Dialogs.Resource.Attribute.layout_anchor = global::MvxMovies.Android.Resource.Attribute.layout_anchor;
+			global::AiForms.Dialogs.Resource.Attribute.layout_anchorGravity = global::MvxMovies.Android.Resource.Attribute.layout_anchorGravity;
+			global::AiForms.Dialogs.Resource.Attribute.layout_behavior = global::MvxMovies.Android.Resource.Attribute.layout_behavior;
+			global::AiForms.Dialogs.Resource.Attribute.layout_collapseMode = global::MvxMovies.Android.Resource.Attribute.layout_collapseMode;
+			global::AiForms.Dialogs.Resource.Attribute.layout_collapseParallaxMultiplier = global::MvxMovies.Android.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::AiForms.Dialogs.Resource.Attribute.layout_dodgeInsetEdges = global::MvxMovies.Android.Resource.Attribute.layout_dodgeInsetEdges;
+			global::AiForms.Dialogs.Resource.Attribute.layout_insetEdge = global::MvxMovies.Android.Resource.Attribute.layout_insetEdge;
+			global::AiForms.Dialogs.Resource.Attribute.layout_keyline = global::MvxMovies.Android.Resource.Attribute.layout_keyline;
+			global::AiForms.Dialogs.Resource.Attribute.layout_scrollFlags = global::MvxMovies.Android.Resource.Attribute.layout_scrollFlags;
+			global::AiForms.Dialogs.Resource.Attribute.layout_scrollInterpolator = global::MvxMovies.Android.Resource.Attribute.layout_scrollInterpolator;
+			global::AiForms.Dialogs.Resource.Attribute.listChoiceBackgroundIndicator = global::MvxMovies.Android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::AiForms.Dialogs.Resource.Attribute.listDividerAlertDialog = global::MvxMovies.Android.Resource.Attribute.listDividerAlertDialog;
+			global::AiForms.Dialogs.Resource.Attribute.listItemLayout = global::MvxMovies.Android.Resource.Attribute.listItemLayout;
+			global::AiForms.Dialogs.Resource.Attribute.listLayout = global::MvxMovies.Android.Resource.Attribute.listLayout;
+			global::AiForms.Dialogs.Resource.Attribute.listMenuViewStyle = global::MvxMovies.Android.Resource.Attribute.listMenuViewStyle;
+			global::AiForms.Dialogs.Resource.Attribute.listPopupWindowStyle = global::MvxMovies.Android.Resource.Attribute.listPopupWindowStyle;
+			global::AiForms.Dialogs.Resource.Attribute.listPreferredItemHeight = global::MvxMovies.Android.Resource.Attribute.listPreferredItemHeight;
+			global::AiForms.Dialogs.Resource.Attribute.listPreferredItemHeightLarge = global::MvxMovies.Android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::AiForms.Dialogs.Resource.Attribute.listPreferredItemHeightSmall = global::MvxMovies.Android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::AiForms.Dialogs.Resource.Attribute.listPreferredItemPaddingLeft = global::MvxMovies.Android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::AiForms.Dialogs.Resource.Attribute.listPreferredItemPaddingRight = global::MvxMovies.Android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::AiForms.Dialogs.Resource.Attribute.logo = global::MvxMovies.Android.Resource.Attribute.logo;
+			global::AiForms.Dialogs.Resource.Attribute.logoDescription = global::MvxMovies.Android.Resource.Attribute.logoDescription;
+			global::AiForms.Dialogs.Resource.Attribute.maxActionInlineWidth = global::MvxMovies.Android.Resource.Attribute.maxActionInlineWidth;
+			global::AiForms.Dialogs.Resource.Attribute.maxButtonHeight = global::MvxMovies.Android.Resource.Attribute.maxButtonHeight;
+			global::AiForms.Dialogs.Resource.Attribute.measureWithLargestChild = global::MvxMovies.Android.Resource.Attribute.measureWithLargestChild;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteAudioTrackDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteButtonStyle = global::MvxMovies.Android.Resource.Attribute.mediaRouteButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteButtonTint = global::MvxMovies.Android.Resource.Attribute.mediaRouteButtonTint;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteCloseDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRouteCloseDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::MvxMovies.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteDefaultIconDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRoutePauseDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRoutePauseDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRoutePlayDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRoutePlayDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteStopDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRouteStopDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteTheme = global::MvxMovies.Android.Resource.Attribute.mediaRouteTheme;
+			global::AiForms.Dialogs.Resource.Attribute.mediaRouteTvIconDrawable = global::MvxMovies.Android.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.menu = global::MvxMovies.Android.Resource.Attribute.menu;
+			global::AiForms.Dialogs.Resource.Attribute.multiChoiceItemLayout = global::MvxMovies.Android.Resource.Attribute.multiChoiceItemLayout;
+			global::AiForms.Dialogs.Resource.Attribute.navigationContentDescription = global::MvxMovies.Android.Resource.Attribute.navigationContentDescription;
+			global::AiForms.Dialogs.Resource.Attribute.navigationIcon = global::MvxMovies.Android.Resource.Attribute.navigationIcon;
+			global::AiForms.Dialogs.Resource.Attribute.navigationMode = global::MvxMovies.Android.Resource.Attribute.navigationMode;
+			global::AiForms.Dialogs.Resource.Attribute.numericModifiers = global::MvxMovies.Android.Resource.Attribute.numericModifiers;
+			global::AiForms.Dialogs.Resource.Attribute.overlapAnchor = global::MvxMovies.Android.Resource.Attribute.overlapAnchor;
+			global::AiForms.Dialogs.Resource.Attribute.paddingBottomNoButtons = global::MvxMovies.Android.Resource.Attribute.paddingBottomNoButtons;
+			global::AiForms.Dialogs.Resource.Attribute.paddingEnd = global::MvxMovies.Android.Resource.Attribute.paddingEnd;
+			global::AiForms.Dialogs.Resource.Attribute.paddingStart = global::MvxMovies.Android.Resource.Attribute.paddingStart;
+			global::AiForms.Dialogs.Resource.Attribute.paddingTopNoTitle = global::MvxMovies.Android.Resource.Attribute.paddingTopNoTitle;
+			global::AiForms.Dialogs.Resource.Attribute.panelBackground = global::MvxMovies.Android.Resource.Attribute.panelBackground;
+			global::AiForms.Dialogs.Resource.Attribute.panelMenuListTheme = global::MvxMovies.Android.Resource.Attribute.panelMenuListTheme;
+			global::AiForms.Dialogs.Resource.Attribute.panelMenuListWidth = global::MvxMovies.Android.Resource.Attribute.panelMenuListWidth;
+			global::AiForms.Dialogs.Resource.Attribute.passwordToggleContentDescription = global::MvxMovies.Android.Resource.Attribute.passwordToggleContentDescription;
+			global::AiForms.Dialogs.Resource.Attribute.passwordToggleDrawable = global::MvxMovies.Android.Resource.Attribute.passwordToggleDrawable;
+			global::AiForms.Dialogs.Resource.Attribute.passwordToggleEnabled = global::MvxMovies.Android.Resource.Attribute.passwordToggleEnabled;
+			global::AiForms.Dialogs.Resource.Attribute.passwordToggleTint = global::MvxMovies.Android.Resource.Attribute.passwordToggleTint;
+			global::AiForms.Dialogs.Resource.Attribute.passwordToggleTintMode = global::MvxMovies.Android.Resource.Attribute.passwordToggleTintMode;
+			global::AiForms.Dialogs.Resource.Attribute.popupMenuStyle = global::MvxMovies.Android.Resource.Attribute.popupMenuStyle;
+			global::AiForms.Dialogs.Resource.Attribute.popupTheme = global::MvxMovies.Android.Resource.Attribute.popupTheme;
+			global::AiForms.Dialogs.Resource.Attribute.popupWindowStyle = global::MvxMovies.Android.Resource.Attribute.popupWindowStyle;
+			global::AiForms.Dialogs.Resource.Attribute.preserveIconSpacing = global::MvxMovies.Android.Resource.Attribute.preserveIconSpacing;
+			global::AiForms.Dialogs.Resource.Attribute.pressedTranslationZ = global::MvxMovies.Android.Resource.Attribute.pressedTranslationZ;
+			global::AiForms.Dialogs.Resource.Attribute.progressBarPadding = global::MvxMovies.Android.Resource.Attribute.progressBarPadding;
+			global::AiForms.Dialogs.Resource.Attribute.progressBarStyle = global::MvxMovies.Android.Resource.Attribute.progressBarStyle;
+			global::AiForms.Dialogs.Resource.Attribute.queryBackground = global::MvxMovies.Android.Resource.Attribute.queryBackground;
+			global::AiForms.Dialogs.Resource.Attribute.queryHint = global::MvxMovies.Android.Resource.Attribute.queryHint;
+			global::AiForms.Dialogs.Resource.Attribute.radioButtonStyle = global::MvxMovies.Android.Resource.Attribute.radioButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.ratingBarStyle = global::MvxMovies.Android.Resource.Attribute.ratingBarStyle;
+			global::AiForms.Dialogs.Resource.Attribute.ratingBarStyleIndicator = global::MvxMovies.Android.Resource.Attribute.ratingBarStyleIndicator;
+			global::AiForms.Dialogs.Resource.Attribute.ratingBarStyleSmall = global::MvxMovies.Android.Resource.Attribute.ratingBarStyleSmall;
+			global::AiForms.Dialogs.Resource.Attribute.reverseLayout = global::MvxMovies.Android.Resource.Attribute.reverseLayout;
+			global::AiForms.Dialogs.Resource.Attribute.rippleColor = global::MvxMovies.Android.Resource.Attribute.rippleColor;
+			global::AiForms.Dialogs.Resource.Attribute.scrimAnimationDuration = global::MvxMovies.Android.Resource.Attribute.scrimAnimationDuration;
+			global::AiForms.Dialogs.Resource.Attribute.scrimVisibleHeightTrigger = global::MvxMovies.Android.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::AiForms.Dialogs.Resource.Attribute.searchHintIcon = global::MvxMovies.Android.Resource.Attribute.searchHintIcon;
+			global::AiForms.Dialogs.Resource.Attribute.searchIcon = global::MvxMovies.Android.Resource.Attribute.searchIcon;
+			global::AiForms.Dialogs.Resource.Attribute.searchViewStyle = global::MvxMovies.Android.Resource.Attribute.searchViewStyle;
+			global::AiForms.Dialogs.Resource.Attribute.seekBarStyle = global::MvxMovies.Android.Resource.Attribute.seekBarStyle;
+			global::AiForms.Dialogs.Resource.Attribute.selectableItemBackground = global::MvxMovies.Android.Resource.Attribute.selectableItemBackground;
+			global::AiForms.Dialogs.Resource.Attribute.selectableItemBackgroundBorderless = global::MvxMovies.Android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::AiForms.Dialogs.Resource.Attribute.showAsAction = global::MvxMovies.Android.Resource.Attribute.showAsAction;
+			global::AiForms.Dialogs.Resource.Attribute.showDividers = global::MvxMovies.Android.Resource.Attribute.showDividers;
+			global::AiForms.Dialogs.Resource.Attribute.showText = global::MvxMovies.Android.Resource.Attribute.showText;
+			global::AiForms.Dialogs.Resource.Attribute.showTitle = global::MvxMovies.Android.Resource.Attribute.showTitle;
+			global::AiForms.Dialogs.Resource.Attribute.singleChoiceItemLayout = global::MvxMovies.Android.Resource.Attribute.singleChoiceItemLayout;
+			global::AiForms.Dialogs.Resource.Attribute.spanCount = global::MvxMovies.Android.Resource.Attribute.spanCount;
+			global::AiForms.Dialogs.Resource.Attribute.spinBars = global::MvxMovies.Android.Resource.Attribute.spinBars;
+			global::AiForms.Dialogs.Resource.Attribute.spinnerDropDownItemStyle = global::MvxMovies.Android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::AiForms.Dialogs.Resource.Attribute.spinnerStyle = global::MvxMovies.Android.Resource.Attribute.spinnerStyle;
+			global::AiForms.Dialogs.Resource.Attribute.splitTrack = global::MvxMovies.Android.Resource.Attribute.splitTrack;
+			global::AiForms.Dialogs.Resource.Attribute.srcCompat = global::MvxMovies.Android.Resource.Attribute.srcCompat;
+			global::AiForms.Dialogs.Resource.Attribute.stackFromEnd = global::MvxMovies.Android.Resource.Attribute.stackFromEnd;
+			global::AiForms.Dialogs.Resource.Attribute.state_above_anchor = global::MvxMovies.Android.Resource.Attribute.state_above_anchor;
+			global::AiForms.Dialogs.Resource.Attribute.state_collapsed = global::MvxMovies.Android.Resource.Attribute.state_collapsed;
+			global::AiForms.Dialogs.Resource.Attribute.state_collapsible = global::MvxMovies.Android.Resource.Attribute.state_collapsible;
+			global::AiForms.Dialogs.Resource.Attribute.statusBarBackground = global::MvxMovies.Android.Resource.Attribute.statusBarBackground;
+			global::AiForms.Dialogs.Resource.Attribute.statusBarScrim = global::MvxMovies.Android.Resource.Attribute.statusBarScrim;
+			global::AiForms.Dialogs.Resource.Attribute.subMenuArrow = global::MvxMovies.Android.Resource.Attribute.subMenuArrow;
+			global::AiForms.Dialogs.Resource.Attribute.submitBackground = global::MvxMovies.Android.Resource.Attribute.submitBackground;
+			global::AiForms.Dialogs.Resource.Attribute.subtitle = global::MvxMovies.Android.Resource.Attribute.subtitle;
+			global::AiForms.Dialogs.Resource.Attribute.subtitleTextAppearance = global::MvxMovies.Android.Resource.Attribute.subtitleTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.subtitleTextColor = global::MvxMovies.Android.Resource.Attribute.subtitleTextColor;
+			global::AiForms.Dialogs.Resource.Attribute.subtitleTextStyle = global::MvxMovies.Android.Resource.Attribute.subtitleTextStyle;
+			global::AiForms.Dialogs.Resource.Attribute.suggestionRowLayout = global::MvxMovies.Android.Resource.Attribute.suggestionRowLayout;
+			global::AiForms.Dialogs.Resource.Attribute.switchMinWidth = global::MvxMovies.Android.Resource.Attribute.switchMinWidth;
+			global::AiForms.Dialogs.Resource.Attribute.switchPadding = global::MvxMovies.Android.Resource.Attribute.switchPadding;
+			global::AiForms.Dialogs.Resource.Attribute.switchStyle = global::MvxMovies.Android.Resource.Attribute.switchStyle;
+			global::AiForms.Dialogs.Resource.Attribute.switchTextAppearance = global::MvxMovies.Android.Resource.Attribute.switchTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.tabBackground = global::MvxMovies.Android.Resource.Attribute.tabBackground;
+			global::AiForms.Dialogs.Resource.Attribute.tabContentStart = global::MvxMovies.Android.Resource.Attribute.tabContentStart;
+			global::AiForms.Dialogs.Resource.Attribute.tabGravity = global::MvxMovies.Android.Resource.Attribute.tabGravity;
+			global::AiForms.Dialogs.Resource.Attribute.tabIndicatorColor = global::MvxMovies.Android.Resource.Attribute.tabIndicatorColor;
+			global::AiForms.Dialogs.Resource.Attribute.tabIndicatorHeight = global::MvxMovies.Android.Resource.Attribute.tabIndicatorHeight;
+			global::AiForms.Dialogs.Resource.Attribute.tabMaxWidth = global::MvxMovies.Android.Resource.Attribute.tabMaxWidth;
+			global::AiForms.Dialogs.Resource.Attribute.tabMinWidth = global::MvxMovies.Android.Resource.Attribute.tabMinWidth;
+			global::AiForms.Dialogs.Resource.Attribute.tabMode = global::MvxMovies.Android.Resource.Attribute.tabMode;
+			global::AiForms.Dialogs.Resource.Attribute.tabPadding = global::MvxMovies.Android.Resource.Attribute.tabPadding;
+			global::AiForms.Dialogs.Resource.Attribute.tabPaddingBottom = global::MvxMovies.Android.Resource.Attribute.tabPaddingBottom;
+			global::AiForms.Dialogs.Resource.Attribute.tabPaddingEnd = global::MvxMovies.Android.Resource.Attribute.tabPaddingEnd;
+			global::AiForms.Dialogs.Resource.Attribute.tabPaddingStart = global::MvxMovies.Android.Resource.Attribute.tabPaddingStart;
+			global::AiForms.Dialogs.Resource.Attribute.tabPaddingTop = global::MvxMovies.Android.Resource.Attribute.tabPaddingTop;
+			global::AiForms.Dialogs.Resource.Attribute.tabSelectedTextColor = global::MvxMovies.Android.Resource.Attribute.tabSelectedTextColor;
+			global::AiForms.Dialogs.Resource.Attribute.tabTextAppearance = global::MvxMovies.Android.Resource.Attribute.tabTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.tabTextColor = global::MvxMovies.Android.Resource.Attribute.tabTextColor;
+			global::AiForms.Dialogs.Resource.Attribute.textAllCaps = global::MvxMovies.Android.Resource.Attribute.textAllCaps;
+			global::AiForms.Dialogs.Resource.Attribute.textAppearanceLargePopupMenu = global::MvxMovies.Android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::AiForms.Dialogs.Resource.Attribute.textAppearanceListItem = global::MvxMovies.Android.Resource.Attribute.textAppearanceListItem;
+			global::AiForms.Dialogs.Resource.Attribute.textAppearanceListItemSecondary = global::MvxMovies.Android.Resource.Attribute.textAppearanceListItemSecondary;
+			global::AiForms.Dialogs.Resource.Attribute.textAppearanceListItemSmall = global::MvxMovies.Android.Resource.Attribute.textAppearanceListItemSmall;
+			global::AiForms.Dialogs.Resource.Attribute.textAppearancePopupMenuHeader = global::MvxMovies.Android.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::AiForms.Dialogs.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MvxMovies.Android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::AiForms.Dialogs.Resource.Attribute.textAppearanceSearchResultTitle = global::MvxMovies.Android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::AiForms.Dialogs.Resource.Attribute.textAppearanceSmallPopupMenu = global::MvxMovies.Android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::AiForms.Dialogs.Resource.Attribute.textColorAlertDialogListItem = global::MvxMovies.Android.Resource.Attribute.textColorAlertDialogListItem;
+			global::AiForms.Dialogs.Resource.Attribute.textColorSearchUrl = global::MvxMovies.Android.Resource.Attribute.textColorSearchUrl;
+			global::AiForms.Dialogs.Resource.Attribute.theme = global::MvxMovies.Android.Resource.Attribute.theme;
+			global::AiForms.Dialogs.Resource.Attribute.thickness = global::MvxMovies.Android.Resource.Attribute.thickness;
+			global::AiForms.Dialogs.Resource.Attribute.thumbTextPadding = global::MvxMovies.Android.Resource.Attribute.thumbTextPadding;
+			global::AiForms.Dialogs.Resource.Attribute.thumbTint = global::MvxMovies.Android.Resource.Attribute.thumbTint;
+			global::AiForms.Dialogs.Resource.Attribute.thumbTintMode = global::MvxMovies.Android.Resource.Attribute.thumbTintMode;
+			global::AiForms.Dialogs.Resource.Attribute.tickMark = global::MvxMovies.Android.Resource.Attribute.tickMark;
+			global::AiForms.Dialogs.Resource.Attribute.tickMarkTint = global::MvxMovies.Android.Resource.Attribute.tickMarkTint;
+			global::AiForms.Dialogs.Resource.Attribute.tickMarkTintMode = global::MvxMovies.Android.Resource.Attribute.tickMarkTintMode;
+			global::AiForms.Dialogs.Resource.Attribute.tint = global::MvxMovies.Android.Resource.Attribute.tint;
+			global::AiForms.Dialogs.Resource.Attribute.tintMode = global::MvxMovies.Android.Resource.Attribute.tintMode;
+			global::AiForms.Dialogs.Resource.Attribute.title = global::MvxMovies.Android.Resource.Attribute.title;
+			global::AiForms.Dialogs.Resource.Attribute.titleEnabled = global::MvxMovies.Android.Resource.Attribute.titleEnabled;
+			global::AiForms.Dialogs.Resource.Attribute.titleMargin = global::MvxMovies.Android.Resource.Attribute.titleMargin;
+			global::AiForms.Dialogs.Resource.Attribute.titleMarginBottom = global::MvxMovies.Android.Resource.Attribute.titleMarginBottom;
+			global::AiForms.Dialogs.Resource.Attribute.titleMarginEnd = global::MvxMovies.Android.Resource.Attribute.titleMarginEnd;
+			global::AiForms.Dialogs.Resource.Attribute.titleMarginStart = global::MvxMovies.Android.Resource.Attribute.titleMarginStart;
+			global::AiForms.Dialogs.Resource.Attribute.titleMarginTop = global::MvxMovies.Android.Resource.Attribute.titleMarginTop;
+			global::AiForms.Dialogs.Resource.Attribute.titleMargins = global::MvxMovies.Android.Resource.Attribute.titleMargins;
+			global::AiForms.Dialogs.Resource.Attribute.titleTextAppearance = global::MvxMovies.Android.Resource.Attribute.titleTextAppearance;
+			global::AiForms.Dialogs.Resource.Attribute.titleTextColor = global::MvxMovies.Android.Resource.Attribute.titleTextColor;
+			global::AiForms.Dialogs.Resource.Attribute.titleTextStyle = global::MvxMovies.Android.Resource.Attribute.titleTextStyle;
+			global::AiForms.Dialogs.Resource.Attribute.toolbarId = global::MvxMovies.Android.Resource.Attribute.toolbarId;
+			global::AiForms.Dialogs.Resource.Attribute.toolbarNavigationButtonStyle = global::MvxMovies.Android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::AiForms.Dialogs.Resource.Attribute.toolbarStyle = global::MvxMovies.Android.Resource.Attribute.toolbarStyle;
+			global::AiForms.Dialogs.Resource.Attribute.tooltipForegroundColor = global::MvxMovies.Android.Resource.Attribute.tooltipForegroundColor;
+			global::AiForms.Dialogs.Resource.Attribute.tooltipFrameBackground = global::MvxMovies.Android.Resource.Attribute.tooltipFrameBackground;
+			global::AiForms.Dialogs.Resource.Attribute.tooltipText = global::MvxMovies.Android.Resource.Attribute.tooltipText;
+			global::AiForms.Dialogs.Resource.Attribute.track = global::MvxMovies.Android.Resource.Attribute.track;
+			global::AiForms.Dialogs.Resource.Attribute.trackTint = global::MvxMovies.Android.Resource.Attribute.trackTint;
+			global::AiForms.Dialogs.Resource.Attribute.trackTintMode = global::MvxMovies.Android.Resource.Attribute.trackTintMode;
+			global::AiForms.Dialogs.Resource.Attribute.useCompatPadding = global::MvxMovies.Android.Resource.Attribute.useCompatPadding;
+			global::AiForms.Dialogs.Resource.Attribute.voiceIcon = global::MvxMovies.Android.Resource.Attribute.voiceIcon;
+			global::AiForms.Dialogs.Resource.Attribute.windowActionBar = global::MvxMovies.Android.Resource.Attribute.windowActionBar;
+			global::AiForms.Dialogs.Resource.Attribute.windowActionBarOverlay = global::MvxMovies.Android.Resource.Attribute.windowActionBarOverlay;
+			global::AiForms.Dialogs.Resource.Attribute.windowActionModeOverlay = global::MvxMovies.Android.Resource.Attribute.windowActionModeOverlay;
+			global::AiForms.Dialogs.Resource.Attribute.windowFixedHeightMajor = global::MvxMovies.Android.Resource.Attribute.windowFixedHeightMajor;
+			global::AiForms.Dialogs.Resource.Attribute.windowFixedHeightMinor = global::MvxMovies.Android.Resource.Attribute.windowFixedHeightMinor;
+			global::AiForms.Dialogs.Resource.Attribute.windowFixedWidthMajor = global::MvxMovies.Android.Resource.Attribute.windowFixedWidthMajor;
+			global::AiForms.Dialogs.Resource.Attribute.windowFixedWidthMinor = global::MvxMovies.Android.Resource.Attribute.windowFixedWidthMinor;
+			global::AiForms.Dialogs.Resource.Attribute.windowMinWidthMajor = global::MvxMovies.Android.Resource.Attribute.windowMinWidthMajor;
+			global::AiForms.Dialogs.Resource.Attribute.windowMinWidthMinor = global::MvxMovies.Android.Resource.Attribute.windowMinWidthMinor;
+			global::AiForms.Dialogs.Resource.Attribute.windowNoTitle = global::MvxMovies.Android.Resource.Attribute.windowNoTitle;
+			global::AiForms.Dialogs.Resource.Boolean.abc_action_bar_embed_tabs = global::MvxMovies.Android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::AiForms.Dialogs.Resource.Boolean.abc_allow_stacked_button_bar = global::MvxMovies.Android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::AiForms.Dialogs.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MvxMovies.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::AiForms.Dialogs.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MvxMovies.Android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::AiForms.Dialogs.Resource.Color.abc_background_cache_hint_selector_material_light = global::MvxMovies.Android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::AiForms.Dialogs.Resource.Color.abc_btn_colored_borderless_text_material = global::MvxMovies.Android.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::AiForms.Dialogs.Resource.Color.abc_btn_colored_text_material = global::MvxMovies.Android.Resource.Color.abc_btn_colored_text_material;
+			global::AiForms.Dialogs.Resource.Color.abc_color_highlight_material = global::MvxMovies.Android.Resource.Color.abc_color_highlight_material;
+			global::AiForms.Dialogs.Resource.Color.abc_hint_foreground_material_dark = global::MvxMovies.Android.Resource.Color.abc_hint_foreground_material_dark;
+			global::AiForms.Dialogs.Resource.Color.abc_hint_foreground_material_light = global::MvxMovies.Android.Resource.Color.abc_hint_foreground_material_light;
+			global::AiForms.Dialogs.Resource.Color.abc_input_method_navigation_guard = global::MvxMovies.Android.Resource.Color.abc_input_method_navigation_guard;
+			global::AiForms.Dialogs.Resource.Color.abc_primary_text_disable_only_material_dark = global::MvxMovies.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::AiForms.Dialogs.Resource.Color.abc_primary_text_disable_only_material_light = global::MvxMovies.Android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::AiForms.Dialogs.Resource.Color.abc_primary_text_material_dark = global::MvxMovies.Android.Resource.Color.abc_primary_text_material_dark;
+			global::AiForms.Dialogs.Resource.Color.abc_primary_text_material_light = global::MvxMovies.Android.Resource.Color.abc_primary_text_material_light;
+			global::AiForms.Dialogs.Resource.Color.abc_search_url_text = global::MvxMovies.Android.Resource.Color.abc_search_url_text;
+			global::AiForms.Dialogs.Resource.Color.abc_search_url_text_normal = global::MvxMovies.Android.Resource.Color.abc_search_url_text_normal;
+			global::AiForms.Dialogs.Resource.Color.abc_search_url_text_pressed = global::MvxMovies.Android.Resource.Color.abc_search_url_text_pressed;
+			global::AiForms.Dialogs.Resource.Color.abc_search_url_text_selected = global::MvxMovies.Android.Resource.Color.abc_search_url_text_selected;
+			global::AiForms.Dialogs.Resource.Color.abc_secondary_text_material_dark = global::MvxMovies.Android.Resource.Color.abc_secondary_text_material_dark;
+			global::AiForms.Dialogs.Resource.Color.abc_secondary_text_material_light = global::MvxMovies.Android.Resource.Color.abc_secondary_text_material_light;
+			global::AiForms.Dialogs.Resource.Color.abc_tint_btn_checkable = global::MvxMovies.Android.Resource.Color.abc_tint_btn_checkable;
+			global::AiForms.Dialogs.Resource.Color.abc_tint_default = global::MvxMovies.Android.Resource.Color.abc_tint_default;
+			global::AiForms.Dialogs.Resource.Color.abc_tint_edittext = global::MvxMovies.Android.Resource.Color.abc_tint_edittext;
+			global::AiForms.Dialogs.Resource.Color.abc_tint_seek_thumb = global::MvxMovies.Android.Resource.Color.abc_tint_seek_thumb;
+			global::AiForms.Dialogs.Resource.Color.abc_tint_spinner = global::MvxMovies.Android.Resource.Color.abc_tint_spinner;
+			global::AiForms.Dialogs.Resource.Color.abc_tint_switch_track = global::MvxMovies.Android.Resource.Color.abc_tint_switch_track;
+			global::AiForms.Dialogs.Resource.Color.accent_material_dark = global::MvxMovies.Android.Resource.Color.accent_material_dark;
+			global::AiForms.Dialogs.Resource.Color.accent_material_light = global::MvxMovies.Android.Resource.Color.accent_material_light;
+			global::AiForms.Dialogs.Resource.Color.background_floating_material_dark = global::MvxMovies.Android.Resource.Color.background_floating_material_dark;
+			global::AiForms.Dialogs.Resource.Color.background_floating_material_light = global::MvxMovies.Android.Resource.Color.background_floating_material_light;
+			global::AiForms.Dialogs.Resource.Color.background_material_dark = global::MvxMovies.Android.Resource.Color.background_material_dark;
+			global::AiForms.Dialogs.Resource.Color.background_material_light = global::MvxMovies.Android.Resource.Color.background_material_light;
+			global::AiForms.Dialogs.Resource.Color.bright_foreground_disabled_material_dark = global::MvxMovies.Android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::AiForms.Dialogs.Resource.Color.bright_foreground_disabled_material_light = global::MvxMovies.Android.Resource.Color.bright_foreground_disabled_material_light;
+			global::AiForms.Dialogs.Resource.Color.bright_foreground_inverse_material_dark = global::MvxMovies.Android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::AiForms.Dialogs.Resource.Color.bright_foreground_inverse_material_light = global::MvxMovies.Android.Resource.Color.bright_foreground_inverse_material_light;
+			global::AiForms.Dialogs.Resource.Color.bright_foreground_material_dark = global::MvxMovies.Android.Resource.Color.bright_foreground_material_dark;
+			global::AiForms.Dialogs.Resource.Color.bright_foreground_material_light = global::MvxMovies.Android.Resource.Color.bright_foreground_material_light;
+			global::AiForms.Dialogs.Resource.Color.button_material_dark = global::MvxMovies.Android.Resource.Color.button_material_dark;
+			global::AiForms.Dialogs.Resource.Color.button_material_light = global::MvxMovies.Android.Resource.Color.button_material_light;
+			global::AiForms.Dialogs.Resource.Color.cardview_dark_background = global::MvxMovies.Android.Resource.Color.cardview_dark_background;
+			global::AiForms.Dialogs.Resource.Color.cardview_light_background = global::MvxMovies.Android.Resource.Color.cardview_light_background;
+			global::AiForms.Dialogs.Resource.Color.cardview_shadow_end_color = global::MvxMovies.Android.Resource.Color.cardview_shadow_end_color;
+			global::AiForms.Dialogs.Resource.Color.cardview_shadow_start_color = global::MvxMovies.Android.Resource.Color.cardview_shadow_start_color;
+			global::AiForms.Dialogs.Resource.Color.design_bottom_navigation_shadow_color = global::MvxMovies.Android.Resource.Color.design_bottom_navigation_shadow_color;
+			global::AiForms.Dialogs.Resource.Color.design_error = global::MvxMovies.Android.Resource.Color.design_error;
+			global::AiForms.Dialogs.Resource.Color.design_fab_shadow_end_color = global::MvxMovies.Android.Resource.Color.design_fab_shadow_end_color;
+			global::AiForms.Dialogs.Resource.Color.design_fab_shadow_mid_color = global::MvxMovies.Android.Resource.Color.design_fab_shadow_mid_color;
+			global::AiForms.Dialogs.Resource.Color.design_fab_shadow_start_color = global::MvxMovies.Android.Resource.Color.design_fab_shadow_start_color;
+			global::AiForms.Dialogs.Resource.Color.design_fab_stroke_end_inner_color = global::MvxMovies.Android.Resource.Color.design_fab_stroke_end_inner_color;
+			global::AiForms.Dialogs.Resource.Color.design_fab_stroke_end_outer_color = global::MvxMovies.Android.Resource.Color.design_fab_stroke_end_outer_color;
+			global::AiForms.Dialogs.Resource.Color.design_fab_stroke_top_inner_color = global::MvxMovies.Android.Resource.Color.design_fab_stroke_top_inner_color;
+			global::AiForms.Dialogs.Resource.Color.design_fab_stroke_top_outer_color = global::MvxMovies.Android.Resource.Color.design_fab_stroke_top_outer_color;
+			global::AiForms.Dialogs.Resource.Color.design_snackbar_background_color = global::MvxMovies.Android.Resource.Color.design_snackbar_background_color;
+			global::AiForms.Dialogs.Resource.Color.design_tint_password_toggle = global::MvxMovies.Android.Resource.Color.design_tint_password_toggle;
+			global::AiForms.Dialogs.Resource.Color.dim_foreground_disabled_material_dark = global::MvxMovies.Android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::AiForms.Dialogs.Resource.Color.dim_foreground_disabled_material_light = global::MvxMovies.Android.Resource.Color.dim_foreground_disabled_material_light;
+			global::AiForms.Dialogs.Resource.Color.dim_foreground_material_dark = global::MvxMovies.Android.Resource.Color.dim_foreground_material_dark;
+			global::AiForms.Dialogs.Resource.Color.dim_foreground_material_light = global::MvxMovies.Android.Resource.Color.dim_foreground_material_light;
+			global::AiForms.Dialogs.Resource.Color.foreground_material_dark = global::MvxMovies.Android.Resource.Color.foreground_material_dark;
+			global::AiForms.Dialogs.Resource.Color.foreground_material_light = global::MvxMovies.Android.Resource.Color.foreground_material_light;
+			global::AiForms.Dialogs.Resource.Color.highlighted_text_material_dark = global::MvxMovies.Android.Resource.Color.highlighted_text_material_dark;
+			global::AiForms.Dialogs.Resource.Color.highlighted_text_material_light = global::MvxMovies.Android.Resource.Color.highlighted_text_material_light;
+			global::AiForms.Dialogs.Resource.Color.material_blue_grey_800 = global::MvxMovies.Android.Resource.Color.material_blue_grey_800;
+			global::AiForms.Dialogs.Resource.Color.material_blue_grey_900 = global::MvxMovies.Android.Resource.Color.material_blue_grey_900;
+			global::AiForms.Dialogs.Resource.Color.material_blue_grey_950 = global::MvxMovies.Android.Resource.Color.material_blue_grey_950;
+			global::AiForms.Dialogs.Resource.Color.material_deep_teal_200 = global::MvxMovies.Android.Resource.Color.material_deep_teal_200;
+			global::AiForms.Dialogs.Resource.Color.material_deep_teal_500 = global::MvxMovies.Android.Resource.Color.material_deep_teal_500;
+			global::AiForms.Dialogs.Resource.Color.material_grey_100 = global::MvxMovies.Android.Resource.Color.material_grey_100;
+			global::AiForms.Dialogs.Resource.Color.material_grey_300 = global::MvxMovies.Android.Resource.Color.material_grey_300;
+			global::AiForms.Dialogs.Resource.Color.material_grey_50 = global::MvxMovies.Android.Resource.Color.material_grey_50;
+			global::AiForms.Dialogs.Resource.Color.material_grey_600 = global::MvxMovies.Android.Resource.Color.material_grey_600;
+			global::AiForms.Dialogs.Resource.Color.material_grey_800 = global::MvxMovies.Android.Resource.Color.material_grey_800;
+			global::AiForms.Dialogs.Resource.Color.material_grey_850 = global::MvxMovies.Android.Resource.Color.material_grey_850;
+			global::AiForms.Dialogs.Resource.Color.material_grey_900 = global::MvxMovies.Android.Resource.Color.material_grey_900;
+			global::AiForms.Dialogs.Resource.Color.notification_action_color_filter = global::MvxMovies.Android.Resource.Color.notification_action_color_filter;
+			global::AiForms.Dialogs.Resource.Color.notification_icon_bg_color = global::MvxMovies.Android.Resource.Color.notification_icon_bg_color;
+			global::AiForms.Dialogs.Resource.Color.notification_material_background_media_default_color = global::MvxMovies.Android.Resource.Color.notification_material_background_media_default_color;
+			global::AiForms.Dialogs.Resource.Color.primary_dark_material_dark = global::MvxMovies.Android.Resource.Color.primary_dark_material_dark;
+			global::AiForms.Dialogs.Resource.Color.primary_dark_material_light = global::MvxMovies.Android.Resource.Color.primary_dark_material_light;
+			global::AiForms.Dialogs.Resource.Color.primary_material_dark = global::MvxMovies.Android.Resource.Color.primary_material_dark;
+			global::AiForms.Dialogs.Resource.Color.primary_material_light = global::MvxMovies.Android.Resource.Color.primary_material_light;
+			global::AiForms.Dialogs.Resource.Color.primary_text_default_material_dark = global::MvxMovies.Android.Resource.Color.primary_text_default_material_dark;
+			global::AiForms.Dialogs.Resource.Color.primary_text_default_material_light = global::MvxMovies.Android.Resource.Color.primary_text_default_material_light;
+			global::AiForms.Dialogs.Resource.Color.primary_text_disabled_material_dark = global::MvxMovies.Android.Resource.Color.primary_text_disabled_material_dark;
+			global::AiForms.Dialogs.Resource.Color.primary_text_disabled_material_light = global::MvxMovies.Android.Resource.Color.primary_text_disabled_material_light;
+			global::AiForms.Dialogs.Resource.Color.ripple_material_dark = global::MvxMovies.Android.Resource.Color.ripple_material_dark;
+			global::AiForms.Dialogs.Resource.Color.ripple_material_light = global::MvxMovies.Android.Resource.Color.ripple_material_light;
+			global::AiForms.Dialogs.Resource.Color.secondary_text_default_material_dark = global::MvxMovies.Android.Resource.Color.secondary_text_default_material_dark;
+			global::AiForms.Dialogs.Resource.Color.secondary_text_default_material_light = global::MvxMovies.Android.Resource.Color.secondary_text_default_material_light;
+			global::AiForms.Dialogs.Resource.Color.secondary_text_disabled_material_dark = global::MvxMovies.Android.Resource.Color.secondary_text_disabled_material_dark;
+			global::AiForms.Dialogs.Resource.Color.secondary_text_disabled_material_light = global::MvxMovies.Android.Resource.Color.secondary_text_disabled_material_light;
+			global::AiForms.Dialogs.Resource.Color.switch_thumb_disabled_material_dark = global::MvxMovies.Android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::AiForms.Dialogs.Resource.Color.switch_thumb_disabled_material_light = global::MvxMovies.Android.Resource.Color.switch_thumb_disabled_material_light;
+			global::AiForms.Dialogs.Resource.Color.switch_thumb_material_dark = global::MvxMovies.Android.Resource.Color.switch_thumb_material_dark;
+			global::AiForms.Dialogs.Resource.Color.switch_thumb_material_light = global::MvxMovies.Android.Resource.Color.switch_thumb_material_light;
+			global::AiForms.Dialogs.Resource.Color.switch_thumb_normal_material_dark = global::MvxMovies.Android.Resource.Color.switch_thumb_normal_material_dark;
+			global::AiForms.Dialogs.Resource.Color.switch_thumb_normal_material_light = global::MvxMovies.Android.Resource.Color.switch_thumb_normal_material_light;
+			global::AiForms.Dialogs.Resource.Color.tooltip_background_dark = global::MvxMovies.Android.Resource.Color.tooltip_background_dark;
+			global::AiForms.Dialogs.Resource.Color.tooltip_background_light = global::MvxMovies.Android.Resource.Color.tooltip_background_light;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_content_inset_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_default_height_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_elevation_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_elevation_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_stacked_max_height = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MvxMovies.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_button_min_height_material = global::MvxMovies.Android.Resource.Dimension.abc_action_button_min_height_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_button_min_width_material = global::MvxMovies.Android.Resource.Dimension.abc_action_button_min_width_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MvxMovies.Android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MvxMovies.Android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::AiForms.Dialogs.Resource.Dimension.abc_button_inset_horizontal_material = global::MvxMovies.Android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_button_inset_vertical_material = global::MvxMovies.Android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_button_padding_horizontal_material = global::MvxMovies.Android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_button_padding_vertical_material = global::MvxMovies.Android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MvxMovies.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::AiForms.Dialogs.Resource.Dimension.abc_config_prefDialogWidth = global::MvxMovies.Android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::AiForms.Dialogs.Resource.Dimension.abc_control_corner_material = global::MvxMovies.Android.Resource.Dimension.abc_control_corner_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_control_inset_material = global::MvxMovies.Android.Resource.Dimension.abc_control_inset_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_control_padding_material = global::MvxMovies.Android.Resource.Dimension.abc_control_padding_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_fixed_height_major = global::MvxMovies.Android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_fixed_height_minor = global::MvxMovies.Android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_fixed_width_major = global::MvxMovies.Android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_fixed_width_minor = global::MvxMovies.Android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MvxMovies.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MvxMovies.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_min_width_major = global::MvxMovies.Android.Resource.Dimension.abc_dialog_min_width_major;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_min_width_minor = global::MvxMovies.Android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_padding_material = global::MvxMovies.Android.Resource.Dimension.abc_dialog_padding_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_padding_top_material = global::MvxMovies.Android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dialog_title_divider_material = global::MvxMovies.Android.Resource.Dimension.abc_dialog_title_divider_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_disabled_alpha_material_dark = global::MvxMovies.Android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::AiForms.Dialogs.Resource.Dimension.abc_disabled_alpha_material_light = global::MvxMovies.Android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dropdownitem_icon_width = global::MvxMovies.Android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MvxMovies.Android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::AiForms.Dialogs.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MvxMovies.Android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::AiForms.Dialogs.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MvxMovies.Android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MvxMovies.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_edit_text_inset_top_material = global::MvxMovies.Android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_floating_window_z = global::MvxMovies.Android.Resource.Dimension.abc_floating_window_z;
+			global::AiForms.Dialogs.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MvxMovies.Android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_panel_menu_list_width = global::MvxMovies.Android.Resource.Dimension.abc_panel_menu_list_width;
+			global::AiForms.Dialogs.Resource.Dimension.abc_progress_bar_height_material = global::MvxMovies.Android.Resource.Dimension.abc_progress_bar_height_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_search_view_preferred_height = global::MvxMovies.Android.Resource.Dimension.abc_search_view_preferred_height;
+			global::AiForms.Dialogs.Resource.Dimension.abc_search_view_preferred_width = global::MvxMovies.Android.Resource.Dimension.abc_search_view_preferred_width;
+			global::AiForms.Dialogs.Resource.Dimension.abc_seekbar_track_background_height_material = global::MvxMovies.Android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MvxMovies.Android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_select_dialog_padding_start_material = global::MvxMovies.Android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_switch_padding = global::MvxMovies.Android.Resource.Dimension.abc_switch_padding;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_body_1_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_body_1_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_body_2_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_body_2_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_button_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_button_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_caption_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_caption_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_display_1_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_display_1_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_display_2_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_display_2_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_display_3_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_display_3_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_display_4_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_display_4_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_headline_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_headline_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_large_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_large_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_medium_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_medium_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_menu_header_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_menu_header_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_menu_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_menu_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_small_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_small_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_subhead_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_subhead_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MvxMovies.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_title_material = global::MvxMovies.Android.Resource.Dimension.abc_text_size_title_material;
+			global::AiForms.Dialogs.Resource.Dimension.abc_text_size_title_material_toolbar = global::MvxMovies.Android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::AiForms.Dialogs.Resource.Dimension.cardview_compat_inset_shadow = global::MvxMovies.Android.Resource.Dimension.cardview_compat_inset_shadow;
+			global::AiForms.Dialogs.Resource.Dimension.cardview_default_elevation = global::MvxMovies.Android.Resource.Dimension.cardview_default_elevation;
+			global::AiForms.Dialogs.Resource.Dimension.cardview_default_radius = global::MvxMovies.Android.Resource.Dimension.cardview_default_radius;
+			global::AiForms.Dialogs.Resource.Dimension.compat_button_inset_horizontal_material = global::MvxMovies.Android.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::AiForms.Dialogs.Resource.Dimension.compat_button_inset_vertical_material = global::MvxMovies.Android.Resource.Dimension.compat_button_inset_vertical_material;
+			global::AiForms.Dialogs.Resource.Dimension.compat_button_padding_horizontal_material = global::MvxMovies.Android.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::AiForms.Dialogs.Resource.Dimension.compat_button_padding_vertical_material = global::MvxMovies.Android.Resource.Dimension.compat_button_padding_vertical_material;
+			global::AiForms.Dialogs.Resource.Dimension.compat_control_corner_material = global::MvxMovies.Android.Resource.Dimension.compat_control_corner_material;
+			global::AiForms.Dialogs.Resource.Dimension.design_appbar_elevation = global::MvxMovies.Android.Resource.Dimension.design_appbar_elevation;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_active_text_size = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_elevation = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_elevation;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_height = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_height;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_item_max_width = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_item_min_width = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_margin = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_margin;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_shadow_height = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_navigation_text_size = global::MvxMovies.Android.Resource.Dimension.design_bottom_navigation_text_size;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MvxMovies.Android.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::AiForms.Dialogs.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MvxMovies.Android.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::AiForms.Dialogs.Resource.Dimension.design_fab_border_width = global::MvxMovies.Android.Resource.Dimension.design_fab_border_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_fab_elevation = global::MvxMovies.Android.Resource.Dimension.design_fab_elevation;
+			global::AiForms.Dialogs.Resource.Dimension.design_fab_image_size = global::MvxMovies.Android.Resource.Dimension.design_fab_image_size;
+			global::AiForms.Dialogs.Resource.Dimension.design_fab_size_mini = global::MvxMovies.Android.Resource.Dimension.design_fab_size_mini;
+			global::AiForms.Dialogs.Resource.Dimension.design_fab_size_normal = global::MvxMovies.Android.Resource.Dimension.design_fab_size_normal;
+			global::AiForms.Dialogs.Resource.Dimension.design_fab_translation_z_pressed = global::MvxMovies.Android.Resource.Dimension.design_fab_translation_z_pressed;
+			global::AiForms.Dialogs.Resource.Dimension.design_navigation_elevation = global::MvxMovies.Android.Resource.Dimension.design_navigation_elevation;
+			global::AiForms.Dialogs.Resource.Dimension.design_navigation_icon_padding = global::MvxMovies.Android.Resource.Dimension.design_navigation_icon_padding;
+			global::AiForms.Dialogs.Resource.Dimension.design_navigation_icon_size = global::MvxMovies.Android.Resource.Dimension.design_navigation_icon_size;
+			global::AiForms.Dialogs.Resource.Dimension.design_navigation_max_width = global::MvxMovies.Android.Resource.Dimension.design_navigation_max_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_navigation_padding_bottom = global::MvxMovies.Android.Resource.Dimension.design_navigation_padding_bottom;
+			global::AiForms.Dialogs.Resource.Dimension.design_navigation_separator_vertical_padding = global::MvxMovies.Android.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_action_inline_max_width = global::MvxMovies.Android.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_background_corner_radius = global::MvxMovies.Android.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_elevation = global::MvxMovies.Android.Resource.Dimension.design_snackbar_elevation;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MvxMovies.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_max_width = global::MvxMovies.Android.Resource.Dimension.design_snackbar_max_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_min_width = global::MvxMovies.Android.Resource.Dimension.design_snackbar_min_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_padding_horizontal = global::MvxMovies.Android.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_padding_vertical = global::MvxMovies.Android.Resource.Dimension.design_snackbar_padding_vertical;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MvxMovies.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::AiForms.Dialogs.Resource.Dimension.design_snackbar_text_size = global::MvxMovies.Android.Resource.Dimension.design_snackbar_text_size;
+			global::AiForms.Dialogs.Resource.Dimension.design_tab_max_width = global::MvxMovies.Android.Resource.Dimension.design_tab_max_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_tab_scrollable_min_width = global::MvxMovies.Android.Resource.Dimension.design_tab_scrollable_min_width;
+			global::AiForms.Dialogs.Resource.Dimension.design_tab_text_size = global::MvxMovies.Android.Resource.Dimension.design_tab_text_size;
+			global::AiForms.Dialogs.Resource.Dimension.design_tab_text_size_2line = global::MvxMovies.Android.Resource.Dimension.design_tab_text_size_2line;
+			global::AiForms.Dialogs.Resource.Dimension.disabled_alpha_material_dark = global::MvxMovies.Android.Resource.Dimension.disabled_alpha_material_dark;
+			global::AiForms.Dialogs.Resource.Dimension.disabled_alpha_material_light = global::MvxMovies.Android.Resource.Dimension.disabled_alpha_material_light;
+			global::AiForms.Dialogs.Resource.Dimension.fastscroll_default_thickness = global::MvxMovies.Android.Resource.Dimension.fastscroll_default_thickness;
+			global::AiForms.Dialogs.Resource.Dimension.fastscroll_margin = global::MvxMovies.Android.Resource.Dimension.fastscroll_margin;
+			global::AiForms.Dialogs.Resource.Dimension.fastscroll_minimum_range = global::MvxMovies.Android.Resource.Dimension.fastscroll_minimum_range;
+			global::AiForms.Dialogs.Resource.Dimension.highlight_alpha_material_colored = global::MvxMovies.Android.Resource.Dimension.highlight_alpha_material_colored;
+			global::AiForms.Dialogs.Resource.Dimension.highlight_alpha_material_dark = global::MvxMovies.Android.Resource.Dimension.highlight_alpha_material_dark;
+			global::AiForms.Dialogs.Resource.Dimension.highlight_alpha_material_light = global::MvxMovies.Android.Resource.Dimension.highlight_alpha_material_light;
+			global::AiForms.Dialogs.Resource.Dimension.hint_alpha_material_dark = global::MvxMovies.Android.Resource.Dimension.hint_alpha_material_dark;
+			global::AiForms.Dialogs.Resource.Dimension.hint_alpha_material_light = global::MvxMovies.Android.Resource.Dimension.hint_alpha_material_light;
+			global::AiForms.Dialogs.Resource.Dimension.hint_pressed_alpha_material_dark = global::MvxMovies.Android.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::AiForms.Dialogs.Resource.Dimension.hint_pressed_alpha_material_light = global::MvxMovies.Android.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::AiForms.Dialogs.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MvxMovies.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::AiForms.Dialogs.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MvxMovies.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::AiForms.Dialogs.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MvxMovies.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::AiForms.Dialogs.Resource.Dimension.mr_controller_volume_group_list_item_height = global::MvxMovies.Android.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::AiForms.Dialogs.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::MvxMovies.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::AiForms.Dialogs.Resource.Dimension.mr_controller_volume_group_list_max_height = global::MvxMovies.Android.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::AiForms.Dialogs.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::MvxMovies.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::AiForms.Dialogs.Resource.Dimension.mr_dialog_fixed_width_major = global::MvxMovies.Android.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::AiForms.Dialogs.Resource.Dimension.mr_dialog_fixed_width_minor = global::MvxMovies.Android.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::AiForms.Dialogs.Resource.Dimension.notification_action_icon_size = global::MvxMovies.Android.Resource.Dimension.notification_action_icon_size;
+			global::AiForms.Dialogs.Resource.Dimension.notification_action_text_size = global::MvxMovies.Android.Resource.Dimension.notification_action_text_size;
+			global::AiForms.Dialogs.Resource.Dimension.notification_big_circle_margin = global::MvxMovies.Android.Resource.Dimension.notification_big_circle_margin;
+			global::AiForms.Dialogs.Resource.Dimension.notification_content_margin_start = global::MvxMovies.Android.Resource.Dimension.notification_content_margin_start;
+			global::AiForms.Dialogs.Resource.Dimension.notification_large_icon_height = global::MvxMovies.Android.Resource.Dimension.notification_large_icon_height;
+			global::AiForms.Dialogs.Resource.Dimension.notification_large_icon_width = global::MvxMovies.Android.Resource.Dimension.notification_large_icon_width;
+			global::AiForms.Dialogs.Resource.Dimension.notification_main_column_padding_top = global::MvxMovies.Android.Resource.Dimension.notification_main_column_padding_top;
+			global::AiForms.Dialogs.Resource.Dimension.notification_media_narrow_margin = global::MvxMovies.Android.Resource.Dimension.notification_media_narrow_margin;
+			global::AiForms.Dialogs.Resource.Dimension.notification_right_icon_size = global::MvxMovies.Android.Resource.Dimension.notification_right_icon_size;
+			global::AiForms.Dialogs.Resource.Dimension.notification_right_side_padding_top = global::MvxMovies.Android.Resource.Dimension.notification_right_side_padding_top;
+			global::AiForms.Dialogs.Resource.Dimension.notification_small_icon_background_padding = global::MvxMovies.Android.Resource.Dimension.notification_small_icon_background_padding;
+			global::AiForms.Dialogs.Resource.Dimension.notification_small_icon_size_as_large = global::MvxMovies.Android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::AiForms.Dialogs.Resource.Dimension.notification_subtext_size = global::MvxMovies.Android.Resource.Dimension.notification_subtext_size;
+			global::AiForms.Dialogs.Resource.Dimension.notification_top_pad = global::MvxMovies.Android.Resource.Dimension.notification_top_pad;
+			global::AiForms.Dialogs.Resource.Dimension.notification_top_pad_large_text = global::MvxMovies.Android.Resource.Dimension.notification_top_pad_large_text;
+			global::AiForms.Dialogs.Resource.Dimension.tooltip_corner_radius = global::MvxMovies.Android.Resource.Dimension.tooltip_corner_radius;
+			global::AiForms.Dialogs.Resource.Dimension.tooltip_horizontal_padding = global::MvxMovies.Android.Resource.Dimension.tooltip_horizontal_padding;
+			global::AiForms.Dialogs.Resource.Dimension.tooltip_margin = global::MvxMovies.Android.Resource.Dimension.tooltip_margin;
+			global::AiForms.Dialogs.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::MvxMovies.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::AiForms.Dialogs.Resource.Dimension.tooltip_precise_anchor_threshold = global::MvxMovies.Android.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::AiForms.Dialogs.Resource.Dimension.tooltip_vertical_padding = global::MvxMovies.Android.Resource.Dimension.tooltip_vertical_padding;
+			global::AiForms.Dialogs.Resource.Dimension.tooltip_y_offset_non_touch = global::MvxMovies.Android.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::AiForms.Dialogs.Resource.Dimension.tooltip_y_offset_touch = global::MvxMovies.Android.Resource.Dimension.tooltip_y_offset_touch;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_action_bar_item_background_material = global::MvxMovies.Android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_borderless_material = global::MvxMovies.Android.Resource.Drawable.abc_btn_borderless_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_check_material = global::MvxMovies.Android.Resource.Drawable.abc_btn_check_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MvxMovies.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MvxMovies.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_colored_material = global::MvxMovies.Android.Resource.Drawable.abc_btn_colored_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_default_mtrl_shape = global::MvxMovies.Android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_radio_material = global::MvxMovies.Android.Resource.Drawable.abc_btn_radio_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MvxMovies.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MvxMovies.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MvxMovies.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::AiForms.Dialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MvxMovies.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::AiForms.Dialogs.Resource.Drawable.abc_cab_background_internal_bg = global::MvxMovies.Android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::AiForms.Dialogs.Resource.Drawable.abc_cab_background_top_material = global::MvxMovies.Android.Resource.Drawable.abc_cab_background_top_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_control_background_material = global::MvxMovies.Android.Resource.Drawable.abc_control_background_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_dialog_material_background = global::MvxMovies.Android.Resource.Drawable.abc_dialog_material_background;
+			global::AiForms.Dialogs.Resource.Drawable.abc_edit_text_material = global::MvxMovies.Android.Resource.Drawable.abc_edit_text_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_ab_back_material = global::MvxMovies.Android.Resource.Drawable.abc_ic_ab_back_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MvxMovies.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_clear_material = global::MvxMovies.Android.Resource.Drawable.abc_ic_clear_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_go_search_api_material = global::MvxMovies.Android.Resource.Drawable.abc_ic_go_search_api_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MvxMovies.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_menu_overflow_material = global::MvxMovies.Android.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MvxMovies.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_search_api_material = global::MvxMovies.Android.Resource.Drawable.abc_ic_search_api_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_star_black_16dp = global::MvxMovies.Android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_star_black_36dp = global::MvxMovies.Android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_star_black_48dp = global::MvxMovies.Android.Resource.Drawable.abc_ic_star_black_48dp;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_star_half_black_16dp = global::MvxMovies.Android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_star_half_black_36dp = global::MvxMovies.Android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_star_half_black_48dp = global::MvxMovies.Android.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ic_voice_search_api_material = global::MvxMovies.Android.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_item_background_holo_dark = global::MvxMovies.Android.Resource.Drawable.abc_item_background_holo_dark;
+			global::AiForms.Dialogs.Resource.Drawable.abc_item_background_holo_light = global::MvxMovies.Android.Resource.Drawable.abc_item_background_holo_light;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_focused_holo = global::MvxMovies.Android.Resource.Drawable.abc_list_focused_holo;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_longpressed_holo = global::MvxMovies.Android.Resource.Drawable.abc_list_longpressed_holo;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_pressed_holo_dark = global::MvxMovies.Android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_pressed_holo_light = global::MvxMovies.Android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MvxMovies.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MvxMovies.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MvxMovies.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MvxMovies.Android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_selector_holo_dark = global::MvxMovies.Android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::AiForms.Dialogs.Resource.Drawable.abc_list_selector_holo_light = global::MvxMovies.Android.Resource.Drawable.abc_list_selector_holo_light;
+			global::AiForms.Dialogs.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MvxMovies.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::AiForms.Dialogs.Resource.Drawable.abc_popup_background_mtrl_mult = global::MvxMovies.Android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ratingbar_indicator_material = global::MvxMovies.Android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ratingbar_material = global::MvxMovies.Android.Resource.Drawable.abc_ratingbar_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_ratingbar_small_material = global::MvxMovies.Android.Resource.Drawable.abc_ratingbar_small_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MvxMovies.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::AiForms.Dialogs.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MvxMovies.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::AiForms.Dialogs.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_seekbar_thumb_material = global::MvxMovies.Android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_seekbar_tick_mark_material = global::MvxMovies.Android.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_seekbar_track_material = global::MvxMovies.Android.Resource.Drawable.abc_seekbar_track_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MvxMovies.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_spinner_textfield_background_material = global::MvxMovies.Android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_switch_thumb_material = global::MvxMovies.Android.Resource.Drawable.abc_switch_thumb_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_tab_indicator_material = global::MvxMovies.Android.Resource.Drawable.abc_tab_indicator_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_text_cursor_material = global::MvxMovies.Android.Resource.Drawable.abc_text_cursor_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MvxMovies.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::AiForms.Dialogs.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MvxMovies.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::AiForms.Dialogs.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MvxMovies.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::AiForms.Dialogs.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MvxMovies.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::AiForms.Dialogs.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MvxMovies.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::AiForms.Dialogs.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MvxMovies.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::AiForms.Dialogs.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MvxMovies.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::AiForms.Dialogs.Resource.Drawable.abc_textfield_search_material = global::MvxMovies.Android.Resource.Drawable.abc_textfield_search_material;
+			global::AiForms.Dialogs.Resource.Drawable.abc_vector_test = global::MvxMovies.Android.Resource.Drawable.abc_vector_test;
+			global::AiForms.Dialogs.Resource.Drawable.avd_hide_password = global::MvxMovies.Android.Resource.Drawable.avd_hide_password;
+			global::AiForms.Dialogs.Resource.Drawable.avd_show_password = global::MvxMovies.Android.Resource.Drawable.avd_show_password;
+			global::AiForms.Dialogs.Resource.Drawable.design_bottom_navigation_item_background = global::MvxMovies.Android.Resource.Drawable.design_bottom_navigation_item_background;
+			global::AiForms.Dialogs.Resource.Drawable.design_fab_background = global::MvxMovies.Android.Resource.Drawable.design_fab_background;
+			global::AiForms.Dialogs.Resource.Drawable.design_ic_visibility = global::MvxMovies.Android.Resource.Drawable.design_ic_visibility;
+			global::AiForms.Dialogs.Resource.Drawable.design_ic_visibility_off = global::MvxMovies.Android.Resource.Drawable.design_ic_visibility_off;
+			global::AiForms.Dialogs.Resource.Drawable.design_password_eye = global::MvxMovies.Android.Resource.Drawable.design_password_eye;
+			global::AiForms.Dialogs.Resource.Drawable.design_snackbar_background = global::MvxMovies.Android.Resource.Drawable.design_snackbar_background;
+			global::AiForms.Dialogs.Resource.Drawable.ic_audiotrack_dark = global::MvxMovies.Android.Resource.Drawable.ic_audiotrack_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_audiotrack_light = global::MvxMovies.Android.Resource.Drawable.ic_audiotrack_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_dialog_close_dark = global::MvxMovies.Android.Resource.Drawable.ic_dialog_close_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_dialog_close_light = global::MvxMovies.Android.Resource.Drawable.ic_dialog_close_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_00 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_00;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_01 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_01;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_02 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_02;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_03 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_03;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_04 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_04;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_05 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_05;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_06 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_06;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_07 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_07;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_08 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_08;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_09 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_09;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_10 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_10;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_11 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_11;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_12 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_12;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_13 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_13;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_14 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_14;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_collapse_15 = global::MvxMovies.Android.Resource.Drawable.ic_group_collapse_15;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_00 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_00;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_01 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_01;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_02 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_02;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_03 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_03;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_04 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_04;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_05 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_05;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_06 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_06;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_07 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_07;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_08 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_08;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_09 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_09;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_10 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_10;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_11 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_11;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_12 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_12;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_13 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_13;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_14 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_14;
+			global::AiForms.Dialogs.Resource.Drawable.ic_group_expand_15 = global::MvxMovies.Android.Resource.Drawable.ic_group_expand_15;
+			global::AiForms.Dialogs.Resource.Drawable.ic_media_pause_dark = global::MvxMovies.Android.Resource.Drawable.ic_media_pause_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_media_pause_light = global::MvxMovies.Android.Resource.Drawable.ic_media_pause_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_media_play_dark = global::MvxMovies.Android.Resource.Drawable.ic_media_play_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_media_play_light = global::MvxMovies.Android.Resource.Drawable.ic_media_play_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_media_stop_dark = global::MvxMovies.Android.Resource.Drawable.ic_media_stop_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_media_stop_light = global::MvxMovies.Android.Resource.Drawable.ic_media_stop_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_00_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_00_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_01_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_01_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_02_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_02_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_03_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_03_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_04_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_04_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_05_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_05_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_06_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_06_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_07_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_07_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_08_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_08_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_09_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_09_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_10_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_10_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_11_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_11_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_12_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_12_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_13_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_13_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_14_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_14_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_15_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_15_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_16_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_16_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_17_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_17_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_18_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_18_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_19_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_19_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_20_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_20_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_21_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_21_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_22_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_22_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_23_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_23_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_24_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_24_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_25_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_25_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_26_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_26_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_27_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_27_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_28_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_28_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_29_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_29_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_30_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connected_30_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_00_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_00_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_01_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_01_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_02_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_02_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_03_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_03_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_04_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_04_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_05_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_05_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_06_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_06_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_07_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_07_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_08_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_08_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_09_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_09_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_10_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_10_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_11_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_11_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_12_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_12_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_13_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_13_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_14_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_14_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_15_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_15_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_16_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_16_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_17_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_17_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_18_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_18_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_19_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_19_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_20_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_20_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_21_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_21_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_22_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_22_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_23_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_23_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_24_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_24_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_25_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_25_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_26_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_26_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_27_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_27_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_28_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_28_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_29_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_29_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_30_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_connecting_30_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_disabled_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_disabled_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_disabled_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_disconnected_dark = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_disconnected_light = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_mr_button_grey = global::MvxMovies.Android.Resource.Drawable.ic_mr_button_grey;
+			global::AiForms.Dialogs.Resource.Drawable.ic_vol_type_speaker_dark = global::MvxMovies.Android.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_vol_type_speaker_group_dark = global::MvxMovies.Android.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_vol_type_speaker_group_light = global::MvxMovies.Android.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_vol_type_speaker_light = global::MvxMovies.Android.Resource.Drawable.ic_vol_type_speaker_light;
+			global::AiForms.Dialogs.Resource.Drawable.ic_vol_type_tv_dark = global::MvxMovies.Android.Resource.Drawable.ic_vol_type_tv_dark;
+			global::AiForms.Dialogs.Resource.Drawable.ic_vol_type_tv_light = global::MvxMovies.Android.Resource.Drawable.ic_vol_type_tv_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_button_connected_dark = global::MvxMovies.Android.Resource.Drawable.mr_button_connected_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_button_connected_light = global::MvxMovies.Android.Resource.Drawable.mr_button_connected_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_button_connecting_dark = global::MvxMovies.Android.Resource.Drawable.mr_button_connecting_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_button_connecting_light = global::MvxMovies.Android.Resource.Drawable.mr_button_connecting_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_button_dark = global::MvxMovies.Android.Resource.Drawable.mr_button_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_button_light = global::MvxMovies.Android.Resource.Drawable.mr_button_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_dialog_close_dark = global::MvxMovies.Android.Resource.Drawable.mr_dialog_close_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_dialog_close_light = global::MvxMovies.Android.Resource.Drawable.mr_dialog_close_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_dialog_material_background_dark = global::MvxMovies.Android.Resource.Drawable.mr_dialog_material_background_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_dialog_material_background_light = global::MvxMovies.Android.Resource.Drawable.mr_dialog_material_background_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_group_collapse = global::MvxMovies.Android.Resource.Drawable.mr_group_collapse;
+			global::AiForms.Dialogs.Resource.Drawable.mr_group_expand = global::MvxMovies.Android.Resource.Drawable.mr_group_expand;
+			global::AiForms.Dialogs.Resource.Drawable.mr_media_pause_dark = global::MvxMovies.Android.Resource.Drawable.mr_media_pause_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_media_pause_light = global::MvxMovies.Android.Resource.Drawable.mr_media_pause_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_media_play_dark = global::MvxMovies.Android.Resource.Drawable.mr_media_play_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_media_play_light = global::MvxMovies.Android.Resource.Drawable.mr_media_play_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_media_stop_dark = global::MvxMovies.Android.Resource.Drawable.mr_media_stop_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_media_stop_light = global::MvxMovies.Android.Resource.Drawable.mr_media_stop_light;
+			global::AiForms.Dialogs.Resource.Drawable.mr_vol_type_audiotrack_dark = global::MvxMovies.Android.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::AiForms.Dialogs.Resource.Drawable.mr_vol_type_audiotrack_light = global::MvxMovies.Android.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::AiForms.Dialogs.Resource.Drawable.navigation_empty_icon = global::MvxMovies.Android.Resource.Drawable.navigation_empty_icon;
+			global::AiForms.Dialogs.Resource.Drawable.notification_action_background = global::MvxMovies.Android.Resource.Drawable.notification_action_background;
+			global::AiForms.Dialogs.Resource.Drawable.notification_bg = global::MvxMovies.Android.Resource.Drawable.notification_bg;
+			global::AiForms.Dialogs.Resource.Drawable.notification_bg_low = global::MvxMovies.Android.Resource.Drawable.notification_bg_low;
+			global::AiForms.Dialogs.Resource.Drawable.notification_bg_low_normal = global::MvxMovies.Android.Resource.Drawable.notification_bg_low_normal;
+			global::AiForms.Dialogs.Resource.Drawable.notification_bg_low_pressed = global::MvxMovies.Android.Resource.Drawable.notification_bg_low_pressed;
+			global::AiForms.Dialogs.Resource.Drawable.notification_bg_normal = global::MvxMovies.Android.Resource.Drawable.notification_bg_normal;
+			global::AiForms.Dialogs.Resource.Drawable.notification_bg_normal_pressed = global::MvxMovies.Android.Resource.Drawable.notification_bg_normal_pressed;
+			global::AiForms.Dialogs.Resource.Drawable.notification_icon_background = global::MvxMovies.Android.Resource.Drawable.notification_icon_background;
+			global::AiForms.Dialogs.Resource.Drawable.notification_template_icon_bg = global::MvxMovies.Android.Resource.Drawable.notification_template_icon_bg;
+			global::AiForms.Dialogs.Resource.Drawable.notification_template_icon_low_bg = global::MvxMovies.Android.Resource.Drawable.notification_template_icon_low_bg;
+			global::AiForms.Dialogs.Resource.Drawable.notification_tile_bg = global::MvxMovies.Android.Resource.Drawable.notification_tile_bg;
+			global::AiForms.Dialogs.Resource.Drawable.notify_panel_notification_icon_bg = global::MvxMovies.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::AiForms.Dialogs.Resource.Drawable.tooltip_frame_dark = global::MvxMovies.Android.Resource.Drawable.tooltip_frame_dark;
+			global::AiForms.Dialogs.Resource.Drawable.tooltip_frame_light = global::MvxMovies.Android.Resource.Drawable.tooltip_frame_light;
+			global::AiForms.Dialogs.Resource.Id.ALT = global::MvxMovies.Android.Resource.Id.ALT;
+			global::AiForms.Dialogs.Resource.Id.CTRL = global::MvxMovies.Android.Resource.Id.CTRL;
+			global::AiForms.Dialogs.Resource.Id.FUNCTION = global::MvxMovies.Android.Resource.Id.FUNCTION;
+			global::AiForms.Dialogs.Resource.Id.META = global::MvxMovies.Android.Resource.Id.META;
+			global::AiForms.Dialogs.Resource.Id.SHIFT = global::MvxMovies.Android.Resource.Id.SHIFT;
+			global::AiForms.Dialogs.Resource.Id.SYM = global::MvxMovies.Android.Resource.Id.SYM;
+			global::AiForms.Dialogs.Resource.Id.action0 = global::MvxMovies.Android.Resource.Id.action0;
+			global::AiForms.Dialogs.Resource.Id.action_bar = global::MvxMovies.Android.Resource.Id.action_bar;
+			global::AiForms.Dialogs.Resource.Id.action_bar_activity_content = global::MvxMovies.Android.Resource.Id.action_bar_activity_content;
+			global::AiForms.Dialogs.Resource.Id.action_bar_container = global::MvxMovies.Android.Resource.Id.action_bar_container;
+			global::AiForms.Dialogs.Resource.Id.action_bar_root = global::MvxMovies.Android.Resource.Id.action_bar_root;
+			global::AiForms.Dialogs.Resource.Id.action_bar_spinner = global::MvxMovies.Android.Resource.Id.action_bar_spinner;
+			global::AiForms.Dialogs.Resource.Id.action_bar_subtitle = global::MvxMovies.Android.Resource.Id.action_bar_subtitle;
+			global::AiForms.Dialogs.Resource.Id.action_bar_title = global::MvxMovies.Android.Resource.Id.action_bar_title;
+			global::AiForms.Dialogs.Resource.Id.action_container = global::MvxMovies.Android.Resource.Id.action_container;
+			global::AiForms.Dialogs.Resource.Id.action_context_bar = global::MvxMovies.Android.Resource.Id.action_context_bar;
+			global::AiForms.Dialogs.Resource.Id.action_divider = global::MvxMovies.Android.Resource.Id.action_divider;
+			global::AiForms.Dialogs.Resource.Id.action_image = global::MvxMovies.Android.Resource.Id.action_image;
+			global::AiForms.Dialogs.Resource.Id.action_menu_divider = global::MvxMovies.Android.Resource.Id.action_menu_divider;
+			global::AiForms.Dialogs.Resource.Id.action_menu_presenter = global::MvxMovies.Android.Resource.Id.action_menu_presenter;
+			global::AiForms.Dialogs.Resource.Id.action_mode_bar = global::MvxMovies.Android.Resource.Id.action_mode_bar;
+			global::AiForms.Dialogs.Resource.Id.action_mode_bar_stub = global::MvxMovies.Android.Resource.Id.action_mode_bar_stub;
+			global::AiForms.Dialogs.Resource.Id.action_mode_close_button = global::MvxMovies.Android.Resource.Id.action_mode_close_button;
+			global::AiForms.Dialogs.Resource.Id.action_text = global::MvxMovies.Android.Resource.Id.action_text;
+			global::AiForms.Dialogs.Resource.Id.actions = global::MvxMovies.Android.Resource.Id.actions;
+			global::AiForms.Dialogs.Resource.Id.activity_chooser_view_content = global::MvxMovies.Android.Resource.Id.activity_chooser_view_content;
+			global::AiForms.Dialogs.Resource.Id.add = global::MvxMovies.Android.Resource.Id.add;
+			global::AiForms.Dialogs.Resource.Id.alertTitle = global::MvxMovies.Android.Resource.Id.alertTitle;
+			global::AiForms.Dialogs.Resource.Id.all = global::MvxMovies.Android.Resource.Id.all;
+			global::AiForms.Dialogs.Resource.Id.always = global::MvxMovies.Android.Resource.Id.always;
+			global::AiForms.Dialogs.Resource.Id.async = global::MvxMovies.Android.Resource.Id.async;
+			global::AiForms.Dialogs.Resource.Id.auto = global::MvxMovies.Android.Resource.Id.auto;
+			global::AiForms.Dialogs.Resource.Id.beginning = global::MvxMovies.Android.Resource.Id.beginning;
+			global::AiForms.Dialogs.Resource.Id.blocking = global::MvxMovies.Android.Resource.Id.blocking;
+			global::AiForms.Dialogs.Resource.Id.bottom = global::MvxMovies.Android.Resource.Id.bottom;
+			global::AiForms.Dialogs.Resource.Id.buttonPanel = global::MvxMovies.Android.Resource.Id.buttonPanel;
+			global::AiForms.Dialogs.Resource.Id.cancel_action = global::MvxMovies.Android.Resource.Id.cancel_action;
+			global::AiForms.Dialogs.Resource.Id.center = global::MvxMovies.Android.Resource.Id.center;
+			global::AiForms.Dialogs.Resource.Id.center_horizontal = global::MvxMovies.Android.Resource.Id.center_horizontal;
+			global::AiForms.Dialogs.Resource.Id.center_vertical = global::MvxMovies.Android.Resource.Id.center_vertical;
+			global::AiForms.Dialogs.Resource.Id.checkbox = global::MvxMovies.Android.Resource.Id.checkbox;
+			global::AiForms.Dialogs.Resource.Id.chronometer = global::MvxMovies.Android.Resource.Id.chronometer;
+			global::AiForms.Dialogs.Resource.Id.clip_horizontal = global::MvxMovies.Android.Resource.Id.clip_horizontal;
+			global::AiForms.Dialogs.Resource.Id.clip_vertical = global::MvxMovies.Android.Resource.Id.clip_vertical;
+			global::AiForms.Dialogs.Resource.Id.collapseActionView = global::MvxMovies.Android.Resource.Id.collapseActionView;
+			global::AiForms.Dialogs.Resource.Id.container = global::MvxMovies.Android.Resource.Id.container;
+			global::AiForms.Dialogs.Resource.Id.contentPanel = global::MvxMovies.Android.Resource.Id.contentPanel;
+			global::AiForms.Dialogs.Resource.Id.coordinator = global::MvxMovies.Android.Resource.Id.coordinator;
+			global::AiForms.Dialogs.Resource.Id.custom = global::MvxMovies.Android.Resource.Id.custom;
+			global::AiForms.Dialogs.Resource.Id.customPanel = global::MvxMovies.Android.Resource.Id.customPanel;
+			global::AiForms.Dialogs.Resource.Id.decor_content_parent = global::MvxMovies.Android.Resource.Id.decor_content_parent;
+			global::AiForms.Dialogs.Resource.Id.default_activity_button = global::MvxMovies.Android.Resource.Id.default_activity_button;
+			global::AiForms.Dialogs.Resource.Id.design_bottom_sheet = global::MvxMovies.Android.Resource.Id.design_bottom_sheet;
+			global::AiForms.Dialogs.Resource.Id.design_menu_item_action_area = global::MvxMovies.Android.Resource.Id.design_menu_item_action_area;
+			global::AiForms.Dialogs.Resource.Id.design_menu_item_action_area_stub = global::MvxMovies.Android.Resource.Id.design_menu_item_action_area_stub;
+			global::AiForms.Dialogs.Resource.Id.design_menu_item_text = global::MvxMovies.Android.Resource.Id.design_menu_item_text;
+			global::AiForms.Dialogs.Resource.Id.design_navigation_view = global::MvxMovies.Android.Resource.Id.design_navigation_view;
+			global::AiForms.Dialogs.Resource.Id.disableHome = global::MvxMovies.Android.Resource.Id.disableHome;
+			global::AiForms.Dialogs.Resource.Id.edit_query = global::MvxMovies.Android.Resource.Id.edit_query;
+			global::AiForms.Dialogs.Resource.Id.end = global::MvxMovies.Android.Resource.Id.end;
+			global::AiForms.Dialogs.Resource.Id.end_padder = global::MvxMovies.Android.Resource.Id.end_padder;
+			global::AiForms.Dialogs.Resource.Id.enterAlways = global::MvxMovies.Android.Resource.Id.enterAlways;
+			global::AiForms.Dialogs.Resource.Id.enterAlwaysCollapsed = global::MvxMovies.Android.Resource.Id.enterAlwaysCollapsed;
+			global::AiForms.Dialogs.Resource.Id.exitUntilCollapsed = global::MvxMovies.Android.Resource.Id.exitUntilCollapsed;
+			global::AiForms.Dialogs.Resource.Id.expand_activities_button = global::MvxMovies.Android.Resource.Id.expand_activities_button;
+			global::AiForms.Dialogs.Resource.Id.expanded_menu = global::MvxMovies.Android.Resource.Id.expanded_menu;
+			global::AiForms.Dialogs.Resource.Id.fill = global::MvxMovies.Android.Resource.Id.fill;
+			global::AiForms.Dialogs.Resource.Id.fill_horizontal = global::MvxMovies.Android.Resource.Id.fill_horizontal;
+			global::AiForms.Dialogs.Resource.Id.fill_vertical = global::MvxMovies.Android.Resource.Id.fill_vertical;
+			global::AiForms.Dialogs.Resource.Id.@fixed = global::MvxMovies.Android.Resource.Id.@fixed;
+			global::AiForms.Dialogs.Resource.Id.forever = global::MvxMovies.Android.Resource.Id.forever;
+			global::AiForms.Dialogs.Resource.Id.ghost_view = global::MvxMovies.Android.Resource.Id.ghost_view;
+			global::AiForms.Dialogs.Resource.Id.home = global::MvxMovies.Android.Resource.Id.home;
+			global::AiForms.Dialogs.Resource.Id.homeAsUp = global::MvxMovies.Android.Resource.Id.homeAsUp;
+			global::AiForms.Dialogs.Resource.Id.icon = global::MvxMovies.Android.Resource.Id.icon;
+			global::AiForms.Dialogs.Resource.Id.icon_group = global::MvxMovies.Android.Resource.Id.icon_group;
+			global::AiForms.Dialogs.Resource.Id.ifRoom = global::MvxMovies.Android.Resource.Id.ifRoom;
+			global::AiForms.Dialogs.Resource.Id.image = global::MvxMovies.Android.Resource.Id.image;
+			global::AiForms.Dialogs.Resource.Id.info = global::MvxMovies.Android.Resource.Id.info;
+			global::AiForms.Dialogs.Resource.Id.italic = global::MvxMovies.Android.Resource.Id.italic;
+			global::AiForms.Dialogs.Resource.Id.item_touch_helper_previous_elevation = global::MvxMovies.Android.Resource.Id.item_touch_helper_previous_elevation;
+			global::AiForms.Dialogs.Resource.Id.largeLabel = global::MvxMovies.Android.Resource.Id.largeLabel;
+			global::AiForms.Dialogs.Resource.Id.left = global::MvxMovies.Android.Resource.Id.left;
+			global::AiForms.Dialogs.Resource.Id.line1 = global::MvxMovies.Android.Resource.Id.line1;
+			global::AiForms.Dialogs.Resource.Id.line3 = global::MvxMovies.Android.Resource.Id.line3;
+			global::AiForms.Dialogs.Resource.Id.listMode = global::MvxMovies.Android.Resource.Id.listMode;
+			global::AiForms.Dialogs.Resource.Id.list_item = global::MvxMovies.Android.Resource.Id.list_item;
+			global::AiForms.Dialogs.Resource.Id.loading_message = global::MvxMovies.Android.Resource.Id.loading_message;
+			global::AiForms.Dialogs.Resource.Id.masked = global::MvxMovies.Android.Resource.Id.masked;
+			global::AiForms.Dialogs.Resource.Id.media_actions = global::MvxMovies.Android.Resource.Id.media_actions;
+			global::AiForms.Dialogs.Resource.Id.message = global::MvxMovies.Android.Resource.Id.message;
+			global::AiForms.Dialogs.Resource.Id.middle = global::MvxMovies.Android.Resource.Id.middle;
+			global::AiForms.Dialogs.Resource.Id.mini = global::MvxMovies.Android.Resource.Id.mini;
+			global::AiForms.Dialogs.Resource.Id.mr_art = global::MvxMovies.Android.Resource.Id.mr_art;
+			global::AiForms.Dialogs.Resource.Id.mr_chooser_list = global::MvxMovies.Android.Resource.Id.mr_chooser_list;
+			global::AiForms.Dialogs.Resource.Id.mr_chooser_route_desc = global::MvxMovies.Android.Resource.Id.mr_chooser_route_desc;
+			global::AiForms.Dialogs.Resource.Id.mr_chooser_route_icon = global::MvxMovies.Android.Resource.Id.mr_chooser_route_icon;
+			global::AiForms.Dialogs.Resource.Id.mr_chooser_route_name = global::MvxMovies.Android.Resource.Id.mr_chooser_route_name;
+			global::AiForms.Dialogs.Resource.Id.mr_chooser_title = global::MvxMovies.Android.Resource.Id.mr_chooser_title;
+			global::AiForms.Dialogs.Resource.Id.mr_close = global::MvxMovies.Android.Resource.Id.mr_close;
+			global::AiForms.Dialogs.Resource.Id.mr_control_divider = global::MvxMovies.Android.Resource.Id.mr_control_divider;
+			global::AiForms.Dialogs.Resource.Id.mr_control_playback_ctrl = global::MvxMovies.Android.Resource.Id.mr_control_playback_ctrl;
+			global::AiForms.Dialogs.Resource.Id.mr_control_subtitle = global::MvxMovies.Android.Resource.Id.mr_control_subtitle;
+			global::AiForms.Dialogs.Resource.Id.mr_control_title = global::MvxMovies.Android.Resource.Id.mr_control_title;
+			global::AiForms.Dialogs.Resource.Id.mr_control_title_container = global::MvxMovies.Android.Resource.Id.mr_control_title_container;
+			global::AiForms.Dialogs.Resource.Id.mr_custom_control = global::MvxMovies.Android.Resource.Id.mr_custom_control;
+			global::AiForms.Dialogs.Resource.Id.mr_default_control = global::MvxMovies.Android.Resource.Id.mr_default_control;
+			global::AiForms.Dialogs.Resource.Id.mr_dialog_area = global::MvxMovies.Android.Resource.Id.mr_dialog_area;
+			global::AiForms.Dialogs.Resource.Id.mr_expandable_area = global::MvxMovies.Android.Resource.Id.mr_expandable_area;
+			global::AiForms.Dialogs.Resource.Id.mr_group_expand_collapse = global::MvxMovies.Android.Resource.Id.mr_group_expand_collapse;
+			global::AiForms.Dialogs.Resource.Id.mr_media_main_control = global::MvxMovies.Android.Resource.Id.mr_media_main_control;
+			global::AiForms.Dialogs.Resource.Id.mr_name = global::MvxMovies.Android.Resource.Id.mr_name;
+			global::AiForms.Dialogs.Resource.Id.mr_playback_control = global::MvxMovies.Android.Resource.Id.mr_playback_control;
+			global::AiForms.Dialogs.Resource.Id.mr_title_bar = global::MvxMovies.Android.Resource.Id.mr_title_bar;
+			global::AiForms.Dialogs.Resource.Id.mr_volume_control = global::MvxMovies.Android.Resource.Id.mr_volume_control;
+			global::AiForms.Dialogs.Resource.Id.mr_volume_group_list = global::MvxMovies.Android.Resource.Id.mr_volume_group_list;
+			global::AiForms.Dialogs.Resource.Id.mr_volume_item_icon = global::MvxMovies.Android.Resource.Id.mr_volume_item_icon;
+			global::AiForms.Dialogs.Resource.Id.mr_volume_slider = global::MvxMovies.Android.Resource.Id.mr_volume_slider;
+			global::AiForms.Dialogs.Resource.Id.multiply = global::MvxMovies.Android.Resource.Id.multiply;
+			global::AiForms.Dialogs.Resource.Id.navigation_header_container = global::MvxMovies.Android.Resource.Id.navigation_header_container;
+			global::AiForms.Dialogs.Resource.Id.never = global::MvxMovies.Android.Resource.Id.never;
+			global::AiForms.Dialogs.Resource.Id.none = global::MvxMovies.Android.Resource.Id.none;
+			global::AiForms.Dialogs.Resource.Id.normal = global::MvxMovies.Android.Resource.Id.normal;
+			global::AiForms.Dialogs.Resource.Id.notification_background = global::MvxMovies.Android.Resource.Id.notification_background;
+			global::AiForms.Dialogs.Resource.Id.notification_main_column = global::MvxMovies.Android.Resource.Id.notification_main_column;
+			global::AiForms.Dialogs.Resource.Id.notification_main_column_container = global::MvxMovies.Android.Resource.Id.notification_main_column_container;
+			global::AiForms.Dialogs.Resource.Id.parallax = global::MvxMovies.Android.Resource.Id.parallax;
+			global::AiForms.Dialogs.Resource.Id.parentPanel = global::MvxMovies.Android.Resource.Id.parentPanel;
+			global::AiForms.Dialogs.Resource.Id.parent_matrix = global::MvxMovies.Android.Resource.Id.parent_matrix;
+			global::AiForms.Dialogs.Resource.Id.pin = global::MvxMovies.Android.Resource.Id.pin;
+			global::AiForms.Dialogs.Resource.Id.progress = global::MvxMovies.Android.Resource.Id.progress;
+			global::AiForms.Dialogs.Resource.Id.progress_circular = global::MvxMovies.Android.Resource.Id.progress_circular;
+			global::AiForms.Dialogs.Resource.Id.progress_horizontal = global::MvxMovies.Android.Resource.Id.progress_horizontal;
+			global::AiForms.Dialogs.Resource.Id.radio = global::MvxMovies.Android.Resource.Id.radio;
+			global::AiForms.Dialogs.Resource.Id.right = global::MvxMovies.Android.Resource.Id.right;
+			global::AiForms.Dialogs.Resource.Id.right_icon = global::MvxMovies.Android.Resource.Id.right_icon;
+			global::AiForms.Dialogs.Resource.Id.right_side = global::MvxMovies.Android.Resource.Id.right_side;
+			global::AiForms.Dialogs.Resource.Id.save_image_matrix = global::MvxMovies.Android.Resource.Id.save_image_matrix;
+			global::AiForms.Dialogs.Resource.Id.save_non_transition_alpha = global::MvxMovies.Android.Resource.Id.save_non_transition_alpha;
+			global::AiForms.Dialogs.Resource.Id.save_scale_type = global::MvxMovies.Android.Resource.Id.save_scale_type;
+			global::AiForms.Dialogs.Resource.Id.screen = global::MvxMovies.Android.Resource.Id.screen;
+			global::AiForms.Dialogs.Resource.Id.scroll = global::MvxMovies.Android.Resource.Id.scroll;
+			global::AiForms.Dialogs.Resource.Id.scrollIndicatorDown = global::MvxMovies.Android.Resource.Id.scrollIndicatorDown;
+			global::AiForms.Dialogs.Resource.Id.scrollIndicatorUp = global::MvxMovies.Android.Resource.Id.scrollIndicatorUp;
+			global::AiForms.Dialogs.Resource.Id.scrollView = global::MvxMovies.Android.Resource.Id.scrollView;
+			global::AiForms.Dialogs.Resource.Id.scrollable = global::MvxMovies.Android.Resource.Id.scrollable;
+			global::AiForms.Dialogs.Resource.Id.search_badge = global::MvxMovies.Android.Resource.Id.search_badge;
+			global::AiForms.Dialogs.Resource.Id.search_bar = global::MvxMovies.Android.Resource.Id.search_bar;
+			global::AiForms.Dialogs.Resource.Id.search_button = global::MvxMovies.Android.Resource.Id.search_button;
+			global::AiForms.Dialogs.Resource.Id.search_close_btn = global::MvxMovies.Android.Resource.Id.search_close_btn;
+			global::AiForms.Dialogs.Resource.Id.search_edit_frame = global::MvxMovies.Android.Resource.Id.search_edit_frame;
+			global::AiForms.Dialogs.Resource.Id.search_go_btn = global::MvxMovies.Android.Resource.Id.search_go_btn;
+			global::AiForms.Dialogs.Resource.Id.search_mag_icon = global::MvxMovies.Android.Resource.Id.search_mag_icon;
+			global::AiForms.Dialogs.Resource.Id.search_plate = global::MvxMovies.Android.Resource.Id.search_plate;
+			global::AiForms.Dialogs.Resource.Id.search_src_text = global::MvxMovies.Android.Resource.Id.search_src_text;
+			global::AiForms.Dialogs.Resource.Id.search_voice_btn = global::MvxMovies.Android.Resource.Id.search_voice_btn;
+			global::AiForms.Dialogs.Resource.Id.select_dialog_listview = global::MvxMovies.Android.Resource.Id.select_dialog_listview;
+			global::AiForms.Dialogs.Resource.Id.shortcut = global::MvxMovies.Android.Resource.Id.shortcut;
+			global::AiForms.Dialogs.Resource.Id.showCustom = global::MvxMovies.Android.Resource.Id.showCustom;
+			global::AiForms.Dialogs.Resource.Id.showHome = global::MvxMovies.Android.Resource.Id.showHome;
+			global::AiForms.Dialogs.Resource.Id.showTitle = global::MvxMovies.Android.Resource.Id.showTitle;
+			global::AiForms.Dialogs.Resource.Id.smallLabel = global::MvxMovies.Android.Resource.Id.smallLabel;
+			global::AiForms.Dialogs.Resource.Id.snackbar_action = global::MvxMovies.Android.Resource.Id.snackbar_action;
+			global::AiForms.Dialogs.Resource.Id.snackbar_text = global::MvxMovies.Android.Resource.Id.snackbar_text;
+			global::AiForms.Dialogs.Resource.Id.snap = global::MvxMovies.Android.Resource.Id.snap;
+			global::AiForms.Dialogs.Resource.Id.spacer = global::MvxMovies.Android.Resource.Id.spacer;
+			global::AiForms.Dialogs.Resource.Id.split_action_bar = global::MvxMovies.Android.Resource.Id.split_action_bar;
+			global::AiForms.Dialogs.Resource.Id.src_atop = global::MvxMovies.Android.Resource.Id.src_atop;
+			global::AiForms.Dialogs.Resource.Id.src_in = global::MvxMovies.Android.Resource.Id.src_in;
+			global::AiForms.Dialogs.Resource.Id.src_over = global::MvxMovies.Android.Resource.Id.src_over;
+			global::AiForms.Dialogs.Resource.Id.start = global::MvxMovies.Android.Resource.Id.start;
+			global::AiForms.Dialogs.Resource.Id.status_bar_latest_event_content = global::MvxMovies.Android.Resource.Id.status_bar_latest_event_content;
+			global::AiForms.Dialogs.Resource.Id.submenuarrow = global::MvxMovies.Android.Resource.Id.submenuarrow;
+			global::AiForms.Dialogs.Resource.Id.submit_area = global::MvxMovies.Android.Resource.Id.submit_area;
+			global::AiForms.Dialogs.Resource.Id.tabMode = global::MvxMovies.Android.Resource.Id.tabMode;
+			global::AiForms.Dialogs.Resource.Id.tag_transition_group = global::MvxMovies.Android.Resource.Id.tag_transition_group;
+			global::AiForms.Dialogs.Resource.Id.text = global::MvxMovies.Android.Resource.Id.text;
+			global::AiForms.Dialogs.Resource.Id.text2 = global::MvxMovies.Android.Resource.Id.text2;
+			global::AiForms.Dialogs.Resource.Id.textSpacerNoButtons = global::MvxMovies.Android.Resource.Id.textSpacerNoButtons;
+			global::AiForms.Dialogs.Resource.Id.textSpacerNoTitle = global::MvxMovies.Android.Resource.Id.textSpacerNoTitle;
+			global::AiForms.Dialogs.Resource.Id.text_input_password_toggle = global::MvxMovies.Android.Resource.Id.text_input_password_toggle;
+			global::AiForms.Dialogs.Resource.Id.textinput_counter = global::MvxMovies.Android.Resource.Id.textinput_counter;
+			global::AiForms.Dialogs.Resource.Id.textinput_error = global::MvxMovies.Android.Resource.Id.textinput_error;
+			global::AiForms.Dialogs.Resource.Id.time = global::MvxMovies.Android.Resource.Id.time;
+			global::AiForms.Dialogs.Resource.Id.title = global::MvxMovies.Android.Resource.Id.title;
+			global::AiForms.Dialogs.Resource.Id.titleDividerNoCustom = global::MvxMovies.Android.Resource.Id.titleDividerNoCustom;
+			global::AiForms.Dialogs.Resource.Id.title_template = global::MvxMovies.Android.Resource.Id.title_template;
+			global::AiForms.Dialogs.Resource.Id.top = global::MvxMovies.Android.Resource.Id.top;
+			global::AiForms.Dialogs.Resource.Id.topPanel = global::MvxMovies.Android.Resource.Id.topPanel;
+			global::AiForms.Dialogs.Resource.Id.touch_outside = global::MvxMovies.Android.Resource.Id.touch_outside;
+			global::AiForms.Dialogs.Resource.Id.transition_current_scene = global::MvxMovies.Android.Resource.Id.transition_current_scene;
+			global::AiForms.Dialogs.Resource.Id.transition_layout_save = global::MvxMovies.Android.Resource.Id.transition_layout_save;
+			global::AiForms.Dialogs.Resource.Id.transition_position = global::MvxMovies.Android.Resource.Id.transition_position;
+			global::AiForms.Dialogs.Resource.Id.transition_scene_layoutid_cache = global::MvxMovies.Android.Resource.Id.transition_scene_layoutid_cache;
+			global::AiForms.Dialogs.Resource.Id.transition_transform = global::MvxMovies.Android.Resource.Id.transition_transform;
+			global::AiForms.Dialogs.Resource.Id.uniform = global::MvxMovies.Android.Resource.Id.uniform;
+			global::AiForms.Dialogs.Resource.Id.up = global::MvxMovies.Android.Resource.Id.up;
+			global::AiForms.Dialogs.Resource.Id.useLogo = global::MvxMovies.Android.Resource.Id.useLogo;
+			global::AiForms.Dialogs.Resource.Id.view_offset_helper = global::MvxMovies.Android.Resource.Id.view_offset_helper;
+			global::AiForms.Dialogs.Resource.Id.visible = global::MvxMovies.Android.Resource.Id.visible;
+			global::AiForms.Dialogs.Resource.Id.volume_item_container = global::MvxMovies.Android.Resource.Id.volume_item_container;
+			global::AiForms.Dialogs.Resource.Id.withText = global::MvxMovies.Android.Resource.Id.withText;
+			global::AiForms.Dialogs.Resource.Id.wrap_content = global::MvxMovies.Android.Resource.Id.wrap_content;
+			global::AiForms.Dialogs.Resource.Integer.abc_config_activityDefaultDur = global::MvxMovies.Android.Resource.Integer.abc_config_activityDefaultDur;
+			global::AiForms.Dialogs.Resource.Integer.abc_config_activityShortDur = global::MvxMovies.Android.Resource.Integer.abc_config_activityShortDur;
+			global::AiForms.Dialogs.Resource.Integer.app_bar_elevation_anim_duration = global::MvxMovies.Android.Resource.Integer.app_bar_elevation_anim_duration;
+			global::AiForms.Dialogs.Resource.Integer.bottom_sheet_slide_duration = global::MvxMovies.Android.Resource.Integer.bottom_sheet_slide_duration;
+			global::AiForms.Dialogs.Resource.Integer.cancel_button_image_alpha = global::MvxMovies.Android.Resource.Integer.cancel_button_image_alpha;
+			global::AiForms.Dialogs.Resource.Integer.config_tooltipAnimTime = global::MvxMovies.Android.Resource.Integer.config_tooltipAnimTime;
+			global::AiForms.Dialogs.Resource.Integer.design_snackbar_text_max_lines = global::MvxMovies.Android.Resource.Integer.design_snackbar_text_max_lines;
+			global::AiForms.Dialogs.Resource.Integer.hide_password_duration = global::MvxMovies.Android.Resource.Integer.hide_password_duration;
+			global::AiForms.Dialogs.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::MvxMovies.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::AiForms.Dialogs.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::MvxMovies.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::AiForms.Dialogs.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::MvxMovies.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::AiForms.Dialogs.Resource.Integer.show_password_duration = global::MvxMovies.Android.Resource.Integer.show_password_duration;
+			global::AiForms.Dialogs.Resource.Integer.status_bar_notification_info_maxnum = global::MvxMovies.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::AiForms.Dialogs.Resource.Interpolator.mr_fast_out_slow_in = global::MvxMovies.Android.Resource.Interpolator.mr_fast_out_slow_in;
+			global::AiForms.Dialogs.Resource.Interpolator.mr_linear_out_slow_in = global::MvxMovies.Android.Resource.Interpolator.mr_linear_out_slow_in;
+			global::AiForms.Dialogs.Resource.Layout.abc_action_bar_title_item = global::MvxMovies.Android.Resource.Layout.abc_action_bar_title_item;
+			global::AiForms.Dialogs.Resource.Layout.abc_action_bar_up_container = global::MvxMovies.Android.Resource.Layout.abc_action_bar_up_container;
+			global::AiForms.Dialogs.Resource.Layout.abc_action_menu_item_layout = global::MvxMovies.Android.Resource.Layout.abc_action_menu_item_layout;
+			global::AiForms.Dialogs.Resource.Layout.abc_action_menu_layout = global::MvxMovies.Android.Resource.Layout.abc_action_menu_layout;
+			global::AiForms.Dialogs.Resource.Layout.abc_action_mode_bar = global::MvxMovies.Android.Resource.Layout.abc_action_mode_bar;
+			global::AiForms.Dialogs.Resource.Layout.abc_action_mode_close_item_material = global::MvxMovies.Android.Resource.Layout.abc_action_mode_close_item_material;
+			global::AiForms.Dialogs.Resource.Layout.abc_activity_chooser_view = global::MvxMovies.Android.Resource.Layout.abc_activity_chooser_view;
+			global::AiForms.Dialogs.Resource.Layout.abc_activity_chooser_view_list_item = global::MvxMovies.Android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::AiForms.Dialogs.Resource.Layout.abc_alert_dialog_button_bar_material = global::MvxMovies.Android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::AiForms.Dialogs.Resource.Layout.abc_alert_dialog_material = global::MvxMovies.Android.Resource.Layout.abc_alert_dialog_material;
+			global::AiForms.Dialogs.Resource.Layout.abc_alert_dialog_title_material = global::MvxMovies.Android.Resource.Layout.abc_alert_dialog_title_material;
+			global::AiForms.Dialogs.Resource.Layout.abc_dialog_title_material = global::MvxMovies.Android.Resource.Layout.abc_dialog_title_material;
+			global::AiForms.Dialogs.Resource.Layout.abc_expanded_menu_layout = global::MvxMovies.Android.Resource.Layout.abc_expanded_menu_layout;
+			global::AiForms.Dialogs.Resource.Layout.abc_list_menu_item_checkbox = global::MvxMovies.Android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::AiForms.Dialogs.Resource.Layout.abc_list_menu_item_icon = global::MvxMovies.Android.Resource.Layout.abc_list_menu_item_icon;
+			global::AiForms.Dialogs.Resource.Layout.abc_list_menu_item_layout = global::MvxMovies.Android.Resource.Layout.abc_list_menu_item_layout;
+			global::AiForms.Dialogs.Resource.Layout.abc_list_menu_item_radio = global::MvxMovies.Android.Resource.Layout.abc_list_menu_item_radio;
+			global::AiForms.Dialogs.Resource.Layout.abc_popup_menu_header_item_layout = global::MvxMovies.Android.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::AiForms.Dialogs.Resource.Layout.abc_popup_menu_item_layout = global::MvxMovies.Android.Resource.Layout.abc_popup_menu_item_layout;
+			global::AiForms.Dialogs.Resource.Layout.abc_screen_content_include = global::MvxMovies.Android.Resource.Layout.abc_screen_content_include;
+			global::AiForms.Dialogs.Resource.Layout.abc_screen_simple = global::MvxMovies.Android.Resource.Layout.abc_screen_simple;
+			global::AiForms.Dialogs.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MvxMovies.Android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::AiForms.Dialogs.Resource.Layout.abc_screen_toolbar = global::MvxMovies.Android.Resource.Layout.abc_screen_toolbar;
+			global::AiForms.Dialogs.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MvxMovies.Android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::AiForms.Dialogs.Resource.Layout.abc_search_view = global::MvxMovies.Android.Resource.Layout.abc_search_view;
+			global::AiForms.Dialogs.Resource.Layout.abc_select_dialog_material = global::MvxMovies.Android.Resource.Layout.abc_select_dialog_material;
+			global::AiForms.Dialogs.Resource.Layout.design_bottom_navigation_item = global::MvxMovies.Android.Resource.Layout.design_bottom_navigation_item;
+			global::AiForms.Dialogs.Resource.Layout.design_bottom_sheet_dialog = global::MvxMovies.Android.Resource.Layout.design_bottom_sheet_dialog;
+			global::AiForms.Dialogs.Resource.Layout.design_layout_snackbar = global::MvxMovies.Android.Resource.Layout.design_layout_snackbar;
+			global::AiForms.Dialogs.Resource.Layout.design_layout_snackbar_include = global::MvxMovies.Android.Resource.Layout.design_layout_snackbar_include;
+			global::AiForms.Dialogs.Resource.Layout.design_layout_tab_icon = global::MvxMovies.Android.Resource.Layout.design_layout_tab_icon;
+			global::AiForms.Dialogs.Resource.Layout.design_layout_tab_text = global::MvxMovies.Android.Resource.Layout.design_layout_tab_text;
+			global::AiForms.Dialogs.Resource.Layout.design_menu_item_action_area = global::MvxMovies.Android.Resource.Layout.design_menu_item_action_area;
+			global::AiForms.Dialogs.Resource.Layout.design_navigation_item = global::MvxMovies.Android.Resource.Layout.design_navigation_item;
+			global::AiForms.Dialogs.Resource.Layout.design_navigation_item_header = global::MvxMovies.Android.Resource.Layout.design_navigation_item_header;
+			global::AiForms.Dialogs.Resource.Layout.design_navigation_item_separator = global::MvxMovies.Android.Resource.Layout.design_navigation_item_separator;
+			global::AiForms.Dialogs.Resource.Layout.design_navigation_item_subheader = global::MvxMovies.Android.Resource.Layout.design_navigation_item_subheader;
+			global::AiForms.Dialogs.Resource.Layout.design_navigation_menu = global::MvxMovies.Android.Resource.Layout.design_navigation_menu;
+			global::AiForms.Dialogs.Resource.Layout.design_navigation_menu_item = global::MvxMovies.Android.Resource.Layout.design_navigation_menu_item;
+			global::AiForms.Dialogs.Resource.Layout.design_text_input_password_icon = global::MvxMovies.Android.Resource.Layout.design_text_input_password_icon;
+			global::AiForms.Dialogs.Resource.Layout.LoadingDialogLayout = global::MvxMovies.Android.Resource.Layout.LoadingDialogLayout;
+			global::AiForms.Dialogs.Resource.Layout.mr_chooser_dialog = global::MvxMovies.Android.Resource.Layout.mr_chooser_dialog;
+			global::AiForms.Dialogs.Resource.Layout.mr_chooser_list_item = global::MvxMovies.Android.Resource.Layout.mr_chooser_list_item;
+			global::AiForms.Dialogs.Resource.Layout.mr_controller_material_dialog_b = global::MvxMovies.Android.Resource.Layout.mr_controller_material_dialog_b;
+			global::AiForms.Dialogs.Resource.Layout.mr_controller_volume_item = global::MvxMovies.Android.Resource.Layout.mr_controller_volume_item;
+			global::AiForms.Dialogs.Resource.Layout.mr_playback_control = global::MvxMovies.Android.Resource.Layout.mr_playback_control;
+			global::AiForms.Dialogs.Resource.Layout.mr_volume_control = global::MvxMovies.Android.Resource.Layout.mr_volume_control;
+			global::AiForms.Dialogs.Resource.Layout.notification_action = global::MvxMovies.Android.Resource.Layout.notification_action;
+			global::AiForms.Dialogs.Resource.Layout.notification_action_tombstone = global::MvxMovies.Android.Resource.Layout.notification_action_tombstone;
+			global::AiForms.Dialogs.Resource.Layout.notification_media_action = global::MvxMovies.Android.Resource.Layout.notification_media_action;
+			global::AiForms.Dialogs.Resource.Layout.notification_media_cancel_action = global::MvxMovies.Android.Resource.Layout.notification_media_cancel_action;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_big_media = global::MvxMovies.Android.Resource.Layout.notification_template_big_media;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_big_media_custom = global::MvxMovies.Android.Resource.Layout.notification_template_big_media_custom;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_big_media_narrow = global::MvxMovies.Android.Resource.Layout.notification_template_big_media_narrow;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_big_media_narrow_custom = global::MvxMovies.Android.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_custom_big = global::MvxMovies.Android.Resource.Layout.notification_template_custom_big;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_icon_group = global::MvxMovies.Android.Resource.Layout.notification_template_icon_group;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_lines_media = global::MvxMovies.Android.Resource.Layout.notification_template_lines_media;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_media = global::MvxMovies.Android.Resource.Layout.notification_template_media;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_media_custom = global::MvxMovies.Android.Resource.Layout.notification_template_media_custom;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_part_chronometer = global::MvxMovies.Android.Resource.Layout.notification_template_part_chronometer;
+			global::AiForms.Dialogs.Resource.Layout.notification_template_part_time = global::MvxMovies.Android.Resource.Layout.notification_template_part_time;
+			global::AiForms.Dialogs.Resource.Layout.select_dialog_item_material = global::MvxMovies.Android.Resource.Layout.select_dialog_item_material;
+			global::AiForms.Dialogs.Resource.Layout.select_dialog_multichoice_material = global::MvxMovies.Android.Resource.Layout.select_dialog_multichoice_material;
+			global::AiForms.Dialogs.Resource.Layout.select_dialog_singlechoice_material = global::MvxMovies.Android.Resource.Layout.select_dialog_singlechoice_material;
+			global::AiForms.Dialogs.Resource.Layout.support_simple_spinner_dropdown_item = global::MvxMovies.Android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::AiForms.Dialogs.Resource.String.abc_action_bar_home_description = global::MvxMovies.Android.Resource.String.abc_action_bar_home_description;
+			global::AiForms.Dialogs.Resource.String.abc_action_bar_up_description = global::MvxMovies.Android.Resource.String.abc_action_bar_up_description;
+			global::AiForms.Dialogs.Resource.String.abc_action_menu_overflow_description = global::MvxMovies.Android.Resource.String.abc_action_menu_overflow_description;
+			global::AiForms.Dialogs.Resource.String.abc_action_mode_done = global::MvxMovies.Android.Resource.String.abc_action_mode_done;
+			global::AiForms.Dialogs.Resource.String.abc_activity_chooser_view_see_all = global::MvxMovies.Android.Resource.String.abc_activity_chooser_view_see_all;
+			global::AiForms.Dialogs.Resource.String.abc_activitychooserview_choose_application = global::MvxMovies.Android.Resource.String.abc_activitychooserview_choose_application;
+			global::AiForms.Dialogs.Resource.String.abc_capital_off = global::MvxMovies.Android.Resource.String.abc_capital_off;
+			global::AiForms.Dialogs.Resource.String.abc_capital_on = global::MvxMovies.Android.Resource.String.abc_capital_on;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_body_1_material = global::MvxMovies.Android.Resource.String.abc_font_family_body_1_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_body_2_material = global::MvxMovies.Android.Resource.String.abc_font_family_body_2_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_button_material = global::MvxMovies.Android.Resource.String.abc_font_family_button_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_caption_material = global::MvxMovies.Android.Resource.String.abc_font_family_caption_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_display_1_material = global::MvxMovies.Android.Resource.String.abc_font_family_display_1_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_display_2_material = global::MvxMovies.Android.Resource.String.abc_font_family_display_2_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_display_3_material = global::MvxMovies.Android.Resource.String.abc_font_family_display_3_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_display_4_material = global::MvxMovies.Android.Resource.String.abc_font_family_display_4_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_headline_material = global::MvxMovies.Android.Resource.String.abc_font_family_headline_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_menu_material = global::MvxMovies.Android.Resource.String.abc_font_family_menu_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_subhead_material = global::MvxMovies.Android.Resource.String.abc_font_family_subhead_material;
+			global::AiForms.Dialogs.Resource.String.abc_font_family_title_material = global::MvxMovies.Android.Resource.String.abc_font_family_title_material;
+			global::AiForms.Dialogs.Resource.String.abc_search_hint = global::MvxMovies.Android.Resource.String.abc_search_hint;
+			global::AiForms.Dialogs.Resource.String.abc_searchview_description_clear = global::MvxMovies.Android.Resource.String.abc_searchview_description_clear;
+			global::AiForms.Dialogs.Resource.String.abc_searchview_description_query = global::MvxMovies.Android.Resource.String.abc_searchview_description_query;
+			global::AiForms.Dialogs.Resource.String.abc_searchview_description_search = global::MvxMovies.Android.Resource.String.abc_searchview_description_search;
+			global::AiForms.Dialogs.Resource.String.abc_searchview_description_submit = global::MvxMovies.Android.Resource.String.abc_searchview_description_submit;
+			global::AiForms.Dialogs.Resource.String.abc_searchview_description_voice = global::MvxMovies.Android.Resource.String.abc_searchview_description_voice;
+			global::AiForms.Dialogs.Resource.String.abc_shareactionprovider_share_with = global::MvxMovies.Android.Resource.String.abc_shareactionprovider_share_with;
+			global::AiForms.Dialogs.Resource.String.abc_shareactionprovider_share_with_application = global::MvxMovies.Android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::AiForms.Dialogs.Resource.String.abc_toolbar_collapse_description = global::MvxMovies.Android.Resource.String.abc_toolbar_collapse_description;
+			global::AiForms.Dialogs.Resource.String.appbar_scrolling_view_behavior = global::MvxMovies.Android.Resource.String.appbar_scrolling_view_behavior;
+			global::AiForms.Dialogs.Resource.String.bottom_sheet_behavior = global::MvxMovies.Android.Resource.String.bottom_sheet_behavior;
+			global::AiForms.Dialogs.Resource.String.character_counter_pattern = global::MvxMovies.Android.Resource.String.character_counter_pattern;
+			global::AiForms.Dialogs.Resource.String.library_name = global::MvxMovies.Android.Resource.String.library_name;
+			global::AiForms.Dialogs.Resource.String.mr_button_content_description = global::MvxMovies.Android.Resource.String.mr_button_content_description;
+			global::AiForms.Dialogs.Resource.String.mr_cast_button_connected = global::MvxMovies.Android.Resource.String.mr_cast_button_connected;
+			global::AiForms.Dialogs.Resource.String.mr_cast_button_connecting = global::MvxMovies.Android.Resource.String.mr_cast_button_connecting;
+			global::AiForms.Dialogs.Resource.String.mr_cast_button_disconnected = global::MvxMovies.Android.Resource.String.mr_cast_button_disconnected;
+			global::AiForms.Dialogs.Resource.String.mr_chooser_searching = global::MvxMovies.Android.Resource.String.mr_chooser_searching;
+			global::AiForms.Dialogs.Resource.String.mr_chooser_title = global::MvxMovies.Android.Resource.String.mr_chooser_title;
+			global::AiForms.Dialogs.Resource.String.mr_controller_album_art = global::MvxMovies.Android.Resource.String.mr_controller_album_art;
+			global::AiForms.Dialogs.Resource.String.mr_controller_casting_screen = global::MvxMovies.Android.Resource.String.mr_controller_casting_screen;
+			global::AiForms.Dialogs.Resource.String.mr_controller_close_description = global::MvxMovies.Android.Resource.String.mr_controller_close_description;
+			global::AiForms.Dialogs.Resource.String.mr_controller_collapse_group = global::MvxMovies.Android.Resource.String.mr_controller_collapse_group;
+			global::AiForms.Dialogs.Resource.String.mr_controller_disconnect = global::MvxMovies.Android.Resource.String.mr_controller_disconnect;
+			global::AiForms.Dialogs.Resource.String.mr_controller_expand_group = global::MvxMovies.Android.Resource.String.mr_controller_expand_group;
+			global::AiForms.Dialogs.Resource.String.mr_controller_no_info_available = global::MvxMovies.Android.Resource.String.mr_controller_no_info_available;
+			global::AiForms.Dialogs.Resource.String.mr_controller_no_media_selected = global::MvxMovies.Android.Resource.String.mr_controller_no_media_selected;
+			global::AiForms.Dialogs.Resource.String.mr_controller_pause = global::MvxMovies.Android.Resource.String.mr_controller_pause;
+			global::AiForms.Dialogs.Resource.String.mr_controller_play = global::MvxMovies.Android.Resource.String.mr_controller_play;
+			global::AiForms.Dialogs.Resource.String.mr_controller_stop = global::MvxMovies.Android.Resource.String.mr_controller_stop;
+			global::AiForms.Dialogs.Resource.String.mr_controller_stop_casting = global::MvxMovies.Android.Resource.String.mr_controller_stop_casting;
+			global::AiForms.Dialogs.Resource.String.mr_controller_volume_slider = global::MvxMovies.Android.Resource.String.mr_controller_volume_slider;
+			global::AiForms.Dialogs.Resource.String.mr_system_route_name = global::MvxMovies.Android.Resource.String.mr_system_route_name;
+			global::AiForms.Dialogs.Resource.String.mr_user_route_category_name = global::MvxMovies.Android.Resource.String.mr_user_route_category_name;
+			global::AiForms.Dialogs.Resource.String.password_toggle_content_description = global::MvxMovies.Android.Resource.String.password_toggle_content_description;
+			global::AiForms.Dialogs.Resource.String.path_password_eye = global::MvxMovies.Android.Resource.String.path_password_eye;
+			global::AiForms.Dialogs.Resource.String.path_password_eye_mask_strike_through = global::MvxMovies.Android.Resource.String.path_password_eye_mask_strike_through;
+			global::AiForms.Dialogs.Resource.String.path_password_eye_mask_visible = global::MvxMovies.Android.Resource.String.path_password_eye_mask_visible;
+			global::AiForms.Dialogs.Resource.String.path_password_strike_through = global::MvxMovies.Android.Resource.String.path_password_strike_through;
+			global::AiForms.Dialogs.Resource.String.search_menu_title = global::MvxMovies.Android.Resource.String.search_menu_title;
+			global::AiForms.Dialogs.Resource.String.status_bar_notification_info_overflow = global::MvxMovies.Android.Resource.String.status_bar_notification_info_overflow;
+			global::AiForms.Dialogs.Resource.Style.AlertDialog_AppCompat = global::MvxMovies.Android.Resource.Style.AlertDialog_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.AlertDialog_AppCompat_Light = global::MvxMovies.Android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Animation_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Animation_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Animation_AppCompat_DropDownUp = global::MvxMovies.Android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::AiForms.Dialogs.Resource.Style.Animation_AppCompat_Tooltip = global::MvxMovies.Android.Resource.Style.Animation_AppCompat_Tooltip;
+			global::AiForms.Dialogs.Resource.Style.Animation_Design_BottomSheetDialog = global::MvxMovies.Android.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::AiForms.Dialogs.Resource.Style.Base_AlertDialog_AppCompat = global::MvxMovies.Android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Base_Animation_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MvxMovies.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::AiForms.Dialogs.Resource.Style.Base_Animation_AppCompat_Tooltip = global::MvxMovies.Android.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::AiForms.Dialogs.Resource.Style.Base_CardView = global::MvxMovies.Android.Resource.Style.Base_CardView;
+			global::AiForms.Dialogs.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MvxMovies.Android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MvxMovies.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MvxMovies.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::AiForms.Dialogs.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MvxMovies.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::AiForms.Dialogs.Resource.Style.Base_ThemeOverlay_AppCompat = global::MvxMovies.Android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MvxMovies.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MvxMovies.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::AiForms.Dialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MvxMovies.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MvxMovies.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::AiForms.Dialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Base_V21_Theme_AppCompat = global::MvxMovies.Android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MvxMovies.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_V22_Theme_AppCompat = global::MvxMovies.Android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Base_V23_Theme_AppCompat = global::MvxMovies.Android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Base_V26_Theme_AppCompat = global::MvxMovies.Android.Resource.Style.Base_V26_Theme_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_V26_Theme_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::MvxMovies.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::AiForms.Dialogs.Resource.Style.Base_V7_Theme_AppCompat = global::MvxMovies.Android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MvxMovies.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MvxMovies.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::AiForms.Dialogs.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MvxMovies.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::AiForms.Dialogs.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::MvxMovies.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Button = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_EditText = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ListView = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_SearchView = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Spinner = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MvxMovies.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::AiForms.Dialogs.Resource.Style.Base_Widget_Design_TabLayout = global::MvxMovies.Android.Resource.Style.Base_Widget_Design_TabLayout;
+			global::AiForms.Dialogs.Resource.Style.CardView = global::MvxMovies.Android.Resource.Style.CardView;
+			global::AiForms.Dialogs.Resource.Style.CardView_Dark = global::MvxMovies.Android.Resource.Style.CardView_Dark;
+			global::AiForms.Dialogs.Resource.Style.CardView_Light = global::MvxMovies.Android.Resource.Style.CardView_Light;
+			global::AiForms.Dialogs.Resource.Style.ExtraDialogAnimSet = global::MvxMovies.Android.Resource.Style.ExtraDialogAnimSet;
+			global::AiForms.Dialogs.Resource.Style.NoDimDialogFragmentStyle = global::MvxMovies.Android.Resource.Style.NoDimDialogFragmentStyle;
+			global::AiForms.Dialogs.Resource.Style.Platform_AppCompat = global::MvxMovies.Android.Resource.Style.Platform_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Platform_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Platform_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MvxMovies.Android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MvxMovies.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::AiForms.Dialogs.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Platform_V21_AppCompat = global::MvxMovies.Android.Resource.Style.Platform_V21_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Platform_V21_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Platform_V21_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Platform_V25_AppCompat = global::MvxMovies.Android.Resource.Style.Platform_V25_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Platform_V25_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Platform_V25_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MvxMovies.Android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MvxMovies.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::AiForms.Dialogs.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MvxMovies.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::AiForms.Dialogs.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MvxMovies.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::AiForms.Dialogs.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MvxMovies.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Body1 = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Body2 = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Button = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Caption = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Display1 = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Display2 = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Display3 = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Display4 = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Headline = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Large = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Medium = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Menu = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Small = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Subhead = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Title = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Tooltip = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MvxMovies.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Info = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Media = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Time = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Title = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::MvxMovies.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MvxMovies.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Design_Counter = global::MvxMovies.Android.Resource.Style.TextAppearance_Design_Counter;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MvxMovies.Android.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Design_Error = global::MvxMovies.Android.Resource.Style.TextAppearance_Design_Error;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Design_Hint = global::MvxMovies.Android.Resource.Style.TextAppearance_Design_Hint;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MvxMovies.Android.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Design_Tab = global::MvxMovies.Android.Resource.Style.TextAppearance_Design_Tab;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::MvxMovies.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::MvxMovies.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_MediaRouter_Title = global::MvxMovies.Android.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MvxMovies.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MvxMovies.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::AiForms.Dialogs.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MvxMovies.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat = global::MvxMovies.Android.Resource.Style.Theme_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_CompactMenu = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_DayNight = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_DayNight;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Light = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Light_Dialog = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::AiForms.Dialogs.Resource.Style.Theme_AppCompat_NoActionBar = global::MvxMovies.Android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::AiForms.Dialogs.Resource.Style.Theme_Design = global::MvxMovies.Android.Resource.Style.Theme_Design;
+			global::AiForms.Dialogs.Resource.Style.Theme_Design_BottomSheetDialog = global::MvxMovies.Android.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::AiForms.Dialogs.Resource.Style.Theme_Design_Light = global::MvxMovies.Android.Resource.Style.Theme_Design_Light;
+			global::AiForms.Dialogs.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MvxMovies.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::AiForms.Dialogs.Resource.Style.Theme_Design_Light_NoActionBar = global::MvxMovies.Android.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::AiForms.Dialogs.Resource.Style.Theme_Design_NoActionBar = global::MvxMovies.Android.Resource.Style.Theme_Design_NoActionBar;
+			global::AiForms.Dialogs.Resource.Style.Theme_MediaRouter = global::MvxMovies.Android.Resource.Style.Theme_MediaRouter;
+			global::AiForms.Dialogs.Resource.Style.Theme_MediaRouter_Light = global::MvxMovies.Android.Resource.Style.Theme_MediaRouter_Light;
+			global::AiForms.Dialogs.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::MvxMovies.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::AiForms.Dialogs.Resource.Style.Theme_MediaRouter_LightControlPanel = global::MvxMovies.Android.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_AppCompat = global::MvxMovies.Android.Resource.Style.ThemeOverlay_AppCompat;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MvxMovies.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MvxMovies.Android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MvxMovies.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MvxMovies.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MvxMovies.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_AppCompat_Light = global::MvxMovies.Android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::MvxMovies.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::AiForms.Dialogs.Resource.Style.ThemeOverlay_MediaRouter_Light = global::MvxMovies.Android.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionButton = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActionMode = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Button = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Button;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Button_Borderless = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Button_Colored = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Button_Small = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ButtonBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_EditText = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_EditText;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ImageButton = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_SearchView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ListMenuView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ListView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ListView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ListView_Menu = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_PopupMenu = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_PopupWindow = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ProgressBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_RatingBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_SearchView = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_SearchView;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_SeekBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Spinner = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Spinner;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Toolbar = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::AiForms.Dialogs.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MvxMovies.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::AiForms.Dialogs.Resource.Style.Widget_Compat_NotificationActionContainer = global::MvxMovies.Android.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::AiForms.Dialogs.Resource.Style.Widget_Compat_NotificationActionText = global::MvxMovies.Android.Resource.Style.Widget_Compat_NotificationActionText;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_AppBarLayout = global::MvxMovies.Android.Resource.Style.Widget_Design_AppBarLayout;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_BottomNavigationView = global::MvxMovies.Android.Resource.Style.Widget_Design_BottomNavigationView;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_BottomSheet_Modal = global::MvxMovies.Android.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_CollapsingToolbar = global::MvxMovies.Android.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_FloatingActionButton = global::MvxMovies.Android.Resource.Style.Widget_Design_FloatingActionButton;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_NavigationView = global::MvxMovies.Android.Resource.Style.Widget_Design_NavigationView;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MvxMovies.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_Snackbar = global::MvxMovies.Android.Resource.Style.Widget_Design_Snackbar;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_TabLayout = global::MvxMovies.Android.Resource.Style.Widget_Design_TabLayout;
+			global::AiForms.Dialogs.Resource.Style.Widget_Design_TextInputLayout = global::MvxMovies.Android.Resource.Style.Widget_Design_TextInputLayout;
+			global::AiForms.Dialogs.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::MvxMovies.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::AiForms.Dialogs.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::MvxMovies.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar = global::MvxMovies.Android.Resource.Styleable.ActionBar;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_background = global::MvxMovies.Android.Resource.Styleable.ActionBar_background;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_backgroundSplit = global::MvxMovies.Android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_backgroundStacked = global::MvxMovies.Android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_contentInsetEnd = global::MvxMovies.Android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MvxMovies.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_contentInsetLeft = global::MvxMovies.Android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_contentInsetRight = global::MvxMovies.Android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_contentInsetStart = global::MvxMovies.Android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MvxMovies.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_customNavigationLayout = global::MvxMovies.Android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_displayOptions = global::MvxMovies.Android.Resource.Styleable.ActionBar_displayOptions;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_divider = global::MvxMovies.Android.Resource.Styleable.ActionBar_divider;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_elevation = global::MvxMovies.Android.Resource.Styleable.ActionBar_elevation;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_height = global::MvxMovies.Android.Resource.Styleable.ActionBar_height;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_hideOnContentScroll = global::MvxMovies.Android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MvxMovies.Android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_homeLayout = global::MvxMovies.Android.Resource.Styleable.ActionBar_homeLayout;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_icon = global::MvxMovies.Android.Resource.Styleable.ActionBar_icon;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MvxMovies.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_itemPadding = global::MvxMovies.Android.Resource.Styleable.ActionBar_itemPadding;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_logo = global::MvxMovies.Android.Resource.Styleable.ActionBar_logo;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_navigationMode = global::MvxMovies.Android.Resource.Styleable.ActionBar_navigationMode;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_popupTheme = global::MvxMovies.Android.Resource.Styleable.ActionBar_popupTheme;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_progressBarPadding = global::MvxMovies.Android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_progressBarStyle = global::MvxMovies.Android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_subtitle = global::MvxMovies.Android.Resource.Styleable.ActionBar_subtitle;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_subtitleTextStyle = global::MvxMovies.Android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_title = global::MvxMovies.Android.Resource.Styleable.ActionBar_title;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBar_titleTextStyle = global::MvxMovies.Android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBarLayout = global::MvxMovies.Android.Resource.Styleable.ActionBarLayout;
+			global::AiForms.Dialogs.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MvxMovies.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMenuItemView = global::MvxMovies.Android.Resource.Styleable.ActionMenuItemView;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MvxMovies.Android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMenuView = global::MvxMovies.Android.Resource.Styleable.ActionMenuView;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMode = global::MvxMovies.Android.Resource.Styleable.ActionMode;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMode_background = global::MvxMovies.Android.Resource.Styleable.ActionMode_background;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMode_backgroundSplit = global::MvxMovies.Android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMode_closeItemLayout = global::MvxMovies.Android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMode_height = global::MvxMovies.Android.Resource.Styleable.ActionMode_height;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMode_subtitleTextStyle = global::MvxMovies.Android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::AiForms.Dialogs.Resource.Styleable.ActionMode_titleTextStyle = global::MvxMovies.Android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::AiForms.Dialogs.Resource.Styleable.ActivityChooserView = global::MvxMovies.Android.Resource.Styleable.ActivityChooserView;
+			global::AiForms.Dialogs.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MvxMovies.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MvxMovies.Android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::AiForms.Dialogs.Resource.Styleable.AlertDialog = global::MvxMovies.Android.Resource.Styleable.AlertDialog;
+			global::AiForms.Dialogs.Resource.Styleable.AlertDialog_android_layout = global::MvxMovies.Android.Resource.Styleable.AlertDialog_android_layout;
+			global::AiForms.Dialogs.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MvxMovies.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::AiForms.Dialogs.Resource.Styleable.AlertDialog_listItemLayout = global::MvxMovies.Android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::AiForms.Dialogs.Resource.Styleable.AlertDialog_listLayout = global::MvxMovies.Android.Resource.Styleable.AlertDialog_listLayout;
+			global::AiForms.Dialogs.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MvxMovies.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::AiForms.Dialogs.Resource.Styleable.AlertDialog_showTitle = global::MvxMovies.Android.Resource.Styleable.AlertDialog_showTitle;
+			global::AiForms.Dialogs.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MvxMovies.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout = global::MvxMovies.Android.Resource.Styleable.AppBarLayout;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout_android_background = global::MvxMovies.Android.Resource.Styleable.AppBarLayout_android_background;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::MvxMovies.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::MvxMovies.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout_elevation = global::MvxMovies.Android.Resource.Styleable.AppBarLayout_elevation;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout_expanded = global::MvxMovies.Android.Resource.Styleable.AppBarLayout_expanded;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayoutStates = global::MvxMovies.Android.Resource.Styleable.AppBarLayoutStates;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MvxMovies.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MvxMovies.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout_Layout = global::MvxMovies.Android.Resource.Styleable.AppBarLayout_Layout;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MvxMovies.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::AiForms.Dialogs.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MvxMovies.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatImageView = global::MvxMovies.Android.Resource.Styleable.AppCompatImageView;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatImageView_android_src = global::MvxMovies.Android.Resource.Styleable.AppCompatImageView_android_src;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatImageView_srcCompat = global::MvxMovies.Android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatImageView_tint = global::MvxMovies.Android.Resource.Styleable.AppCompatImageView_tint;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatImageView_tintMode = global::MvxMovies.Android.Resource.Styleable.AppCompatImageView_tintMode;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatSeekBar = global::MvxMovies.Android.Resource.Styleable.AppCompatSeekBar;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MvxMovies.Android.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatSeekBar_tickMark = global::MvxMovies.Android.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MvxMovies.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MvxMovies.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextHelper = global::MvxMovies.Android.Resource.Styleable.AppCompatTextHelper;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MvxMovies.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MvxMovies.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MvxMovies.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MvxMovies.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MvxMovies.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MvxMovies.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MvxMovies.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView_fontFamily = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTextView_textAllCaps = global::MvxMovies.Android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarSize = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_buttonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorAccent = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorError = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorError;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorPrimary = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_controlBackground = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_dialogTheme = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_dividerVertical = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_editTextBackground = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_editTextColor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_editTextStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_panelBackground = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_switchStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowActionBar = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::AiForms.Dialogs.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MvxMovies.Android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::AiForms.Dialogs.Resource.Styleable.BottomNavigationView = global::MvxMovies.Android.Resource.Styleable.BottomNavigationView;
+			global::AiForms.Dialogs.Resource.Styleable.BottomNavigationView_elevation = global::MvxMovies.Android.Resource.Styleable.BottomNavigationView_elevation;
+			global::AiForms.Dialogs.Resource.Styleable.BottomNavigationView_itemBackground = global::MvxMovies.Android.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::AiForms.Dialogs.Resource.Styleable.BottomNavigationView_itemIconTint = global::MvxMovies.Android.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::AiForms.Dialogs.Resource.Styleable.BottomNavigationView_itemTextColor = global::MvxMovies.Android.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::AiForms.Dialogs.Resource.Styleable.BottomNavigationView_menu = global::MvxMovies.Android.Resource.Styleable.BottomNavigationView_menu;
+			global::AiForms.Dialogs.Resource.Styleable.BottomSheetBehavior_Layout = global::MvxMovies.Android.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::AiForms.Dialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MvxMovies.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::AiForms.Dialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MvxMovies.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::AiForms.Dialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MvxMovies.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::AiForms.Dialogs.Resource.Styleable.ButtonBarLayout = global::MvxMovies.Android.Resource.Styleable.ButtonBarLayout;
+			global::AiForms.Dialogs.Resource.Styleable.ButtonBarLayout_allowStacking = global::MvxMovies.Android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::AiForms.Dialogs.Resource.Styleable.CardView = global::MvxMovies.Android.Resource.Styleable.CardView;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_android_minHeight = global::MvxMovies.Android.Resource.Styleable.CardView_android_minHeight;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_android_minWidth = global::MvxMovies.Android.Resource.Styleable.CardView_android_minWidth;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_cardBackgroundColor = global::MvxMovies.Android.Resource.Styleable.CardView_cardBackgroundColor;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_cardCornerRadius = global::MvxMovies.Android.Resource.Styleable.CardView_cardCornerRadius;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_cardElevation = global::MvxMovies.Android.Resource.Styleable.CardView_cardElevation;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_cardMaxElevation = global::MvxMovies.Android.Resource.Styleable.CardView_cardMaxElevation;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MvxMovies.Android.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_cardUseCompatPadding = global::MvxMovies.Android.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_contentPadding = global::MvxMovies.Android.Resource.Styleable.CardView_contentPadding;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_contentPaddingBottom = global::MvxMovies.Android.Resource.Styleable.CardView_contentPaddingBottom;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_contentPaddingLeft = global::MvxMovies.Android.Resource.Styleable.CardView_contentPaddingLeft;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_contentPaddingRight = global::MvxMovies.Android.Resource.Styleable.CardView_contentPaddingRight;
+			global::AiForms.Dialogs.Resource.Styleable.CardView_contentPaddingTop = global::MvxMovies.Android.Resource.Styleable.CardView_contentPaddingTop;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_title = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::AiForms.Dialogs.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MvxMovies.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::AiForms.Dialogs.Resource.Styleable.ColorStateListItem = global::MvxMovies.Android.Resource.Styleable.ColorStateListItem;
+			global::AiForms.Dialogs.Resource.Styleable.ColorStateListItem_alpha = global::MvxMovies.Android.Resource.Styleable.ColorStateListItem_alpha;
+			global::AiForms.Dialogs.Resource.Styleable.ColorStateListItem_android_alpha = global::MvxMovies.Android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::AiForms.Dialogs.Resource.Styleable.ColorStateListItem_android_color = global::MvxMovies.Android.Resource.Styleable.ColorStateListItem_android_color;
+			global::AiForms.Dialogs.Resource.Styleable.CompoundButton = global::MvxMovies.Android.Resource.Styleable.CompoundButton;
+			global::AiForms.Dialogs.Resource.Styleable.CompoundButton_android_button = global::MvxMovies.Android.Resource.Styleable.CompoundButton_android_button;
+			global::AiForms.Dialogs.Resource.Styleable.CompoundButton_buttonTint = global::MvxMovies.Android.Resource.Styleable.CompoundButton_buttonTint;
+			global::AiForms.Dialogs.Resource.Styleable.CompoundButton_buttonTintMode = global::MvxMovies.Android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_keylines = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_keylines;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_Layout = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_Layout;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::AiForms.Dialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MvxMovies.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::AiForms.Dialogs.Resource.Styleable.DesignTheme = global::MvxMovies.Android.Resource.Styleable.DesignTheme;
+			global::AiForms.Dialogs.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MvxMovies.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::AiForms.Dialogs.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MvxMovies.Android.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle_barLength = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle_color = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle_color;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle_spinBars = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::AiForms.Dialogs.Resource.Styleable.DrawerArrowToggle_thickness = global::MvxMovies.Android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_backgroundTint = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_borderWidth = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_elevation = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_elevation;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_fabSize = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_fabSize;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_rippleColor = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::AiForms.Dialogs.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MvxMovies.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamily = global::MvxMovies.Android.Resource.Styleable.FontFamily;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamily_fontProviderAuthority = global::MvxMovies.Android.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamily_fontProviderCerts = global::MvxMovies.Android.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MvxMovies.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MvxMovies.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamily_fontProviderPackage = global::MvxMovies.Android.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamily_fontProviderQuery = global::MvxMovies.Android.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamilyFont = global::MvxMovies.Android.Resource.Styleable.FontFamilyFont;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamilyFont_android_font = global::MvxMovies.Android.Resource.Styleable.FontFamilyFont_android_font;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MvxMovies.Android.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MvxMovies.Android.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamilyFont_font = global::MvxMovies.Android.Resource.Styleable.FontFamilyFont_font;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamilyFont_fontStyle = global::MvxMovies.Android.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::AiForms.Dialogs.Resource.Styleable.FontFamilyFont_fontWeight = global::MvxMovies.Android.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::AiForms.Dialogs.Resource.Styleable.ForegroundLinearLayout = global::MvxMovies.Android.Resource.Styleable.ForegroundLinearLayout;
+			global::AiForms.Dialogs.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MvxMovies.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::AiForms.Dialogs.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MvxMovies.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::AiForms.Dialogs.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MvxMovies.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_divider = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_showDividers = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_Layout = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::AiForms.Dialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MvxMovies.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::AiForms.Dialogs.Resource.Styleable.ListPopupWindow = global::MvxMovies.Android.Resource.Styleable.ListPopupWindow;
+			global::AiForms.Dialogs.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MvxMovies.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::AiForms.Dialogs.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MvxMovies.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::AiForms.Dialogs.Resource.Styleable.MediaRouteButton = global::MvxMovies.Android.Resource.Styleable.MediaRouteButton;
+			global::AiForms.Dialogs.Resource.Styleable.MediaRouteButton_android_minHeight = global::MvxMovies.Android.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::AiForms.Dialogs.Resource.Styleable.MediaRouteButton_android_minWidth = global::MvxMovies.Android.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::AiForms.Dialogs.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::MvxMovies.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::MvxMovies.Android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::AiForms.Dialogs.Resource.Styleable.MenuGroup = global::MvxMovies.Android.Resource.Styleable.MenuGroup;
+			global::AiForms.Dialogs.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MvxMovies.Android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::AiForms.Dialogs.Resource.Styleable.MenuGroup_android_enabled = global::MvxMovies.Android.Resource.Styleable.MenuGroup_android_enabled;
+			global::AiForms.Dialogs.Resource.Styleable.MenuGroup_android_id = global::MvxMovies.Android.Resource.Styleable.MenuGroup_android_id;
+			global::AiForms.Dialogs.Resource.Styleable.MenuGroup_android_menuCategory = global::MvxMovies.Android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::AiForms.Dialogs.Resource.Styleable.MenuGroup_android_orderInCategory = global::MvxMovies.Android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::AiForms.Dialogs.Resource.Styleable.MenuGroup_android_visible = global::MvxMovies.Android.Resource.Styleable.MenuGroup_android_visible;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem = global::MvxMovies.Android.Resource.Styleable.MenuItem;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_actionLayout = global::MvxMovies.Android.Resource.Styleable.MenuItem_actionLayout;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_actionProviderClass = global::MvxMovies.Android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_actionViewClass = global::MvxMovies.Android.Resource.Styleable.MenuItem_actionViewClass;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_alphabeticModifiers = global::MvxMovies.Android.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_checkable = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_checkable;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_checked = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_checked;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_enabled = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_enabled;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_icon = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_icon;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_id = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_id;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_menuCategory = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_numericShortcut = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_onClick = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_onClick;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_orderInCategory = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_title = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_title;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_titleCondensed = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_android_visible = global::MvxMovies.Android.Resource.Styleable.MenuItem_android_visible;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_contentDescription = global::MvxMovies.Android.Resource.Styleable.MenuItem_contentDescription;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_iconTint = global::MvxMovies.Android.Resource.Styleable.MenuItem_iconTint;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_iconTintMode = global::MvxMovies.Android.Resource.Styleable.MenuItem_iconTintMode;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_numericModifiers = global::MvxMovies.Android.Resource.Styleable.MenuItem_numericModifiers;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_showAsAction = global::MvxMovies.Android.Resource.Styleable.MenuItem_showAsAction;
+			global::AiForms.Dialogs.Resource.Styleable.MenuItem_tooltipText = global::MvxMovies.Android.Resource.Styleable.MenuItem_tooltipText;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView = global::MvxMovies.Android.Resource.Styleable.MenuView;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_android_headerBackground = global::MvxMovies.Android.Resource.Styleable.MenuView_android_headerBackground;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_android_horizontalDivider = global::MvxMovies.Android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_android_itemBackground = global::MvxMovies.Android.Resource.Styleable.MenuView_android_itemBackground;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MvxMovies.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_android_itemTextAppearance = global::MvxMovies.Android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_android_verticalDivider = global::MvxMovies.Android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MvxMovies.Android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_preserveIconSpacing = global::MvxMovies.Android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::AiForms.Dialogs.Resource.Styleable.MenuView_subMenuArrow = global::MvxMovies.Android.Resource.Styleable.MenuView_subMenuArrow;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView = global::MvxMovies.Android.Resource.Styleable.NavigationView;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_android_background = global::MvxMovies.Android.Resource.Styleable.NavigationView_android_background;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MvxMovies.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_android_maxWidth = global::MvxMovies.Android.Resource.Styleable.NavigationView_android_maxWidth;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_elevation = global::MvxMovies.Android.Resource.Styleable.NavigationView_elevation;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_headerLayout = global::MvxMovies.Android.Resource.Styleable.NavigationView_headerLayout;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_itemBackground = global::MvxMovies.Android.Resource.Styleable.NavigationView_itemBackground;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_itemIconTint = global::MvxMovies.Android.Resource.Styleable.NavigationView_itemIconTint;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_itemTextAppearance = global::MvxMovies.Android.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_itemTextColor = global::MvxMovies.Android.Resource.Styleable.NavigationView_itemTextColor;
+			global::AiForms.Dialogs.Resource.Styleable.NavigationView_menu = global::MvxMovies.Android.Resource.Styleable.NavigationView_menu;
+			global::AiForms.Dialogs.Resource.Styleable.PopupWindow = global::MvxMovies.Android.Resource.Styleable.PopupWindow;
+			global::AiForms.Dialogs.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MvxMovies.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::AiForms.Dialogs.Resource.Styleable.PopupWindow_android_popupBackground = global::MvxMovies.Android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::AiForms.Dialogs.Resource.Styleable.PopupWindow_overlapAnchor = global::MvxMovies.Android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::AiForms.Dialogs.Resource.Styleable.PopupWindowBackgroundState = global::MvxMovies.Android.Resource.Styleable.PopupWindowBackgroundState;
+			global::AiForms.Dialogs.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MvxMovies.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::AiForms.Dialogs.Resource.Styleable.RecycleListView = global::MvxMovies.Android.Resource.Styleable.RecycleListView;
+			global::AiForms.Dialogs.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MvxMovies.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::AiForms.Dialogs.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MvxMovies.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView = global::MvxMovies.Android.Resource.Styleable.RecyclerView;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MvxMovies.Android.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_android_orientation = global::MvxMovies.Android.Resource.Styleable.RecyclerView_android_orientation;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_fastScrollEnabled = global::MvxMovies.Android.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::MvxMovies.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::MvxMovies.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::MvxMovies.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::MvxMovies.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_layoutManager = global::MvxMovies.Android.Resource.Styleable.RecyclerView_layoutManager;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_reverseLayout = global::MvxMovies.Android.Resource.Styleable.RecyclerView_reverseLayout;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_spanCount = global::MvxMovies.Android.Resource.Styleable.RecyclerView_spanCount;
+			global::AiForms.Dialogs.Resource.Styleable.RecyclerView_stackFromEnd = global::MvxMovies.Android.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::AiForms.Dialogs.Resource.Styleable.ScrimInsetsFrameLayout = global::MvxMovies.Android.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::AiForms.Dialogs.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MvxMovies.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::AiForms.Dialogs.Resource.Styleable.ScrollingViewBehavior_Layout = global::MvxMovies.Android.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::AiForms.Dialogs.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MvxMovies.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView = global::MvxMovies.Android.Resource.Styleable.SearchView;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_android_focusable = global::MvxMovies.Android.Resource.Styleable.SearchView_android_focusable;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_android_imeOptions = global::MvxMovies.Android.Resource.Styleable.SearchView_android_imeOptions;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_android_inputType = global::MvxMovies.Android.Resource.Styleable.SearchView_android_inputType;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_android_maxWidth = global::MvxMovies.Android.Resource.Styleable.SearchView_android_maxWidth;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_closeIcon = global::MvxMovies.Android.Resource.Styleable.SearchView_closeIcon;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_commitIcon = global::MvxMovies.Android.Resource.Styleable.SearchView_commitIcon;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_defaultQueryHint = global::MvxMovies.Android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_goIcon = global::MvxMovies.Android.Resource.Styleable.SearchView_goIcon;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_iconifiedByDefault = global::MvxMovies.Android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_layout = global::MvxMovies.Android.Resource.Styleable.SearchView_layout;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_queryBackground = global::MvxMovies.Android.Resource.Styleable.SearchView_queryBackground;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_queryHint = global::MvxMovies.Android.Resource.Styleable.SearchView_queryHint;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_searchHintIcon = global::MvxMovies.Android.Resource.Styleable.SearchView_searchHintIcon;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_searchIcon = global::MvxMovies.Android.Resource.Styleable.SearchView_searchIcon;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_submitBackground = global::MvxMovies.Android.Resource.Styleable.SearchView_submitBackground;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_suggestionRowLayout = global::MvxMovies.Android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::AiForms.Dialogs.Resource.Styleable.SearchView_voiceIcon = global::MvxMovies.Android.Resource.Styleable.SearchView_voiceIcon;
+			global::AiForms.Dialogs.Resource.Styleable.SnackbarLayout = global::MvxMovies.Android.Resource.Styleable.SnackbarLayout;
+			global::AiForms.Dialogs.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MvxMovies.Android.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::AiForms.Dialogs.Resource.Styleable.SnackbarLayout_elevation = global::MvxMovies.Android.Resource.Styleable.SnackbarLayout_elevation;
+			global::AiForms.Dialogs.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MvxMovies.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::AiForms.Dialogs.Resource.Styleable.Spinner = global::MvxMovies.Android.Resource.Styleable.Spinner;
+			global::AiForms.Dialogs.Resource.Styleable.Spinner_android_dropDownWidth = global::MvxMovies.Android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::AiForms.Dialogs.Resource.Styleable.Spinner_android_entries = global::MvxMovies.Android.Resource.Styleable.Spinner_android_entries;
+			global::AiForms.Dialogs.Resource.Styleable.Spinner_android_popupBackground = global::MvxMovies.Android.Resource.Styleable.Spinner_android_popupBackground;
+			global::AiForms.Dialogs.Resource.Styleable.Spinner_android_prompt = global::MvxMovies.Android.Resource.Styleable.Spinner_android_prompt;
+			global::AiForms.Dialogs.Resource.Styleable.Spinner_popupTheme = global::MvxMovies.Android.Resource.Styleable.Spinner_popupTheme;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat = global::MvxMovies.Android.Resource.Styleable.SwitchCompat;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_android_textOff = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_android_textOn = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_android_thumb = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_showText = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_showText;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_splitTrack = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_switchMinWidth = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_switchPadding = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_thumbTint = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_thumbTint;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_thumbTintMode = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_track = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_track;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_trackTint = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_trackTint;
+			global::AiForms.Dialogs.Resource.Styleable.SwitchCompat_trackTintMode = global::MvxMovies.Android.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::AiForms.Dialogs.Resource.Styleable.TabItem = global::MvxMovies.Android.Resource.Styleable.TabItem;
+			global::AiForms.Dialogs.Resource.Styleable.TabItem_android_icon = global::MvxMovies.Android.Resource.Styleable.TabItem_android_icon;
+			global::AiForms.Dialogs.Resource.Styleable.TabItem_android_layout = global::MvxMovies.Android.Resource.Styleable.TabItem_android_layout;
+			global::AiForms.Dialogs.Resource.Styleable.TabItem_android_text = global::MvxMovies.Android.Resource.Styleable.TabItem_android_text;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout = global::MvxMovies.Android.Resource.Styleable.TabLayout;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabBackground = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabBackground;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabContentStart = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabContentStart;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabGravity = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabGravity;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabIndicatorColor = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabMaxWidth = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabMinWidth = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabMinWidth;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabMode = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabMode;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabPadding = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabPadding;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabPaddingBottom = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabPaddingEnd = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabPaddingStart = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabPaddingTop = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabTextAppearance = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.TabLayout_tabTextColor = global::MvxMovies.Android.Resource.Styleable.TabLayout_tabTextColor;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance = global::MvxMovies.Android.Resource.Styleable.TextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_fontFamily = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_shadowColor = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_shadowDx = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_shadowDy = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_shadowRadius = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_textColor = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_textColor;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_textColorHint = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_textColorLink = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_textSize = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_textSize;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_textStyle = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_android_typeface = global::MvxMovies.Android.Resource.Styleable.TextAppearance_android_typeface;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_fontFamily = global::MvxMovies.Android.Resource.Styleable.TextAppearance_fontFamily;
+			global::AiForms.Dialogs.Resource.Styleable.TextAppearance_textAllCaps = global::MvxMovies.Android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout = global::MvxMovies.Android.Resource.Styleable.TextInputLayout;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_android_hint = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_android_hint;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_android_textColorHint = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_counterEnabled = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_counterMaxLength = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_errorEnabled = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_hintEnabled = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::AiForms.Dialogs.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MvxMovies.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar = global::MvxMovies.Android.Resource.Styleable.Toolbar;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_android_gravity = global::MvxMovies.Android.Resource.Styleable.Toolbar_android_gravity;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_android_minHeight = global::MvxMovies.Android.Resource.Styleable.Toolbar_android_minHeight;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_buttonGravity = global::MvxMovies.Android.Resource.Styleable.Toolbar_buttonGravity;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_collapseContentDescription = global::MvxMovies.Android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_collapseIcon = global::MvxMovies.Android.Resource.Styleable.Toolbar_collapseIcon;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_contentInsetEnd = global::MvxMovies.Android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MvxMovies.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_contentInsetLeft = global::MvxMovies.Android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_contentInsetRight = global::MvxMovies.Android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_contentInsetStart = global::MvxMovies.Android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MvxMovies.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_logo = global::MvxMovies.Android.Resource.Styleable.Toolbar_logo;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_logoDescription = global::MvxMovies.Android.Resource.Styleable.Toolbar_logoDescription;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_maxButtonHeight = global::MvxMovies.Android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_navigationContentDescription = global::MvxMovies.Android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_navigationIcon = global::MvxMovies.Android.Resource.Styleable.Toolbar_navigationIcon;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_popupTheme = global::MvxMovies.Android.Resource.Styleable.Toolbar_popupTheme;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_subtitle = global::MvxMovies.Android.Resource.Styleable.Toolbar_subtitle;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MvxMovies.Android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_subtitleTextColor = global::MvxMovies.Android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_title = global::MvxMovies.Android.Resource.Styleable.Toolbar_title;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_titleMargin = global::MvxMovies.Android.Resource.Styleable.Toolbar_titleMargin;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_titleMarginBottom = global::MvxMovies.Android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_titleMarginEnd = global::MvxMovies.Android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_titleMarginStart = global::MvxMovies.Android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_titleMarginTop = global::MvxMovies.Android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_titleMargins = global::MvxMovies.Android.Resource.Styleable.Toolbar_titleMargins;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_titleTextAppearance = global::MvxMovies.Android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::AiForms.Dialogs.Resource.Styleable.Toolbar_titleTextColor = global::MvxMovies.Android.Resource.Styleable.Toolbar_titleTextColor;
+			global::AiForms.Dialogs.Resource.Styleable.View = global::MvxMovies.Android.Resource.Styleable.View;
+			global::AiForms.Dialogs.Resource.Styleable.View_android_focusable = global::MvxMovies.Android.Resource.Styleable.View_android_focusable;
+			global::AiForms.Dialogs.Resource.Styleable.View_android_theme = global::MvxMovies.Android.Resource.Styleable.View_android_theme;
+			global::AiForms.Dialogs.Resource.Styleable.View_paddingEnd = global::MvxMovies.Android.Resource.Styleable.View_paddingEnd;
+			global::AiForms.Dialogs.Resource.Styleable.View_paddingStart = global::MvxMovies.Android.Resource.Styleable.View_paddingStart;
+			global::AiForms.Dialogs.Resource.Styleable.View_theme = global::MvxMovies.Android.Resource.Styleable.View_theme;
+			global::AiForms.Dialogs.Resource.Styleable.ViewBackgroundHelper = global::MvxMovies.Android.Resource.Styleable.ViewBackgroundHelper;
+			global::AiForms.Dialogs.Resource.Styleable.ViewBackgroundHelper_android_background = global::MvxMovies.Android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::AiForms.Dialogs.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MvxMovies.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::AiForms.Dialogs.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MvxMovies.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::AiForms.Dialogs.Resource.Styleable.ViewStubCompat = global::MvxMovies.Android.Resource.Styleable.ViewStubCompat;
+			global::AiForms.Dialogs.Resource.Styleable.ViewStubCompat_android_id = global::MvxMovies.Android.Resource.Styleable.ViewStubCompat_android_id;
+			global::AiForms.Dialogs.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MvxMovies.Android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::AiForms.Dialogs.Resource.Styleable.ViewStubCompat_android_layout = global::MvxMovies.Android.Resource.Styleable.ViewStubCompat_android_layout;
 			global::MvvmCross.Resource.Attribute.MvxBind = global::MvxMovies.Android.Resource.Attribute.MvxBind;
 			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::MvxMovies.Android.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::MvxMovies.Android.Resource.Attribute.MvxGroupItemTemplate;
@@ -11225,6 +13468,12 @@ namespace MvxMovies.Android
 			// aapt resource value: 0x7F010013
 			public const int ExitToRight = 2130771987;
 			
+			// aapt resource value: 0x7F010014
+			public const int extra_dialog_enter = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int extra_dialog_exit = 2130771989;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -15157,181 +17406,184 @@ namespace MvxMovies.Android
 			public const int list_item = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int main_appbar = 2131230822;
+			public const int loading_message = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int main_tablayout = 2131230823;
+			public const int main_appbar = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int main_toolbar = 2131230824;
+			public const int main_tablayout = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int main_viewpager = 2131230825;
+			public const int main_toolbar = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int masked = 2131230826;
+			public const int main_viewpager = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int media_actions = 2131230827;
+			public const int masked = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int message = 2131230828;
+			public const int media_actions = 2131230828;
+			
+			// aapt resource value: 0x7F08006D
+			public const int message = 2131230829;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08006D
-			public const int middle = 2131230829;
-			
 			// aapt resource value: 0x7F08006E
-			public const int mini = 2131230830;
+			public const int middle = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int mr_art = 2131230831;
+			public const int mini = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int mr_cast_checkbox = 2131230832;
+			public const int mr_art = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int mr_cast_close_button = 2131230833;
+			public const int mr_cast_checkbox = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int mr_cast_group_icon = 2131230834;
+			public const int mr_cast_close_button = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int mr_cast_group_name = 2131230835;
+			public const int mr_cast_group_icon = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mr_cast_list = 2131230836;
+			public const int mr_cast_group_name = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mr_cast_meta = 2131230837;
+			public const int mr_cast_list = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mr_cast_meta_art = 2131230838;
+			public const int mr_cast_meta = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int mr_cast_meta_subtitle = 2131230839;
+			public const int mr_cast_meta_art = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int mr_cast_meta_title = 2131230840;
+			public const int mr_cast_meta_subtitle = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int mr_cast_route_icon = 2131230841;
+			public const int mr_cast_meta_title = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int mr_cast_route_name = 2131230842;
+			public const int mr_cast_route_icon = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int mr_cast_stop_button = 2131230843;
+			public const int mr_cast_route_name = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int mr_cast_volume_layout = 2131230844;
+			public const int mr_cast_stop_button = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int mr_cast_volume_slider = 2131230845;
+			public const int mr_cast_volume_layout = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int mr_chooser_list = 2131230846;
+			public const int mr_cast_volume_slider = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int mr_chooser_route_desc = 2131230847;
+			public const int mr_chooser_list = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int mr_chooser_route_icon = 2131230848;
+			public const int mr_chooser_route_desc = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int mr_chooser_route_name = 2131230849;
+			public const int mr_chooser_route_icon = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int mr_chooser_title = 2131230850;
+			public const int mr_chooser_route_name = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int mr_close = 2131230851;
+			public const int mr_chooser_title = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int mr_control_divider = 2131230852;
+			public const int mr_close = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int mr_control_playback_ctrl = 2131230853;
+			public const int mr_control_divider = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int mr_control_subtitle = 2131230854;
+			public const int mr_control_playback_ctrl = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int mr_control_title = 2131230855;
+			public const int mr_control_subtitle = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mr_control_title_container = 2131230856;
+			public const int mr_control_title = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mr_custom_control = 2131230857;
+			public const int mr_control_title_container = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int mr_default_control = 2131230858;
+			public const int mr_custom_control = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int mr_dialog_area = 2131230859;
+			public const int mr_default_control = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int mr_dialog_header_name = 2131230860;
+			public const int mr_dialog_area = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int mr_expandable_area = 2131230861;
+			public const int mr_dialog_header_name = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int mr_group_expand_collapse = 2131230862;
+			public const int mr_expandable_area = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int mr_group_volume_route_name = 2131230863;
+			public const int mr_group_expand_collapse = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int mr_group_volume_slider = 2131230864;
+			public const int mr_group_volume_route_name = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int mr_media_main_control = 2131230865;
+			public const int mr_group_volume_slider = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int mr_name = 2131230866;
+			public const int mr_media_main_control = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int mr_picker_close_button = 2131230867;
+			public const int mr_name = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int mr_picker_list = 2131230868;
+			public const int mr_picker_close_button = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int mr_picker_route_icon = 2131230869;
+			public const int mr_picker_list = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int mr_picker_route_name = 2131230870;
+			public const int mr_picker_route_icon = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int mr_playback_control = 2131230871;
+			public const int mr_picker_route_name = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int mr_title_bar = 2131230872;
+			public const int mr_playback_control = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int mr_volume_control = 2131230873;
+			public const int mr_title_bar = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int mr_volume_group_list = 2131230874;
+			public const int mr_volume_control = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int mr_volume_item_icon = 2131230875;
+			public const int mr_volume_group_list = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int mr_volume_slider = 2131230876;
+			public const int mr_volume_item_icon = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int mtrl_child_content_container = 2131230877;
+			public const int mr_volume_slider = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int mtrl_internal_children_alpha_tag = 2131230878;
+			public const int mtrl_child_content_container = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int multiply = 2131230879;
+			public const int mtrl_internal_children_alpha_tag = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int multiply = 2131230880;
 			
 			// aapt resource value: 0x7F080004
 			public const int MvvmCrossTagId = 2131230724;
@@ -15339,299 +17591,302 @@ namespace MvxMovies.Android
 			// aapt resource value: 0x7F080005
 			public const int MvxBindingTagUnique = 2131230725;
 			
-			// aapt resource value: 0x7F0800A0
-			public const int navigation_header_container = 2131230880;
-			
 			// aapt resource value: 0x7F0800A1
-			public const int never = 2131230881;
+			public const int navigation_header_container = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int none = 2131230882;
+			public const int never = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int normal = 2131230883;
+			public const int none = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int notification_background = 2131230884;
+			public const int normal = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int notification_main_column = 2131230885;
+			public const int notification_background = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int notification_main_column_container = 2131230886;
+			public const int notification_main_column = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int outline = 2131230887;
+			public const int notification_main_column_container = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int parallax = 2131230888;
+			public const int outline = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int parentPanel = 2131230889;
+			public const int parallax = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int parent_matrix = 2131230890;
+			public const int parentPanel = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int pin = 2131230891;
+			public const int parent_matrix = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int progress_circular = 2131230892;
+			public const int pin = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int progress_horizontal = 2131230893;
+			public const int progress = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int radio = 2131230894;
+			public const int progress_circular = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int right = 2131230895;
+			public const int progress_horizontal = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int right_icon = 2131230896;
+			public const int radio = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int right_side = 2131230897;
+			public const int right = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int save_image_matrix = 2131230898;
+			public const int right_icon = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int save_non_transition_alpha = 2131230899;
+			public const int right_side = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int save_scale_type = 2131230900;
+			public const int save_image_matrix = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int screen = 2131230901;
+			public const int save_non_transition_alpha = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int scroll = 2131230902;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int scrollable = 2131230906;
+			public const int save_scale_type = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int scrollIndicatorDown = 2131230903;
+			public const int screen = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int scrollIndicatorUp = 2131230904;
-			
-			// aapt resource value: 0x7F0800B9
-			public const int scrollView = 2131230905;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int search_badge = 2131230907;
+			public const int scroll = 2131230904;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int search_bar = 2131230908;
+			public const int scrollable = 2131230908;
+			
+			// aapt resource value: 0x7F0800B9
+			public const int scrollIndicatorDown = 2131230905;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int scrollIndicatorUp = 2131230906;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int scrollView = 2131230907;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int search_button = 2131230909;
+			public const int search_badge = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int search_close_btn = 2131230910;
+			public const int search_bar = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int search_edit_frame = 2131230911;
+			public const int search_button = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int search_go_btn = 2131230912;
+			public const int search_close_btn = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int search_mag_icon = 2131230913;
+			public const int search_edit_frame = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int search_plate = 2131230914;
+			public const int search_go_btn = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int search_src_text = 2131230915;
+			public const int search_mag_icon = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int search_voice_btn = 2131230916;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int selected = 2131230918;
+			public const int search_plate = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int select_dialog_listview = 2131230917;
+			public const int search_src_text = 2131230917;
 			
-			// aapt resource value: 0x7F0800C7
-			public const int shellcontent_appbar = 2131230919;
+			// aapt resource value: 0x7F0800C6
+			public const int search_voice_btn = 2131230918;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int shellcontent_toolbar = 2131230920;
+			public const int selected = 2131230920;
+			
+			// aapt resource value: 0x7F0800C7
+			public const int select_dialog_listview = 2131230919;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int shellcontent_appbar = 2131230921;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int shellcontent_toolbar = 2131230922;
 			
 			// aapt resource value: 0x7F080006
 			public const int SHIFT = 2131230726;
 			
-			// aapt resource value: 0x7F0800C9
-			public const int shortcut = 2131230921;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int showCustom = 2131230922;
-			
 			// aapt resource value: 0x7F0800CB
-			public const int showHome = 2131230923;
+			public const int shortcut = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int showTitle = 2131230924;
+			public const int showCustom = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int sliding_tabs = 2131230925;
+			public const int showHome = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int smallLabel = 2131230926;
+			public const int showTitle = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int snackbar_action = 2131230927;
+			public const int sliding_tabs = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int snackbar_text = 2131230928;
+			public const int smallLabel = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int snap = 2131230929;
+			public const int snackbar_action = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int snapMargins = 2131230930;
+			public const int snackbar_text = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int spacer = 2131230931;
+			public const int snap = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int split_action_bar = 2131230932;
+			public const int snapMargins = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int src_atop = 2131230933;
+			public const int spacer = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int src_in = 2131230934;
+			public const int split_action_bar = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int src_over = 2131230935;
+			public const int src_atop = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int start = 2131230936;
+			public const int src_in = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int status_bar_latest_event_content = 2131230937;
+			public const int src_over = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int stretch = 2131230938;
+			public const int start = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int submenuarrow = 2131230939;
+			public const int status_bar_latest_event_content = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int submit_area = 2131230940;
+			public const int stretch = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int submenuarrow = 2131230941;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int submit_area = 2131230942;
 			
 			// aapt resource value: 0x7F080007
 			public const int SYM = 2131230727;
 			
-			// aapt resource value: 0x7F0800DD
-			public const int tabMode = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int tag_transition_group = 2131230942;
-			
 			// aapt resource value: 0x7F0800DF
-			public const int tag_unhandled_key_event_manager = 2131230943;
+			public const int tabMode = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int tag_unhandled_key_listeners = 2131230944;
+			public const int tag_transition_group = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int text = 2131230945;
+			public const int tag_unhandled_key_event_manager = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int text2 = 2131230946;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int textinput_counter = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int textinput_error = 2131230952;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int textinput_helper_text = 2131230953;
+			public const int tag_unhandled_key_listeners = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int textSpacerNoButtons = 2131230947;
+			public const int text = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int textSpacerNoTitle = 2131230948;
+			public const int text2 = 2131230948;
 			
-			// aapt resource value: 0x7F0800E5
-			public const int textStart = 2131230949;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int text_input_password_toggle = 2131230950;
+			// aapt resource value: 0x7F0800E9
+			public const int textinput_counter = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int time = 2131230954;
+			public const int textinput_error = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int title = 2131230955;
+			public const int textinput_helper_text = 2131230955;
+			
+			// aapt resource value: 0x7F0800E5
+			public const int textSpacerNoButtons = 2131230949;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int textSpacerNoTitle = 2131230950;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int textStart = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int text_input_password_toggle = 2131230952;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int titleDividerNoCustom = 2131230956;
+			public const int time = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int title_template = 2131230957;
+			public const int title = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int toolbar = 2131230958;
+			public const int titleDividerNoCustom = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int top = 2131230959;
+			public const int title_template = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int topPanel = 2131230960;
+			public const int toolbar = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int touch_outside = 2131230961;
+			public const int top = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int transition_current_scene = 2131230962;
+			public const int topPanel = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int transition_layout_save = 2131230963;
+			public const int touch_outside = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int transition_position = 2131230964;
+			public const int transition_current_scene = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int transition_scene_layoutid_cache = 2131230965;
+			public const int transition_layout_save = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int transition_transform = 2131230966;
+			public const int transition_position = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int uniform = 2131230967;
+			public const int transition_scene_layoutid_cache = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int unlabeled = 2131230968;
+			public const int transition_transform = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int up = 2131230969;
+			public const int uniform = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int useLogo = 2131230970;
+			public const int unlabeled = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int view_offset_helper = 2131230971;
+			public const int up = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int visible = 2131230972;
+			public const int useLogo = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int volume_item_container = 2131230973;
+			public const int view_offset_helper = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int withText = 2131230974;
+			public const int visible = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int wrap_content = 2131230975;
+			public const int volume_item_container = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int withText = 2131230976;
+			
+			// aapt resource value: 0x7F080101
+			public const int wrap_content = 2131230977;
 			
 			static Id()
 			{
@@ -15886,121 +18141,124 @@ namespace MvxMovies.Android
 			public const int FlyoutContent = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mr_cast_dialog = 2131427374;
+			public const int LoadingDialogLayout = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mr_cast_group_item = 2131427375;
+			public const int mr_cast_dialog = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int mr_cast_group_volume_item = 2131427376;
+			public const int mr_cast_group_item = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int mr_cast_media_metadata = 2131427377;
+			public const int mr_cast_group_volume_item = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mr_cast_route_item = 2131427378;
+			public const int mr_cast_media_metadata = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mr_chooser_dialog = 2131427379;
+			public const int mr_cast_route_item = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mr_chooser_list_item = 2131427380;
+			public const int mr_chooser_dialog = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mr_controller_material_dialog_b = 2131427381;
+			public const int mr_chooser_list_item = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mr_controller_volume_item = 2131427382;
+			public const int mr_controller_material_dialog_b = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mr_dialog_header_item = 2131427383;
+			public const int mr_controller_volume_item = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mr_picker_dialog = 2131427384;
+			public const int mr_dialog_header_item = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mr_picker_route_item = 2131427385;
+			public const int mr_picker_dialog = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int mr_playback_control = 2131427386;
+			public const int mr_picker_route_item = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mr_volume_control = 2131427387;
+			public const int mr_playback_control = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mtrl_layout_snackbar = 2131427388;
+			public const int mr_volume_control = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mtrl_layout_snackbar_include = 2131427389;
+			public const int mtrl_layout_snackbar = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_action = 2131427390;
+			public const int mtrl_layout_snackbar_include = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int notification_action_tombstone = 2131427391;
+			public const int notification_action = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int notification_media_action = 2131427392;
+			public const int notification_action_tombstone = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int notification_media_cancel_action = 2131427393;
+			public const int notification_media_action = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int notification_template_big_media = 2131427394;
+			public const int notification_media_cancel_action = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int notification_template_big_media_custom = 2131427395;
+			public const int notification_template_big_media = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int notification_template_big_media_narrow = 2131427396;
+			public const int notification_template_big_media_custom = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int notification_template_big_media_narrow_custom = 2131427397;
+			public const int notification_template_big_media_narrow = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int notification_template_custom_big = 2131427398;
+			public const int notification_template_big_media_narrow_custom = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int notification_template_icon_group = 2131427399;
+			public const int notification_template_custom_big = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int notification_template_lines_media = 2131427400;
+			public const int notification_template_icon_group = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int notification_template_media = 2131427401;
+			public const int notification_template_lines_media = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int notification_template_media_custom = 2131427402;
+			public const int notification_template_media = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int notification_template_part_chronometer = 2131427403;
+			public const int notification_template_media_custom = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int notification_template_part_time = 2131427404;
+			public const int notification_template_part_chronometer = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int RootLayout = 2131427405;
+			public const int notification_template_part_time = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int select_dialog_item_material = 2131427406;
+			public const int RootLayout = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int select_dialog_multichoice_material = 2131427407;
+			public const int select_dialog_item_material = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int select_dialog_singlechoice_material = 2131427408;
+			public const int select_dialog_multichoice_material = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int ShellContent = 2131427409;
+			public const int select_dialog_singlechoice_material = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int support_simple_spinner_dropdown_item = 2131427410;
+			public const int ShellContent = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int Tabbar = 2131427411;
+			public const int support_simple_spinner_dropdown_item = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int Toolbar = 2131427412;
+			public const int Tabbar = 2131427412;
+			
+			// aapt resource value: 0x7F0B0055
+			public const int Toolbar = 2131427413;
 			
 			static Layout()
 			{
@@ -16179,103 +18437,106 @@ namespace MvxMovies.Android
 			public const int hide_bottom_view_on_scroll_behavior = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int mr_button_content_description = 2131558447;
+			public const int library_name = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int mr_cast_button_connected = 2131558448;
+			public const int mr_button_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int mr_cast_button_connecting = 2131558449;
+			public const int mr_cast_button_connected = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mr_cast_button_disconnected = 2131558450;
+			public const int mr_cast_button_connecting = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mr_cast_dialog_title_view_placeholder = 2131558451;
+			public const int mr_cast_button_disconnected = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mr_chooser_searching = 2131558452;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int mr_chooser_title = 2131558453;
+			public const int mr_chooser_searching = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int mr_controller_album_art = 2131558454;
+			public const int mr_chooser_title = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int mr_controller_casting_screen = 2131558455;
+			public const int mr_controller_album_art = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int mr_controller_close_description = 2131558456;
+			public const int mr_controller_casting_screen = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int mr_controller_collapse_group = 2131558457;
+			public const int mr_controller_close_description = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int mr_controller_disconnect = 2131558458;
+			public const int mr_controller_collapse_group = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int mr_controller_expand_group = 2131558459;
+			public const int mr_controller_disconnect = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int mr_controller_no_info_available = 2131558460;
+			public const int mr_controller_expand_group = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int mr_controller_no_media_selected = 2131558461;
+			public const int mr_controller_no_info_available = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int mr_controller_pause = 2131558462;
+			public const int mr_controller_no_media_selected = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mr_controller_play = 2131558463;
+			public const int mr_controller_pause = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int mr_controller_stop = 2131558464;
+			public const int mr_controller_play = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int mr_controller_stop_casting = 2131558465;
+			public const int mr_controller_stop = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int mr_controller_volume_slider = 2131558466;
+			public const int mr_controller_stop_casting = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int mr_dialog_device_header = 2131558467;
+			public const int mr_controller_volume_slider = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mr_dialog_route_header = 2131558468;
+			public const int mr_dialog_device_header = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mr_system_route_name = 2131558469;
+			public const int mr_dialog_route_header = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mr_user_route_category_name = 2131558470;
+			public const int mr_system_route_name = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int mtrl_chip_close_icon_content_description = 2131558471;
+			public const int mr_user_route_category_name = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int password_toggle_content_description = 2131558472;
+			public const int mtrl_chip_close_icon_content_description = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int path_password_eye = 2131558473;
+			public const int password_toggle_content_description = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int path_password_eye_mask_strike_through = 2131558474;
+			public const int path_password_eye = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int path_password_eye_mask_visible = 2131558475;
+			public const int path_password_eye_mask_strike_through = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int path_password_strike_through = 2131558476;
+			public const int path_password_eye_mask_visible = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int search_menu_title = 2131558477;
+			public const int path_password_strike_through = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int status_bar_notification_info_overflow = 2131558478;
+			public const int search_menu_title = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int view_scroll_translation_autohide_behavior = 2131558479;
+			public const int status_bar_notification_info_overflow = 2131558479;
+			
+			// aapt resource value: 0x7F0D0050
+			public const int view_scroll_translation_autohide_behavior = 2131558480;
 			
 			static String()
 			{
@@ -16884,959 +19145,965 @@ namespace MvxMovies.Android
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
-			// aapt resource value: 0x7F0E0203
-			public const int collectionViewStyle = 2131624451;
+			// aapt resource value: 0x7F0E0205
+			public const int collectionViewStyle = 2131624453;
 			
 			// aapt resource value: 0x7F0E00C6
-			public const int MainTheme = 2131624134;
+			public const int ExtraDialogAnimSet = 2131624134;
 			
 			// aapt resource value: 0x7F0E00C7
-			public const int MainTheme_Base = 2131624135;
+			public const int MainTheme = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int NestedScrollBarStyle = 2131624136;
+			public const int MainTheme_Base = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat = 2131624137;
+			public const int NestedScrollBarStyle = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int Platform_AppCompat_Light = 2131624138;
+			public const int NoDimDialogFragmentStyle = 2131624138;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents = 2131624139;
+			public const int Platform_AppCompat = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Dialog = 2131624140;
+			public const int Platform_AppCompat_Light = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light = 2131624141;
+			public const int Platform_MaterialComponents = 2131624141;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624142;
+			public const int Platform_MaterialComponents_Dialog = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat = 2131624143;
+			public const int Platform_MaterialComponents_Light = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624144;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624145;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat = 2131624146;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V21_AppCompat_Light = 2131624147;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat = 2131624148;
+			public const int Platform_V21_AppCompat = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int Platform_V25_AppCompat_Light = 2131624149;
+			public const int Platform_V21_AppCompat_Light = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int Platform_Widget_AppCompat_Spinner = 2131624150;
+			public const int Platform_V25_AppCompat = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624151;
+			public const int Platform_V25_AppCompat_Light = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624152;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624153;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624154;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624155;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624156;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624157;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624158;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624158;
 			
 			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624159;
-			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624165;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624160;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624160;
 			
 			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624161;
-			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624162;
-			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624163;
-			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624164;
-			
-			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624166;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624161;
 			
 			// aapt resource value: 0x7F0E00E7
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624167;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624167;
+			
+			// aapt resource value: 0x7F0E00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624162;
+			
+			// aapt resource value: 0x7F0E00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624163;
+			
+			// aapt resource value: 0x7F0E00E4
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624164;
+			
+			// aapt resource value: 0x7F0E00E5
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624165;
+			
+			// aapt resource value: 0x7F0E00E6
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624166;
 			
 			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat = 2131624168;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624168;
 			
 			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body1 = 2131624169;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624169;
 			
 			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Body2 = 2131624170;
+			public const int TextAppearance_AppCompat = 2131624170;
 			
 			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Button = 2131624171;
+			public const int TextAppearance_AppCompat_Body1 = 2131624171;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Caption = 2131624172;
+			public const int TextAppearance_AppCompat_Body2 = 2131624172;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display1 = 2131624173;
+			public const int TextAppearance_AppCompat_Button = 2131624173;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display2 = 2131624174;
+			public const int TextAppearance_AppCompat_Caption = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display3 = 2131624175;
+			public const int TextAppearance_AppCompat_Display1 = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Display4 = 2131624176;
+			public const int TextAppearance_AppCompat_Display2 = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Headline = 2131624177;
+			public const int TextAppearance_AppCompat_Display3 = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Inverse = 2131624178;
+			public const int TextAppearance_AppCompat_Display4 = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large = 2131624179;
+			public const int TextAppearance_AppCompat_Headline = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624180;
+			public const int TextAppearance_AppCompat_Inverse = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624181;
+			public const int TextAppearance_AppCompat_Large = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624182;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624183;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624184;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium = 2131624185;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624186;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_Menu = 2131624187;
+			public const int TextAppearance_AppCompat_Medium = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624188;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624189;
+			public const int TextAppearance_AppCompat_Menu = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small = 2131624190;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624191;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead = 2131624192;
+			public const int TextAppearance_AppCompat_Small = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624193;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title = 2131624194;
+			public const int TextAppearance_AppCompat_Subhead = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624195;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Tooltip = 2131624196;
+			public const int TextAppearance_AppCompat_Title = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624197;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624198;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624199;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624200;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624201;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624202;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624203;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624204;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624205;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624206;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624207;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624208;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624209;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624210;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624211;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624212;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624213;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624214;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624215;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification = 2131624216;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info = 2131624217;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624218;
+			public const int TextAppearance_Compat_Notification = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624219;
+			public const int TextAppearance_Compat_Notification_Info = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624220;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Media = 2131624221;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time = 2131624222;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624223;
+			public const int TextAppearance_Compat_Notification_Media = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title = 2131624224;
+			public const int TextAppearance_Compat_Notification_Time = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624225;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624226;
+			public const int TextAppearance_Compat_Notification_Title = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter = 2131624227;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Counter_Overflow = 2131624228;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_Error = 2131624229;
+			public const int TextAppearance_Design_Counter = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_HelperText = 2131624230;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Hint = 2131624231;
+			public const int TextAppearance_Design_Error = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Snackbar_Message = 2131624232;
+			public const int TextAppearance_Design_HelperText = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_Design_Tab = 2131624233;
+			public const int TextAppearance_Design_Hint = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624234;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624235;
+			public const int TextAppearance_Design_Tab = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Button = 2131624236;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Caption = 2131624237;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Chip = 2131624238;
+			public const int TextAppearance_MaterialComponents_Button = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624239;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624240;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624241;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624242;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624243;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624244;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Overline = 2131624245;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624246;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624247;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_MaterialComponents_Tab = 2131624248;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131624249;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131624250;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int TextAppearance_MediaRouter_Title = 2131624251;
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131624251;
 			
 			// aapt resource value: 0x7F0E013C
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624252;
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131624252;
 			
 			// aapt resource value: 0x7F0E013D
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624253;
+			public const int TextAppearance_MediaRouter_Title = 2131624253;
 			
 			// aapt resource value: 0x7F0E013E
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624254;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_AppCompat = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_AppCompat_Dark = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_AppCompat_Light = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624317;
-			
-			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624318;
-			
-			// aapt resource value: 0x7F0E017F
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624319;
-			
-			// aapt resource value: 0x7F0E0180
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624320;
-			
-			// aapt resource value: 0x7F0E0181
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624321;
-			
-			// aapt resource value: 0x7F0E0182
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624322;
-			
-			// aapt resource value: 0x7F0E0183
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624323;
-			
-			// aapt resource value: 0x7F0E0184
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624324;
-			
-			// aapt resource value: 0x7F0E0185
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624325;
-			
-			// aapt resource value: 0x7F0E0186
-			public const int ThemeOverlay_MediaRouter_Dark = 2131624326;
-			
-			// aapt resource value: 0x7F0E0187
-			public const int ThemeOverlay_MediaRouter_Light = 2131624327;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624254;
 			
 			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat = 2131624255;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624255;
 			
 			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_CompactMenu = 2131624256;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624256;
 			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight = 2131624257;
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_AppCompat = 2131624309;
 			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624258;
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624310;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624259;
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_AppCompat_Dark = 2131624311;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624262;
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624312;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624260;
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624313;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624261;
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624314;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624263;
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_AppCompat_Light = 2131624315;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Dialog = 2131624264;
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents = 2131624316;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624267;
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624317;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Dialog_Alert = 2131624265;
+			// aapt resource value: 0x7F0E017E
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624318;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624266;
+			// aapt resource value: 0x7F0E017F
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624319;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light = 2131624268;
+			// aapt resource value: 0x7F0E0180
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624320;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624269;
+			// aapt resource value: 0x7F0E0181
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624321;
 			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_Dialog = 2131624270;
+			// aapt resource value: 0x7F0E0182
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624322;
 			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624273;
+			// aapt resource value: 0x7F0E0183
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624323;
 			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624271;
+			// aapt resource value: 0x7F0E0184
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624324;
 			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624272;
+			// aapt resource value: 0x7F0E0185
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624325;
 			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624274;
+			// aapt resource value: 0x7F0E0186
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624326;
 			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_AppCompat_NoActionBar = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_BottomSheetDialog = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_Design_Light = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_Design_Light_NoActionBar = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_Design_NoActionBar = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Bridge = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_CompactMenu = 2131624285;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Dialog = 2131624286;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624289;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624288;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624293;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624294;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624295;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624298;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624297;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624299;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int Theme_MaterialComponents_NoActionBar = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int Theme_MediaRouter = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int Theme_MediaRouter_Light = 2131624304;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int Theme_MediaRouter_LightControlPanel = 2131624306;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624305;
+			// aapt resource value: 0x7F0E0187
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActionBar = 2131624328;
+			public const int ThemeOverlay_MediaRouter_Dark = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624329;
+			public const int ThemeOverlay_MediaRouter_Light = 2131624329;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat = 2131624257;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_CompactMenu = 2131624258;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight = 2131624259;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624260;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624261;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624264;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624262;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624263;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624265;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_Dialog = 2131624266;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624269;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_Dialog_Alert = 2131624267;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624268;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light = 2131624270;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624271;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_AppCompat_Light_Dialog = 2131624272;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624275;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624274;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_AppCompat_NoActionBar = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_Design = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_Design_BottomSheetDialog = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_Design_Light = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_Design_Light_NoActionBar = 2131624282;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_Design_NoActionBar = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents = 2131624284;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624285;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_Bridge = 2131624286;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_CompactMenu = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Dialog = 2131624288;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624291;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624290;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624293;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624294;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624295;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624297;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624300;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624298;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624299;
+			
+			// aapt resource value: 0x7F0E016D
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624301;
+			
+			// aapt resource value: 0x7F0E016E
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624302;
+			
+			// aapt resource value: 0x7F0E016F
+			public const int Theme_MaterialComponents_NoActionBar = 2131624303;
+			
+			// aapt resource value: 0x7F0E0170
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624304;
+			
+			// aapt resource value: 0x7F0E0171
+			public const int Theme_MediaRouter = 2131624305;
+			
+			// aapt resource value: 0x7F0E0172
+			public const int Theme_MediaRouter_Light = 2131624306;
+			
+			// aapt resource value: 0x7F0E0174
+			public const int Theme_MediaRouter_LightControlPanel = 2131624308;
+			
+			// aapt resource value: 0x7F0E0173
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624307;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624330;
+			public const int Widget_AppCompat_ActionBar = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624331;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624332;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_ActionButton = 2131624333;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624334;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624334;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624335;
+			public const int Widget_AppCompat_ActionButton = 2131624335;
 			
 			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ActionMode = 2131624336;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_ActivityChooserView = 2131624337;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624338;
+			public const int Widget_AppCompat_ActionMode = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_Button = 2131624339;
-			
-			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_ButtonBar = 2131624345;
-			
-			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624346;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624339;
 			
 			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_Button_Borderless = 2131624340;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624340;
 			
 			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624341;
-			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624342;
-			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_Button_Colored = 2131624343;
-			
-			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_Button_Small = 2131624344;
+			public const int Widget_AppCompat_Button = 2131624341;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624347;
+			public const int Widget_AppCompat_ButtonBar = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624348;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624348;
+			
+			// aapt resource value: 0x7F0E0196
+			public const int Widget_AppCompat_Button_Borderless = 2131624342;
+			
+			// aapt resource value: 0x7F0E0197
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624343;
+			
+			// aapt resource value: 0x7F0E0198
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624344;
+			
+			// aapt resource value: 0x7F0E0199
+			public const int Widget_AppCompat_Button_Colored = 2131624345;
+			
+			// aapt resource value: 0x7F0E019A
+			public const int Widget_AppCompat_Button_Small = 2131624346;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624349;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624350;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624351;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_EditText = 2131624352;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_ImageButton = 2131624353;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionBar = 2131624354;
+			public const int Widget_AppCompat_EditText = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624355;
+			public const int Widget_AppCompat_ImageButton = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624357;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624358;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624359;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624360;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624361;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624362;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_ActionButton = 2131624363;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624364;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624365;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624366;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624367;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624368;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624369;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624370;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624371;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624372;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624373;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_Light_SearchView = 2131624374;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624375;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_ListMenuView = 2131624376;
+			public const int Widget_AppCompat_Light_SearchView = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_ListPopupWindow = 2131624377;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_ListView = 2131624378;
+			public const int Widget_AppCompat_ListMenuView = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_ListView_DropDown = 2131624379;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_ListView_Menu = 2131624380;
+			public const int Widget_AppCompat_ListView = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_PopupMenu = 2131624381;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624382;
+			public const int Widget_AppCompat_ListView_Menu = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_PopupWindow = 2131624383;
+			public const int Widget_AppCompat_PopupMenu = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_ProgressBar = 2131624384;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624385;
+			public const int Widget_AppCompat_PopupWindow = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_RatingBar = 2131624386;
+			public const int Widget_AppCompat_ProgressBar = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624387;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_RatingBar_Small = 2131624388;
+			public const int Widget_AppCompat_RatingBar = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_SearchView = 2131624389;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624390;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_AppCompat_SeekBar = 2131624391;
+			public const int Widget_AppCompat_SearchView = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624392;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_AppCompat_Spinner = 2131624393;
+			public const int Widget_AppCompat_SeekBar = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624394;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624395;
+			public const int Widget_AppCompat_Spinner = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624396;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624397;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_AppCompat_Toolbar = 2131624398;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624399;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Compat_NotificationActionContainer = 2131624400;
+			public const int Widget_AppCompat_Toolbar = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Compat_NotificationActionText = 2131624401;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_AppBarLayout = 2131624402;
+			public const int Widget_Compat_NotificationActionContainer = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_Design_BottomNavigationView = 2131624403;
+			public const int Widget_Compat_NotificationActionText = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_Design_BottomSheet_Modal = 2131624404;
+			public const int Widget_Design_AppBarLayout = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_Design_CollapsingToolbar = 2131624405;
+			public const int Widget_Design_BottomNavigationView = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_Design_FloatingActionButton = 2131624406;
+			public const int Widget_Design_BottomSheet_Modal = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_Design_NavigationView = 2131624407;
+			public const int Widget_Design_CollapsingToolbar = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624408;
+			public const int Widget_Design_FloatingActionButton = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_Design_Snackbar = 2131624409;
+			public const int Widget_Design_NavigationView = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_Design_TabLayout = 2131624410;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_Design_TextInputLayout = 2131624411;
+			public const int Widget_Design_Snackbar = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624412;
+			public const int Widget_Design_TabLayout = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624413;
+			public const int Widget_Design_TextInputLayout = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624414;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624415;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624416;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button = 2131624417;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Button_Icon = 2131624418;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624419;
+			public const int Widget_MaterialComponents_Button = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624420;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624421;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624422;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624423;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624424;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624425;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624426;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_CardView = 2131624427;
-			
-			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_ChipGroup = 2131624432;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624427;
 			
 			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_Chip_Action = 2131624428;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624428;
 			
 			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624429;
-			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624430;
-			
-			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624431;
-			
-			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624433;
+			public const int Widget_MaterialComponents_CardView = 2131624429;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_NavigationView = 2131624434;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624434;
+			
+			// aapt resource value: 0x7F0E01EE
+			public const int Widget_MaterialComponents_Chip_Action = 2131624430;
+			
+			// aapt resource value: 0x7F0E01EF
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624431;
+			
+			// aapt resource value: 0x7F0E01F0
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624432;
+			
+			// aapt resource value: 0x7F0E01F1
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_Snackbar = 2131624435;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624436;
+			public const int Widget_MaterialComponents_NavigationView = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TabLayout = 2131624437;
+			public const int Widget_MaterialComponents_Snackbar = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624438;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624438;
 			
 			// aapt resource value: 0x7F0E01F7
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624439;
+			public const int Widget_MaterialComponents_TabLayout = 2131624439;
 			
 			// aapt resource value: 0x7F0E01F8
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624440;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624440;
 			
 			// aapt resource value: 0x7F0E01F9
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624441;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624441;
 			
 			// aapt resource value: 0x7F0E01FA
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624442;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624442;
 			
 			// aapt resource value: 0x7F0E01FB
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624443;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624443;
 			
 			// aapt resource value: 0x7F0E01FC
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624444;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624444;
 			
 			// aapt resource value: 0x7F0E01FD
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624445;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624445;
 			
 			// aapt resource value: 0x7F0E01FE
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624446;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624446;
 			
 			// aapt resource value: 0x7F0E01FF
-			public const int Widget_MaterialComponents_Toolbar = 2131624447;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624447;
 			
 			// aapt resource value: 0x7F0E0200
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624448;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624448;
 			
 			// aapt resource value: 0x7F0E0201
-			public const int Widget_MediaRouter_MediaRouteButton = 2131624449;
+			public const int Widget_MaterialComponents_Toolbar = 2131624449;
 			
 			// aapt resource value: 0x7F0E0202
-			public const int Widget_Support_CoordinatorLayout = 2131624450;
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624450;
+			
+			// aapt resource value: 0x7F0E0203
+			public const int Widget_MediaRouter_MediaRouteButton = 2131624451;
+			
+			// aapt resource value: 0x7F0E0204
+			public const int Widget_Support_CoordinatorLayout = 2131624452;
 			
 			static Style()
 			{

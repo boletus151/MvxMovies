@@ -1,14 +1,11 @@
-﻿using System;
-using System.Threading.Tasks;
-using MvxMovies.AppServices.Contracts;
-using MvxMovies.Common.Contracts;
+﻿using System.Threading.Tasks;
 using MvxMovies.Core.ViewModels.Base;
 
 namespace MvxMovies.Core.ViewModels
 {
-    public class ProfileViewModel : BaseViewModel
+    public class ProfileViewModel : MvxBaseViewModel
     {
-        public ProfileViewModel(INavigationService navigationService, IStorageService storageService): base(navigationService,storageService)
+        public ProfileViewModel(IBaseViewModel baseViewModel) : base(baseViewModel)
         {
         }
 

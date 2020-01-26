@@ -19,6 +19,7 @@ namespace MvxMovies.iOS
         //
         public override bool FinishedLaunching(UIApplication uiApplication, NSDictionary launchOptions)
         {
+            AiForms.Dialogs.Dialogs.Init(); //need to write here
             return base.FinishedLaunching(uiApplication, launchOptions);
         }
     }

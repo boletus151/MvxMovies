@@ -5,18 +5,15 @@ using System.Threading;
 using System.Threading.Tasks;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
-using MvxMovies.AppServices.Contracts;
-using MvxMovies.Common.Contracts;
 using MvxMovies.Common.Mapper;
 using MvxMovies.Core.ViewModels.Base;
 using MvxMovies.Services.Contracts;
 using MvxMovies.UI.Model;
 using MvxMovies.UI.Model.ReturnPageTypes;
-using Xamarin.Forms;
 
 namespace MvxMovies.Core.ViewModels
 {
-    public class SearchMovieViewModel : BaseViewModel
+    public class SearchMovieViewModel<TParameter, TResult> : MvxBaseViewModel<TParameter, TResult>
     {
         private readonly IMoviesService moviesService;
         private string text;
@@ -26,7 +23,7 @@ namespace MvxMovies.Core.ViewModels
         private CancellationToken cancellationToken;
         private string errorMessageString;
 
-        public SearchMovieViewModel(INavigationService navigationService, IMoviesService moviesService, IStorageService storageService) : base(navigationService, storageService)
+        public SearchMovieViewModel(IBaseViewModel baseViewModel, IMoviesService moviesService) : base(baseViewModel)
         {
             this.moviesService = moviesService;
 
@@ -52,16 +49,17 @@ namespace MvxMovies.Core.ViewModels
 
         public override async Task Initialize()
         {
+            await this.BaseViewModel.DialogService.ShowDefaultLoadingDialog();
             // mock this passing desired value
             // After this method InitializeTask_PropertyChanged will raise
-            if (!this.AccessAllowed(true)) return;
+            if (!await this.BaseViewModel.AccessAllowed(true)) return;
 
             await this.SearchCommandExecute();
         }
 
         private async Task NavigateToMovieDetailCommandExecute(Movie m)
         {
-            var result = await NavigationService.MvxNavigationService.Navigate<MovieDetailViewModel, Movie, CheckedMovie>(m);
+            var result = await this.BaseViewModel.NavigationService.MvxNavigationService.Navigate<MovieDetailViewModel, Movie, CheckedMovie>(m);
             ReturningToViewModel(result);
         }
 

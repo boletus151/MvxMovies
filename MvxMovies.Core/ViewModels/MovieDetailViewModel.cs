@@ -9,12 +9,12 @@ using MvxMovies.AppServices.Contracts;
 
 namespace MvxMovies.Core.ViewModels
 {
-    public class MovieDetailViewModel : BaseViewModel<Movie,CheckedMovie>
+    public class MovieDetailViewModel : MvxBaseViewModel<Movie,CheckedMovie>
     {
         private readonly IMoviesService moviesService;
         private Movie movie;
 
-        public MovieDetailViewModel(INavigationService navigationService, IMoviesService moviesService) : base(navigationService)
+        public MovieDetailViewModel(IBaseViewModel baseViewModel, IMoviesService moviesService) : base(baseViewModel)
         {
             this.moviesService = moviesService;
             this.Movie = new Movie();
@@ -46,7 +46,7 @@ namespace MvxMovies.Core.ViewModels
 
         public override void ViewDestroy(bool viewFinishing = true)
         {
-            this.NavigationService.MvxNavigationService.Close(this, new CheckedMovie(true, this.Movie.Id));
+            this.BaseViewModel.NavigationService.MvxNavigationService.Close(this, new CheckedMovie(true, this.Movie.Id));
 
             base.ViewDestroy(viewFinishing);
         }

@@ -1,4 +1,8 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
+using MvvmCross.Logging;
 using MvvmCross.ViewModels;
 using MvxMovies.AppServices.Contracts;
 using MvxMovies.Common.Constants;
@@ -6,49 +10,32 @@ using MvxMovies.UI.Model.ReturnPageTypes;
 
 namespace MvxMovies.Core.ViewModels.Base
 {
-    public class BaseViewModel : MvxViewModel
+    public class BaseViewModel : IBaseViewModel, INotifyPropertyChanged
     {
-        public IStorageService StorageService { get; private set; }
-        public INavigationService NavigationService { get; private set; }
+        private bool isBusy;
+        private bool showMessageError;
+        private string messageError;
 
-        public BaseViewModel(INavigationService navigationService, IStorageService storageService)
+        public BaseViewModel(INavigationService navigationService, IDialogService dialogService, IStorageService storageService)
         {
             this.StorageService = storageService;
             this.NavigationService = navigationService;
+            this.DialogService = dialogService;
         }
-        
-        public override void ViewDestroy(bool viewFinishing = true)
-        {
-            base.ViewDestroy(viewFinishing);
-            this.InitializeTask.PropertyChanged -= this.InitializeTask_PropertyChanged;
-        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public IStorageService StorageService { get; private set; }
+
+        public INavigationService NavigationService { get; private set; }
+
+        public IDialogService DialogService { get; private set; }
+
+        public IMvxLog Log { get; private set; }
 
         public bool ShouldNavigateToLogin { get; set; }
 
-        protected void OnException(Exception ex)
-        {
-            Console.WriteLine($"EXCEPTION: {ex.Message}");
-        }
-
-        protected virtual void ReturningToViewModel(ReturnTypeBase result)
-        {
-
-        }
-
-        /// <summary>
-        /// This method should be called in every View Code Behind when you
-        /// need to subscribe to InitializeTask changes.
-        /// </summary>
-        public void OnViewModelSet()
-        {
-            if (this.InitializeTask is null)
-            {
-                return;
-            }
-            this.InitializeTask.PropertyChanged += this.InitializeTask_PropertyChanged;
-        }
-
-        public bool AccessAllowed(bool allowed = true)
+        public Task<bool> AccessAllowed(bool allowed = true)
         {
             if (!allowed) // mock this value
             {
@@ -56,17 +43,35 @@ namespace MvxMovies.Core.ViewModels.Base
             }
             this.StorageService.Remove(StorageConstants.Username);
 
-            return allowed;
+            return Task.FromResult(allowed);
         }
 
-        private void InitializeTask_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        public bool IsBusy
         {
-            if (e.PropertyName == nameof(this.InitializeTask.IsCompleted))
+            get { return isBusy; }
+            set { isBusy = value; NotifyPropertyChanged(); }
+        }
+
+        public bool ShowErrorMessage
+        {
+            get { return showMessageError; }
+            set { showMessageError = value; NotifyPropertyChanged(); }
+        }
+
+        public string ErrorMessageString
+        {
+            get { return messageError; }
+            set { messageError = value; NotifyPropertyChanged(); }
+        }
+        
+        // This method is called by the Set accessor of each property.
+        // The CallerMemberName attribute that is applied to the optional propertyName
+        // parameter causes the property name of the caller to be substituted as an argument.
+        protected void NotifyPropertyChanged([CallerMemberName]string propertyName = "")
+        {
+            if (this.PropertyChanged != null)
             {
-                if (this.ShouldNavigateToLogin)
-                {
-                    this.NavigationService.MvxNavigationService.Navigate<LoginViewModel>();
-                }
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
     }

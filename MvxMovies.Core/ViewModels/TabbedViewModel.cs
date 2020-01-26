@@ -7,11 +7,11 @@ using MvxMovies.AppServices.Contracts;
 
 namespace MvxMovies.Core.ViewModels
 {
-    public class TabbedViewModel : BaseViewModel
+    public class TabbedViewModel : MvxBaseViewModel
     {
         private bool loaded;
 
-        public TabbedViewModel(INavigationService navigationService, IStorageService storageService) : base(navigationService, storageService)
+        public TabbedViewModel(IBaseViewModel baseViewModel) : base(baseViewModel)
         {
             this.loaded = false;
         }
@@ -31,8 +31,8 @@ namespace MvxMovies.Core.ViewModels
             }
             var tasks = new List<Task>
             {
-                NavigationService.MvxNavigationService.Navigate<SearchMovieViewModel>(),
-                NavigationService.MvxNavigationService.Navigate<ProfileViewModel>()
+                this.BaseViewModel.NavigationService.MvxNavigationService.Navigate<SearchMovieViewModel<object,object>, object, object>(null),
+                this.BaseViewModel.NavigationService.MvxNavigationService.Navigate<ProfileViewModel>()
             };
             await Task.WhenAll(tasks);
 

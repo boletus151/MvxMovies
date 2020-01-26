@@ -20,6 +20,8 @@ namespace MvxMovies.Android
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+            global::Xamarin.Forms.Forms.SetFlags("FastRenderers_Experimental");
+            AiForms.Dialogs.Dialogs.Init(this); //need to write here
         }
 
         protected override void OnDestroy()

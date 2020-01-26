@@ -1,24 +1,17 @@
-﻿using System;
-using System.Threading.Tasks;
-using System.Windows.Input;
+﻿using System.Threading.Tasks;
 using MvvmCross.Commands;
-using MvxMovies.AppServices.Contracts;
 using MvxMovies.Common.Constants;
-using MvxMovies.Common.Contracts;
 using MvxMovies.Core.ViewModels.Base;
 
 namespace MvxMovies.Core.ViewModels
 {
-    public class LoginViewModel : BaseViewModel
+    public class LoginViewModel : MvxBaseViewModel
     {
-        private readonly IStorageService storageService;
-
         private string username;
         private string password;
 
-        public LoginViewModel(INavigationService navigationService, IStorageService storageService) : base(navigationService, storageService)
+        public LoginViewModel(IBaseViewModel baseViewModel) : base(baseViewModel)
         {
-            this.storageService = storageService;
             this.LoginCommand = new MvxAsyncCommand(() => this.LoginCommandExecute());
         }
 
@@ -53,8 +46,8 @@ namespace MvxMovies.Core.ViewModels
         {
             if (this.LoginCommandCanExecute())
             {
-                this.storageService.Set(StorageConstants.Username, this.Username);
-                await this.NavigationService.MvxNavigationService.Navigate<TabbedViewModel>();
+                this.BaseViewModel.StorageService.Set(StorageConstants.Username, this.Username);
+                await this.BaseViewModel.NavigationService.MvxNavigationService.Navigate<TabbedViewModel>();
             }
         }
     }
