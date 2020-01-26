@@ -1,16 +1,13 @@
-﻿using System;
-using System.Threading.Tasks;
-using MonkeyCache.FileStore;
+﻿using MonkeyCache.FileStore;
 using MvvmCross;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
-using MvxMovies.Common.Constants;
+using MvxMovies.AppServices.Contracts;
+using MvxMovies.AppServices.Implementations;
 using MvxMovies.Common.Contracts;
 using MvxMovies.Common.Implementations;
-using MvxMovies.Core.ViewModels;
 using MvxMovies.Services.Contracts;
 using MvxMovies.Services.Implementations;
-using MvxMovies.Services.Implementations.Mocks;
 using Xamarin.Essentials;
 
 namespace MvxMovies.Core
@@ -25,6 +22,7 @@ namespace MvxMovies.Core
 
             var mvxNavigationService = Mvx.IoCProvider.Resolve<IMvxNavigationService>();
             Mvx.IoCProvider.RegisterSingleton(typeof(INavigationService), new NavigationService(mvxNavigationService));
+            Mvx.IoCProvider.RegisterType<IDialogService,DialogService>();
 
             Mvx.IoCProvider.RegisterType<IApiService, ApiService>();
             Mvx.IoCProvider.RegisterType<IMoviesService, MoviesService>();

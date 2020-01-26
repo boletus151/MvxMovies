@@ -1,5 +1,6 @@
 ﻿using System;
 using MvvmCross.ViewModels;
+using MvxMovies.AppServices.Contracts;
 using MvxMovies.Common.Contracts;
 
 namespace MvxMovies.Core.ViewModels.Base

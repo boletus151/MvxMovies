@@ -1,8 +1,8 @@
 ﻿using System;
 using MvvmCross.Navigation;
-using MvxMovies.Common.Contracts;
+using MvxMovies.AppServices.Contracts;
 
-namespace MvxMovies.Common.Implementations
+namespace MvxMovies.AppServices.Implementations
 {
     public class NavigationService : INavigationService
     {

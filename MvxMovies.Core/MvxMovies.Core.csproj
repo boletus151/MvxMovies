@@ -28,6 +28,8 @@
     <ProjectReference Include="..\MvxMovies.UI.Model\MvxMovies.UI.Model.csproj" />
     <ProjectReference Include="..\MvxMovies.Services.Implementations\MvxMovies.Services.csproj" />
     <ProjectReference Include="..\MvxMovies.UI.Components\MvxMovies.UI.Components.csproj" />
+    <ProjectReference Include="..\MvxMovies.AppServices.Contracts\MvxMovies.AppServices.Contracts.csproj" />
+    <ProjectReference Include="..\MvxMovies.AppServices.Implementations\MvxMovies.AppServices.Implementations.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Base\TabbedPage.xaml.cs">

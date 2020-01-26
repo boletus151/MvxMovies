@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
 using MvvmCross.ViewModels;
+using MvxMovies.AppServices.Contracts;
 using MvxMovies.Common.Constants;
-using MvxMovies.Common.Contracts;
 using MvxMovies.UI.Model.ReturnPageTypes;
 
 namespace MvxMovies.Core.ViewModels.Base

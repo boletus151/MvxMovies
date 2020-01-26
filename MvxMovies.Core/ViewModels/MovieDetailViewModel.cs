@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using MvxMovies.Common.Contracts;
 using MvxMovies.Core.ViewModels.Base;
 using MvxMovies.Services.Contracts;
 using MvxMovies.UI.Model;
 using MvxMovies.Common.Mapper;
 using MvxMovies.UI.Model.ReturnPageTypes;
+using MvxMovies.AppServices.Contracts;
 
 namespace MvxMovies.Core.ViewModels
 {

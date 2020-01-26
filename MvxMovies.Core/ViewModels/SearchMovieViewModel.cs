@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
+using MvxMovies.AppServices.Contracts;
 using MvxMovies.Common.Contracts;
 using MvxMovies.Common.Mapper;
 using MvxMovies.Core.ViewModels.Base;

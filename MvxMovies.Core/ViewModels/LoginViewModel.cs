@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using System.Windows.Input;
 using MvvmCross.Commands;
+using MvxMovies.AppServices.Contracts;
 using MvxMovies.Common.Constants;
 using MvxMovies.Common.Contracts;
 using MvxMovies.Core.ViewModels.Base;

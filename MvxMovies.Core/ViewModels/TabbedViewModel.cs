@@ -3,6 +3,7 @@ using MvxMovies.Core.ViewModels.Base;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
+using MvxMovies.AppServices.Contracts;
 
 namespace MvxMovies.Core.ViewModels
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using MvvmCross.Navigation;
 
-namespace MvxMovies.Common.Contracts
+namespace MvxMovies.AppServices.Contracts
 {
     public interface INavigationService
     {

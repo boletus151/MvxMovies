@@ -1,9 +1,9 @@
 ﻿using System;
 using MonkeyCache.FileStore;
-using MvxMovies.Common.Contracts;
+using MvxMovies.AppServices.Contracts;
 using MvxMovies.Common.Constants;
 
-namespace MvxMovies.Common.Implementations
+namespace MvxMovies.AppServices.Implementations
 {
     public class StorageServiceMonkeyCache : IStorageService
     {

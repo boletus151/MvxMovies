@@ -1,9 +1,6 @@
-﻿using System;
-using System.Threading.Tasks;
-
-namespace MvxMovies.Common.Contracts
+﻿namespace MvxMovies.AppServices.Contracts
 {
-    public interface IStorageServiceAsync
+    public interface IStorageService
     {
         /// <summary>
         /// Get the specified key.
@@ -11,7 +8,7 @@ namespace MvxMovies.Common.Contracts
         /// <returns>The get.</returns>
         /// <param name="key">Key.</param>
         /// <typeparam name="T">The 1st type parameter.</typeparam>
-        Task<T> Get<T>(string key);
+        T Get<T>(string key);
 
         /// <summary>
         /// Set the specified key and value.
@@ -20,19 +17,19 @@ namespace MvxMovies.Common.Contracts
         /// <param name="key">Key.</param>
         /// <param name="value">Value.</param>
         /// <typeparam name="T">The 1st type parameter.</typeparam>
-        Task Set<T>(string key, T value);
+        void Set<T>(string key, T value);
 
         /// <summary>
         /// Remove the specified key.
         /// </summary>
         /// <returns>The remove.</returns>
         /// <param name="key">Key.</param>
-        Task Remove(string key);
+        void Remove(string key);
 
         /// <summary>
         /// Remove everything from the storage
         /// </summary>
         /// <returns></returns>
-        Task ClearStorage();
+        void ClearStorage();
     }
 }
