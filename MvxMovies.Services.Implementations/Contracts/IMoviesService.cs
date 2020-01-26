@@ -9,6 +9,6 @@ namespace MvxMovies.Services.Contracts
     {
         Task<IEnumerable<MovieDto>> SearchMovies(string name, CancellationToken? cancellationToken = null);
 
-        Task<MovieDto> GetMovieById(int id, CancellationToken? cancellationToken = null);
+        Task<MovieDto> GetMovieById(string id, CancellationToken? cancellationToken = null);
     }
 }

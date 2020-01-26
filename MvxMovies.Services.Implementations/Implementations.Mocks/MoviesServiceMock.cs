@@ -18,9 +18,9 @@ namespace MvxMovies.Services.Implementations.Mocks
             this.movies = new List<MovieDto>(GetMovies());
         }
 
-        public Task<MovieDto> GetMovieById(int id, CancellationToken? cancellationToken = null)
+        public Task<MovieDto> GetMovieById(string id, CancellationToken? cancellationToken = null)
         {
-            return Task.FromResult(this.movies.FirstOrDefault(e=>e.Id == id));
+            return Task.FromResult(this.movies.FirstOrDefault(e=> e.Id.Equals(id)));
         }
 
         public Task<IEnumerable<MovieDto>> SearchMovies(string name, CancellationToken? cancellationToken = null)
@@ -73,7 +73,7 @@ namespace MvxMovies.Services.Implementations.Mocks
             }
             return new MovieDto
             {
-                Id = i,
+                Id = i.ToString(),
                 Image = "https://atasouthport.com/wp-content/uploads/2017/04/default-image.jpg",
                 Title = $"Title {i}",
                 Plot = $"Plot {i}",

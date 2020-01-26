@@ -19,7 +19,7 @@ namespace MvxMovies.Services.Implementations
             this.apiService = apiService;
         }
 
-        public async Task<MovieDto> GetMovieById(int id, CancellationToken? cancellationToken = null)
+        public async Task<MovieDto> GetMovieById(string id, CancellationToken? cancellationToken = null)
         {
             var parameters = string.Format(DataServiceConstants.MOVIE, id);
             var finalParameters = Uri.EscapeUriString(parameters);
@@ -34,10 +34,8 @@ namespace MvxMovies.Services.Implementations
             var finalParameters = Uri.EscapeUriString(parameters);
 
             var response = await this.apiService.GetData<SearchMovies>(finalParameters, cancellationToken);
-            var str = JsonConvert.SerializeObject(response);
-            var list = JsonConvert.DeserializeObject<IEnumerable<MovieDto>>(str);
 
-            return list ?? new List<MovieDto>();
+            return response.Search ?? new List<MovieDto>();
         }
     }
 }

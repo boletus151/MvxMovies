@@ -5,9 +5,9 @@ namespace MvxMovies.UI.Model.ReturnPageTypes
     {
         public bool Checked { get; private set; }
 
-        public int CheckedMovieId { get; private set; }
+        public string CheckedMovieId { get; private set; }
         
-        public CheckedMovie(bool checkedMovie, int id)
+        public CheckedMovie(bool checkedMovie, string id)
         {
             this.Checked = checkedMovie;
             this.CheckedMovieId = id;

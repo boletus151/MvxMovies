@@ -68,7 +68,7 @@ namespace MvxMovies.Core.ViewModels
         {
             if (result is CheckedMovie checkedMovie)
             {
-                var movie = this.Movies.FirstOrDefault(e => e.Id == checkedMovie.CheckedMovieId);
+                var movie = this.Movies.FirstOrDefault(e => e.Id.Equals(checkedMovie.CheckedMovieId));
                 if (movie != null)
                 {
                     movie.Checked = true;

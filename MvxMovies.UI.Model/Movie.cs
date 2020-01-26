@@ -7,7 +7,7 @@ namespace MvxMovies.UI.Model
     {
         private bool _checkedMovie;
 
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public string Plot { get; set; }
 

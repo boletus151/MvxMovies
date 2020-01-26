@@ -16,9 +16,7 @@ namespace MvxMovies.Common.Implementations
             using (var httpClient = new HttpClient())
             {
                 string url = DataServiceConstants.BASE_URL + parameters;
-
-                var cancelToken = (CancellationToken)cancellationToken;
-
+                
                 HttpResponseMessage response;
 
                 if (cancellationToken is null)
