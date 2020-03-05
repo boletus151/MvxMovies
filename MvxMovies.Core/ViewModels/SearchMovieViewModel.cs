@@ -30,6 +30,7 @@ namespace MvxMovies.Core.ViewModels
             this.SearchCommand = new MvxAsyncCommand(async () => await this.SearchCommandExecute());
             this.CancelAllTasksCommand = new MvxAsyncCommand(async () => await this.CancelAllTasksCommandExecute());
             this.NavigateToMovieDetailCommand = new MvxAsyncCommand<Movie>((m) => this.NavigateToMovieDetailCommandExecute(m));
+
             this.ErrorMessageIsVisible = false;
             this.Movies = new MvxObservableCollection<Movie>();
             this.Text = "Blade Runner";
@@ -49,7 +50,7 @@ namespace MvxMovies.Core.ViewModels
 
         public override async Task Initialize()
         {
-            await this.BaseViewModel.DialogService.ShowDefaultLoadingDialog();
+            //await this.BaseViewModel.DialogService.ShowDefaultLoadingDialog();
             // mock this passing desired value
             // After this method InitializeTask_PropertyChanged will raise
             if (!await this.BaseViewModel.AccessAllowed(true)) return;
@@ -79,13 +80,20 @@ namespace MvxMovies.Core.ViewModels
         {
             try
             {
-                this.ErrorMessageIsVisible = false;
-                this.cancellationTokenSource = new CancellationTokenSource();
-                this.cancellationToken = cancellationTokenSource.Token;
+                //using (this.BaseViewModel.DialogService.ShowDefaultLoadingDialog())
+                //{
+                //    this.ErrorMessageIsVisible = false;
 
-                var list = await this.moviesService.SearchMovies(this.Text, cancellationToken);
-                var movies = EntitiesToUi.ConvertMovies(list);
-                this.FillMovies(movies);
+                //    this.InitCancellationToken();
+                //    var list = await this.moviesService.SearchMovies(this.Text, this.cancellationToken);
+
+                //    var movies = EntitiesToUi.ConvertMovies(list);
+                //    this.FillMovies(movies);
+                //}
+
+                await this.BaseViewModel.DialogService.ShowDefaultLoadingDialog(funcLoad, null, true);
+
+
             }
             catch (Exception ex)
             {
@@ -95,9 +103,34 @@ namespace MvxMovies.Core.ViewModels
             }
             finally
             {
+                this.DisposeCancellationToken();
+            }
+        }
+
+        private async Task funcLoad(IProgress<double> arg)
+        {
+            this.ErrorMessageIsVisible = false;
+            await Task.Delay(10000);
+            this.InitCancellationToken();
+            var list = await this.moviesService.SearchMovies(this.Text, this.cancellationToken);
+
+            var movies = EntitiesToUi.ConvertMovies(list);
+            this.FillMovies(movies);
+        }
+
+        private void DisposeCancellationToken()
+        {
+            if (this.cancellationTokenSource != null)
+            {
                 this.cancellationTokenSource.Dispose();
                 this.cancellationTokenSource = null;
             }
+        }
+
+        private void InitCancellationToken()
+        {
+            this.cancellationTokenSource = new CancellationTokenSource();
+            this.cancellationToken = cancellationTokenSource.Token;
         }
 
         private Task CancelAllTasksCommandExecute()

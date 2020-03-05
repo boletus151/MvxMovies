@@ -1,4 +1,5 @@
-﻿using MonkeyCache.FileStore;
+﻿using Acr.UserDialogs;
+using MonkeyCache.FileStore;
 using MvvmCross;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
@@ -23,7 +24,10 @@ namespace MvxMovies.Core
 
             var mvxNavigationService = Mvx.IoCProvider.Resolve<IMvxNavigationService>();
             Mvx.IoCProvider.RegisterSingleton(typeof(INavigationService), new NavigationService(mvxNavigationService));
+
             Mvx.IoCProvider.RegisterType<IDialogService,DialogService>();
+            Mvx.IoCProvider.RegisterType<IUserDialogs>(()=>UserDialogs.Instance);
+
             Mvx.IoCProvider.RegisterType<IBaseViewModel,BaseViewModel>();
 
             Mvx.IoCProvider.RegisterType<IApiService, ApiService>();

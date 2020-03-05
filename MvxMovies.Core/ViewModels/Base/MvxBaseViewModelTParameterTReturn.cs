@@ -12,6 +12,12 @@ namespace MvxMovies.Core.ViewModels.Base
             this.BaseViewModel = baseViewModel;
         }
 
+        public override void ViewDestroy(bool viewFinishing = true)
+        {
+            base.ViewDestroy(viewFinishing);
+            this.InitializeTask.PropertyChanged -= this.InitializeTask_PropertyChanged;
+        }
+
         /// <summary>
         /// This method should be called in every View Code Behind when you
         /// need to subscribe to InitializeTask changes.

@@ -19,7 +19,9 @@ namespace MvxMovies.iOS
         //
         public override bool FinishedLaunching(UIApplication uiApplication, NSDictionary launchOptions)
         {
+            global::Xamarin.Forms.Forms.Init();
             AiForms.Dialogs.Dialogs.Init(); //need to write here
+
             return base.FinishedLaunching(uiApplication, launchOptions);
         }
     }
